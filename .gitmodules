@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/sudodotdog/brontosaurus-server
+[submodule "portal"]
+	path = portal
+	url = https://github.com/sudodotdog/brontosaurus-portal
