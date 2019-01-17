@@ -4,6 +4,8 @@ FROM keymetrics/pm2:latest-alpine
 RUN mkdir /app
 WORKDIR /app
 
+EXPOSE 8080
+
 ENV NODE_ENV production
 
 COPY module/server/package.json .

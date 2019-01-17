@@ -14,7 +14,7 @@ image_name := brontosaurus
 main:
 	@echo "[Info] Use build"
 
-build: clone pull install module
+build: clone pull install module docker
 	@echo "[Info] Build finished"
 
 module: build-module copy-module
@@ -54,9 +54,15 @@ run:
 	@echo "[Info] Run docker"
 	@docker run brontosaurus
 
+sh-80:
+	@echo "[Info] Run docker with sh"
+	@docker rm brontosaurus-server
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 80:8080 --name brontosaurus-server brontosaurus sh
+
 sh:
 	@echo "[Info] Run docker with sh"
-	@docker run -it -e HELLO=world brontosaurus sh
+	@docker rm brontosaurus-server
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8080:8080 --name brontosaurus-server brontosaurus sh
 
 docker:
 	@echo "[Info] Build docker"
