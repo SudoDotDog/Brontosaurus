@@ -11,4 +11,7 @@ COPY module/server/yarn.lock .
 
 RUN yarn install --production=false
 
+COPY module/server/dist ./dist
+COPY module/server/public ./public
+
 CMD [ "echo", "123" ]

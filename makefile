@@ -15,7 +15,7 @@ main:
 	@echo "[Info] Use build"
 
 build: clone pull install module
-	@echo "[Info] Build docker image"
+	@echo "[Info] Build finished"
 
 module: build-module copy-module
 
@@ -56,7 +56,7 @@ run:
 
 sh:
 	@echo "[Info] Run docker with sh"
-	@docker run -it brontosaurus sh
+	@docker run -it -e HELLO=world brontosaurus sh
 
 docker:
 	@echo "[Info] Build docker"
