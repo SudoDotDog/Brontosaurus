@@ -8,8 +8,9 @@ portal_route := ./module/portal
 
 # Docker
 image_name := brontosaurus
+image_tag := brontosaurus-server
 
-.IGNORE: clone
+.IGNORE: clone stop
 
 main:
 	@echo "[Info] Use build"
@@ -54,15 +55,18 @@ run:
 	@echo "[Info] Run docker"
 	@docker run brontosaurus
 
-sh-80:
-	@echo "[Info] Run docker with sh"
-	@docker rm brontosaurus-server
-	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 80:8080 --name brontosaurus-server brontosaurus sh
+stop:
+	@echo "[Info] Stopping running container"
+	@docker rm $(image_tag)
 
-sh:
+sh-80: stop
 	@echo "[Info] Run docker with sh"
-	@docker rm brontosaurus-server
-	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8080:8080 --name brontosaurus-server brontosaurus sh
+	@docker rm $(image_tag)
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 80:8080 --name $(image_tag) brontosaurus sh
+
+sh: stop
+	@echo "[Info] Run docker with sh"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8080:8080 --name $(image_tag) brontosaurus sh
 
 docker:
 	@echo "[Info] Build docker"

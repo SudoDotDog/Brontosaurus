@@ -1,4 +1,4 @@
-FROM keymetrics/pm2:latest-alpine
+FROM sudoo/node:latest
 
 # Workdir
 RUN mkdir /app
