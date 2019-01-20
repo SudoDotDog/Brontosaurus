@@ -43,8 +43,8 @@ clone:
 
 pull:
 	@echo "[Info] Pull changes"
-	@cd $(server_route) && git pull
-	@cd $(portal_route) && git pull
+	@cd $(server_route) && git reset HEAD --hard && git pull
+	@cd $(portal_route) && git reset HEAD --hard && git pull
 	
 install:
 	@echo "[Info] Install dependency"
