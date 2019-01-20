@@ -68,6 +68,10 @@ sh: stop
 	@echo "[Info] Run docker with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8080:8080 --name $(image_tag) brontosaurus sh
 
+sh-dev: stop
+	@echo "[Info] Run docker with sh"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -p 8080:8080 --name $(image_tag) brontosaurus sh
+
 docker:
 	@echo "[Info] Build docker"
 	@docker build -t $(image_name) .
