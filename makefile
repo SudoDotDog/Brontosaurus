@@ -34,6 +34,7 @@ copy-module: copy-portal
 
 copy-portal:
 	@echo "[Info] Copying portal"
+	@mkdir $(server_route)/public/portal
 	@cp $(portal_route)/dist/* $(server_route)/public/portal
 
 clone:
