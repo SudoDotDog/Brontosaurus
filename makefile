@@ -10,7 +10,7 @@ portal_route := ./module/portal
 image_name := brontosaurus
 image_tag := brontosaurus-server
 
-.IGNORE: clone stop
+.IGNORE: clone stop dir-portal
 
 main:
 	@echo "[Info] Use build"
@@ -32,10 +32,13 @@ build-server:
 
 copy-module: copy-portal
 
-copy-portal:
+copy-portal: dir-portal
 	@echo "[Info] Copying portal"
-	@mkdir $(server_route)/public/portal
 	@cp $(portal_route)/dist/* $(server_route)/public/portal
+
+dir-portal:
+	@echo "[Info] Creating portal folder"
+	@mkdir $(server_route)/public/portal
 
 clone:
 	@echo "[Info] Clone modules"
