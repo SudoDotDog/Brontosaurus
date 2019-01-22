@@ -9,6 +9,7 @@
         "deserialize",
         "ifeq",
         "lockfile",
+        "mkdir",
         "mongod",
         "setx",
         "splited",
