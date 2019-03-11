@@ -3,6 +3,7 @@
 
 import os
 import subprocess
+import shutil
 
 
 def cloneRepository(origination, repository, target):
@@ -73,5 +74,29 @@ def installAndBuildPackage(target):
 
 
 def makeDir(target):
-    os.mkdir(target, 755)
+    if not os.path.exists(target):
+        os.makedirs(target)
     return True
+
+
+def copyModule(source, target):
+    print("[INFO] Copying module to {0}".format(target))
+    files = os.listdir(source)
+    for file in files:
+        filePath = os.path.join(source, file)
+        if (os.path.isfile(filePath)):
+            shutil.copy(filePath, target)
+
+    return True
+
+
+def buildDocker(dockerFile, imageName, workPath):
+    print("[INFO] Build Docker {0}".format(imageName))
+    child = subprocess.Popen(
+        ["docker", "build", "-t", imageName, "-f", dockerFile, workPath],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    child.wait()
+    rc = child.returncode
+    return rc == 0
