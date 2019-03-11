@@ -22,5 +22,5 @@
     ],
     "tslint.configFile": "typescript/tslint.json",
     "files.eol": "\n",
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/usr/local/opt/python/bin/python3.7"
 }
