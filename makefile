@@ -78,7 +78,7 @@ sh-dev: stop
 
 docker:
 	@echo "[INFO] Build docker"
-	@docker build -t $(image_name) -f ./images/portal/Dockerfile .
+	@docker build -t $(image_name) -f ./build/portal/Dockerfile .
 
 py:
 	@echo "[INFO] Executing"
