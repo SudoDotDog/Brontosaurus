@@ -15,7 +15,7 @@ image_tag := brontosaurus-server
 main: sh-dev
 	@echo "[INFO] Use build"
 
-build: clone pull install module docker
+build: clone pull install module image
 	@echo "[INFO] Build finished"
 
 module: build-module copy-module
@@ -76,10 +76,10 @@ sh-dev: stop
 	@echo "[INFO] Run docker with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -p 8080:8080 --name $(image_tag) brontosaurus sh
 
-docker:
+image:
 	@echo "[INFO] Build docker"
-	@docker build -t $(image_name) -f ./build/portal/Dockerfile .
+	@docker build -t $(image_name) -f ./docker/portal.dockerfile .
 
 py:
 	@echo "[INFO] Executing"
-	@python3 build/common/clone.py
+	@python3 script/portal.py

@@ -16,4 +16,4 @@ RUN yarn install --production=true
 COPY module/server/dist ./dist
 COPY module/server/public ./public
 
-CMD [ "echo", "123" ]
+CMD [ "echo", "456" ]
