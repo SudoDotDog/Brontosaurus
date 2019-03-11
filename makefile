@@ -79,3 +79,7 @@ sh-dev: stop
 docker:
 	@echo "[INFO] Build docker"
 	@docker build -t $(image_name) -f ./images/portal/Dockerfile .
+
+py:
+	@echo "[INFO] Executing"
+	@python3 build/common/clone.py
