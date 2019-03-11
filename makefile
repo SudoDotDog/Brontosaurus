@@ -78,4 +78,4 @@ sh-dev: stop
 
 docker:
 	@echo "[INFO] Build docker"
-	@docker build -t $(image_name) ./images/portal
+	@docker build -t $(image_name) -f ./images/portal/Dockerfile .
