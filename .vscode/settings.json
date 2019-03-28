@@ -5,6 +5,7 @@
         "Popen",
         "WMXPY",
         "bson",
+        "codecov",
         "connor",
         "dbpath",
         "deserialize",
