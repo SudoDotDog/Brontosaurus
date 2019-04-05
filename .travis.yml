@@ -9,7 +9,7 @@ node_js:
  - '10'
 
 services:
-  - docker
+ - docker
 
 script:
  - make build
