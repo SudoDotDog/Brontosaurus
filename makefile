@@ -19,11 +19,11 @@ build: build-portal build-red
 
 build-portal:
 	@echo "[INFO] Build portal docker image"
-	@py script/portal.py
+	@python3 script/portal.py
 
 build-red:
 	@echo "[INFO] Build red docker image"
-	@py script/red.py
+	@python3 script/red.py
 
 run:
 	@echo "[INFO] Run docker"
