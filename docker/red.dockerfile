@@ -4,7 +4,7 @@ FROM sudoo/node:latest
 RUN mkdir /app
 WORKDIR /app
 
-EXPOSE 8080
+EXPOSE 9000
 
 ENV NODE_ENV development
 

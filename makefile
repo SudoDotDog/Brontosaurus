@@ -10,6 +10,9 @@ portal_route := ./module/portal
 image_name := brontosaurus
 image_tag := brontosaurus-server
 
+red_name := brontosaurus-mint
+red_tag := brontosaurus-mint
+
 .IGNORE: clean stop
 
 main: sh-dev
@@ -32,6 +35,7 @@ run:
 stop:
 	@echo "[INFO] Stopping running container"
 	@docker rm $(image_tag)
+	@docker rm $(red_tag)
 
 sh-80: stop
 	@echo "[INFO] Run docker with sh"
@@ -41,6 +45,10 @@ sh-80: stop
 sh: stop
 	@echo "[INFO] Run docker with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8080:8080 --name $(image_tag) brontosaurus sh
+
+sh-red: stop
+	@echo "[INFO] Run docker with sh"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 9000:9000 --name $(red_tag) $(red_name) sh
 
 sh-dev: stop
 	@echo "[INFO] Run docker with sh"
