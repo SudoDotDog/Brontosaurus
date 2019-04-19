@@ -15,9 +15,15 @@ image_tag := brontosaurus-server
 main: sh-dev
 	@echo "[INFO] Use build"
 
-build:
+build: build-portal build-red
+
+build-portal:
 	@echo "[INFO] Build portal docker image"
-	@python3 script/portal.py
+	@py script/portal.py
+
+build-red:
+	@echo "[INFO] Build red docker image"
+	@py script/red.py
 
 run:
 	@echo "[INFO] Run docker"
