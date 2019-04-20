@@ -99,3 +99,12 @@ def buildDocker(dockerFile, imageName, workPath):
     child.wait()
     rc = child.returncode
     return rc == 0
+
+
+def setEnvironmentVariable(key, value):
+    print("[INFO] Set environment variable: {0}={1}".format(key, value))
+    os.environ[key] = str(value)
+
+
+def setEnvironmentVariable(key, default):
+    return os.environ.get(key, default)
