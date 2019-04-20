@@ -1,33 +1,37 @@
 # Docker
+# portal
 portal_name := brontosaurus
 portal_tag := brontosaurus-server
-
+# red
 red_name := brontosaurus-mint
 red_tag := brontosaurus-mint
 
+# Command
+python3 := python3
+
 .IGNORE: clean stop
 
-main: sh-dev
-	@echo "[INFO] Use build"
+main:
+	@echo "[INFO] Nothing to run"
 
 build: build-portal build-red
 
 build-portal:
 	@echo "[INFO] Build portal docker image"
-	@python3 script/portal.py
+	@$(python3) script/portal.py
 
 build-red:
 	@echo "[INFO] Build red docker image"
-	@python3 script/red.py
-
-run:
-	@echo "[INFO] Run docker"
-	@docker run brontosaurus
+	@$(python3) script/red.py
 
 stop:
 	@echo "[INFO] Stopping running container"
 	@docker rm $(portal_tag)
 	@docker rm $(red_tag)
+
+run: stop
+	@echo "[INFO] Run docker"
+	@docker run $(portal_name)
 
 sh-80: stop
 	@echo "[INFO] Run docker with sh"

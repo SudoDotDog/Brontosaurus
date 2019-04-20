@@ -1,6 +1,6 @@
 # Brontosaurus
 
-[![Build Status](https://travis-ci.org/SudoDotDog/Brontosaurus.svg?branch=master)](https://travis-ci.org/SudoDotDog/Brontosaurus)
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus)
 
 :whale: Brontosaurus Auth
 
@@ -14,7 +14,8 @@ To host the docker image for `Brontosaurus-Server` and `Brontosaurus-Portal` loc
 
 ```sh
 make DB="${host of your mongodb instance}" # production env
-make sh-dev DB="${host of your mongodb instance}" # development env
+make sh-red DB="${host of your mongodb instance}" # development red
+make sh-portal DB="${host of your mongodb instance}" # development portal
 ```
 
 Also, to host the docker image for `Brontosaurus-Server` and `Brontosaurus-Portal` locally on your 80 port
@@ -35,37 +36,54 @@ To build the docker image for `Brontosaurus-Server` and `Brontosaurus-Portal`
 make build
 ```
 
+You can also build `portal` or `red` individually
+
+```sh
+make build-portal # Build portal
+make build-red # Build red
+```
+
 Have fun.
 
 ## Status
 
 [Brontosaurus React](https://github.com/SudoDotDog/Brontosaurus-React)
 
-[![Build Status](https://travis-ci.org/SudoDotDog/Brontosaurus-React.svg?branch=master)](https://travis-ci.org/SudoDotDog/Brontosaurus-React)
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-React.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-React)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-React/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-React)
 [![npm version](https://badge.fury.io/js/%40brontosaurus%2Freact.svg)](https://badge.fury.io/js/%40brontosaurus%2Freact)
 [![downloads](https://img.shields.io/npm/dm/@brontosaurus/react.svg)](https://www.npmjs.com/package/@brontosaurus/react)
 
 [Brontosaurus Definition](https://github.com/SudoDotDog/Brontosaurus-Definition)
 
-[![Build Status](https://travis-ci.org/SudoDotDog/Brontosaurus-Definition.svg?branch=master)](https://travis-ci.org/SudoDotDog/Brontosaurus-Definition)
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Definition.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Definition)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Definition/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Definition)
 [![npm version](https://badge.fury.io/js/%40brontosaurus%2Fdefinition.svg)](https://badge.fury.io/js/%40brontosaurus%2Fdefinition)
 [![downloads](https://img.shields.io/npm/dm/@brontosaurus/definition.svg)](https://www.npmjs.com/package/@brontosaurus/definition)
 
 [Brontosaurus Core](https://github.com/SudoDotDog/Brontosaurus-Core)
 
-[![Build Status](https://travis-ci.org/SudoDotDog/Brontosaurus-Core.svg?branch=master)](https://travis-ci.org/SudoDotDog/Brontosaurus-Core)
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Core.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Core)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Core/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Core)
 [![npm version](https://badge.fury.io/js/%40brontosaurus%2Fcore.svg)](https://badge.fury.io/js/%40brontosaurus%2Fcore)
 [![downloads](https://img.shields.io/npm/dm/@brontosaurus/core.svg)](https://www.npmjs.com/package/@brontosaurus/core)
 
+[Brontosaurus Server](https://github.com/SudoDotDog/Brontosaurus-Server)
+
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Server.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Server)
+[![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Server/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Server)
+
+[Brontosaurus Mint](https://github.com/SudoDotDog/Brontosaurus-Mint)
+
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint)
+[![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint)
+
 [Brontosaurus Red](https://github.com/SudoDotDog/Brontosaurus-Red)
 
-[![Build Status](https://travis-ci.org/SudoDotDog/Brontosaurus-Red.svg?branch=master)](https://travis-ci.org/SudoDotDog/Brontosaurus-Red)
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Red.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Red)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Red/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Red)
 
 [Brontosaurus Portal](https://github.com/SudoDotDog/Brontosaurus-Portal)
 
-[![Build Status](https://travis-ci.org/SudoDotDog/Brontosaurus-Portal.svg?branch=master)](https://travis-ci.org/SudoDotDog/Brontosaurus-Portal)
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Portal.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Portal)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Portal/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Portal)
