@@ -16,4 +16,4 @@ RUN yarn install --production=true
 COPY module/mint/dist ./dist
 COPY module/mint/public ./public
 
-CMD [ "echo", "456" ]
+CMD [ "node", "dist/index.js" ]
