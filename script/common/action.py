@@ -106,5 +106,5 @@ def setEnvironmentVariable(key, value):
     os.environ[key] = str(value)
 
 
-def setEnvironmentVariable(key, default):
+def getEnvironmentVariable(key, default):
     return os.environ.get(key, default)
