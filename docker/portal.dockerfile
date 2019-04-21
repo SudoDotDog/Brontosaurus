@@ -16,4 +16,4 @@ RUN yarn install --production=true
 COPY module/server/dist ./dist
 COPY module/server/public ./public
 
-CMD [ "node", "dist/index" ]
+CMD [ "node", "dist/index.js" ]
