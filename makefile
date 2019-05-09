@@ -33,6 +33,14 @@ run: stop
 	@echo "[INFO] Run docker"
 	@docker run $(portal_name)
 
+portal: stop
+	@echo "[INFO] Run portal with default"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8080:8080 --name $(portal_tag) $(portal_name)
+
+red: stop
+	@echo "[INFO] Run red with default"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 9000:9000 --name $(red_tag) $(red_name)
+
 sh-80: stop
 	@echo "[INFO] Run docker with sh"
 	@docker rm $(portal_tag)
