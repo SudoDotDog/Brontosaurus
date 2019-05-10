@@ -1,7 +1,6 @@
 FROM sudoo/node:latest
 
 # Workdir
-RUN mkdir /app
 WORKDIR /app
 
 EXPOSE 8080
