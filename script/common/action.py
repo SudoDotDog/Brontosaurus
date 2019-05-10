@@ -91,6 +91,7 @@ def copyModule(source, target):
 
 def buildDocker(dockerFile, imageName, workPath):
     print("[INFO] Build Docker {0}".format(imageName))
+    print("[COMD] * docker build -t {0} -f {1} {2}".format(imageName, dockerFile, workPath))
     child = subprocess.Popen(
         ["docker", "build", "-t", imageName, "-f", dockerFile, workPath],
         stdout=subprocess.DEVNULL,
