@@ -85,6 +85,11 @@ Have fun.
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint)
 
+[Brontosaurus Init](https://github.com/SudoDotDog/Brontosaurus-Init)
+
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Init.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Init)
+[![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Init/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Init)
+
 [Brontosaurus Red](https://github.com/SudoDotDog/Brontosaurus-Red)
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Red.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Red)
