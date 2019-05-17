@@ -2,17 +2,11 @@
 
 import json
 import os
-import subprocess
-import sys
+from common import action
+from common.assertion import assertIsTrue
 
 image_name = "brontosaurus"
 hub_name = "brontosaurus/core"
-
-
-def assertIsTrue(result):
-    if not result:
-        print("[ERROR]")
-        sys.exit()
 
 
 def versiontuple(v):
@@ -26,9 +20,6 @@ text = portal.read()
 data = json.loads(text)
 
 latest = max(data, key=versiontuple)
-tag = "{0}:{1}".format(hub_name, latest)
 
-child = subprocess.Popen(
-    ["docker", "tag", image_name, tag], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-child.wait()
-assertIsTrue(child.returncode)
+assertIsTrue(action.tagDocker(image_name, hub_name, latest))
+assertIsTrue(action.pushDocker(hub_name, latest))
