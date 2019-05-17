@@ -57,3 +57,7 @@ sh-red: stop
 sh-dev: stop
 	@echo "[INFO] Run docker with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -p 8080:8080 --name $(portal_tag) $(portal_name) sh
+
+publish-portal: stop
+	@echo "[Info] Publish portal"
+	@$(python3) release/portal.py
