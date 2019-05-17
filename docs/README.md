@@ -4,9 +4,17 @@
 
 :whale: Brontosaurus Auth
 
-## Intro
+## Introduction
 
 This repository is responsible for docker image build and release for Brontosaurus components
+
+## Image
+
+Run portal on server
+
+```sh
+docker run -it -e BRONTOSAURUS_DATABASE=<Database> -p <TargetPort>:8080 --name <Image> <Name>
+```
 
 ## Host
 
