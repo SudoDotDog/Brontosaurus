@@ -13,7 +13,7 @@ This repository is responsible for docker image build and release for Brontosaur
 Run portal on server
 
 ```sh
-docker run -it -e BRONTOSAURUS_DATABASE=<Database> -p <TargetPort>:8080 --name <Image> <Name>
+docker run -it -e BRONTOSAURUS_DATABASE=<Database> -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
 ```
 
 ## Host
