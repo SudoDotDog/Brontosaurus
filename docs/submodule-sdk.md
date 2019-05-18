@@ -1,5 +1,7 @@
 # Submodule and SDK Status and List
 
+You may want to integrate Brontosaurus auth with your favorite language, here is a link!
+
 ## UI Integrate
 
 [Brontosaurus React](https://github.com/SudoDotDog/Brontosaurus-React)
