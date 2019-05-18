@@ -8,9 +8,9 @@
 
 This repository is responsible for docker image build and release for Brontosaurus components
 
-## Submodule
+## Submodule and SDK
 
-See [Submodule Status and List](/docs/submodule.md) here
+See [Submodule and SDK Status and List](/docs/submodule-sdk.md) here
 
 ## Image
 
