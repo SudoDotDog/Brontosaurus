@@ -26,12 +26,8 @@ build-red:
 
 stop:
 	@echo "[INFO] Stopping running container"
-	@docker rm $(portal_tag)
-	@docker rm $(red_tag)
-
-run: stop
-	@echo "[INFO] Run docker"
-	@docker run $(portal_name)
+	@docker rm $(portal_tag) -f
+	@docker rm $(red_tag) -f
 
 portal: stop
 	@echo "[INFO] Run portal with default"

@@ -1,8 +1,6 @@
-# Submodule
+# Submodule Status and List
 
-## Status
-
-### UI Integrate
+## UI Integrate
 
 [Brontosaurus React](https://github.com/SudoDotDog/Brontosaurus-React)
 
@@ -18,7 +16,7 @@
 [![npm version](https://badge.fury.io/js/%40brontosaurus%2Fweb.svg)](https://badge.fury.io/js/%40brontosaurus%2Fweb)
 [![downloads](https://img.shields.io/npm/dm/@brontosaurus/web.svg)](https://www.npmjs.com/package/@brontosaurus/web)
 
-### Server Integrate
+## Server Integrate
 
 [Brontosaurus Node](https://github.com/SudoDotDog/Brontosaurus-Node)
 
@@ -32,7 +30,7 @@
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Init.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Init)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Init/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Init)
 
-### Core
+## Core
 
 [Brontosaurus Definition](https://github.com/SudoDotDog/Brontosaurus-Definition)
 
@@ -55,7 +53,7 @@
 [![npm version](https://badge.fury.io/js/%40brontosaurus%2Fdb.svg)](https://www.npmjs.com/package/@brontosaurus/db)
 [![downloads](https://img.shields.io/npm/dm/@brontosaurus/db.svg)](https://www.npmjs.com/package/@brontosaurus/db)
 
-### Service
+## Service
 
 [Brontosaurus Server](https://github.com/SudoDotDog/Brontosaurus-Server)
 

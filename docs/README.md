@@ -10,14 +10,17 @@ This repository is responsible for docker image build and release for Brontosaur
 
 ## Submodule
 
-See [submodule status and list](/docs/submodule.md) here
+See [Submodule Status and List](/docs/submodule.md) here
 
 ## Image
 
 Run portal on server
 
 ```sh
-docker run -it -e BRONTOSAURUS_DATABASE=<Database> -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
+# Monitor
+docker run -it -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
+# Daemon
+docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
 ```
 
 ## Host
