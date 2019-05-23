@@ -57,3 +57,7 @@ sh-dev: stop
 publish-portal: stop
 	@echo "[Info] Publish portal"
 	@$(python3) release/portal.py
+
+publish-red: stop
+	@echo "[Info] Publish red"
+	@$(python3) release/red.py
