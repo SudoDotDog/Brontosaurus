@@ -117,3 +117,52 @@ def setEnvironmentVariable(key, value):
 
 def getEnvironmentVariable(key, default):
     return os.environ.get(key, default)
+
+
+def runWithOutput(commandList):
+    child = subprocess.Popen(
+        commandList,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    child.wait()
+    return child.stdout.read().decode("utf-8")
+
+
+def killAllContainers():
+    print("[INFO] Kill all containers")
+    containers = runWithOutput(["docker", "ps", "-q"])
+    child = subprocess.Popen(
+        ["docker", "kill", containers],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    child.wait()
+    rc = child.returncode
+    return rc == 0
+
+
+def stopAllContainers():
+    print("[INFO] Stop all containers")
+    containers = runWithOutput(["docker", "ps", "-a", "-q"])
+    child = subprocess.Popen(
+        ["docker", "rm", containers],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    child.wait()
+    rc = child.returncode
+    return rc == 0
+
+
+def removeAllContainers():
+    print("[INFO] Remove all containers")
+    containers = runWithOutput(["docker", "images", "-q"])
+    child = subprocess.Popen(
+        ["docker", "rmi", containers],
+        stdout=subprocess.DEVNULL,
+        # stderr=subprocess.DEVNULL,
+    )
+    child.wait()
+    rc = child.returncode
+    return rc == 0

@@ -29,6 +29,10 @@ stop:
 	@docker rm $(portal_tag) -f
 	@docker rm $(red_tag) -f
 
+purge:
+	@echo "[INFO] Purge container"
+	@$(python3) script/purge.py
+
 portal: stop
 	@echo "[INFO] Run portal with default"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8080:8080 --name $(portal_tag) $(portal_name)
