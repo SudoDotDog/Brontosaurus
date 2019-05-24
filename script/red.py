@@ -13,18 +13,21 @@ red_route = os.path.join(BASE_URL, 'module', 'red')
 # Docker
 image_name = "brontosaurus-red"
 dockerfile_path = os.path.join(BASE_URL, 'docker', 'red.dockerfile')
+public_path = os.path.join(mint_route, 'public', 'red')
 
 # Repository
 assertIsTrue(action.cloneOrResetAndPullRepository(
     "SudoDotDog", "Brontosaurus-Red", red_route))
 assertIsTrue(action.cloneOrResetAndPullRepository(
     "SudoDotDog", "Brontosaurus-Mint", mint_route))
+assertIsTrue(action.removeFolder(os.path.join(mint_route, 'public')))
 
 # Install Build
 assertIsTrue(action.installAndBuildPackage(red_route))
 assertIsTrue(action.installAndBuildPackage(mint_route))
 
 # Prepare
+assertIsTrue(action.makeDir(os.path.join(mint_route, 'public')))
 assertIsTrue(action.makeDir(os.path.join(mint_route, 'public', 'red')))
 assertIsTrue(action.copyModule(
     os.path.join(red_route, 'dist'),

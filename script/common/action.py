@@ -33,6 +33,13 @@ def pullRepository(target):
     return rc == 0
 
 
+def removeFolder(target):
+    print("[INFO] Remove Folder {0}".format(target))
+    if os.path.exists(target):
+        shutil.rmtree(target)
+    return True
+
+
 def resetAndPullRepository(target):
     resetRc = resetRepository(target)
     if resetRc:
@@ -91,7 +98,8 @@ def copyModule(source, target):
 
 def buildDocker(dockerFile, imageName, workPath):
     print("[INFO] Build Docker {0}".format(imageName))
-    print("[COMD] * docker build -t {0} -f {1} {2}".format(imageName, dockerFile, workPath))
+    print(
+        "[COMD] * docker build -t {0} -f {1} {2}".format(imageName, dockerFile, workPath))
     child = subprocess.Popen(
         ["docker", "build", "-t", imageName, "-f", dockerFile, workPath],
         stdout=subprocess.DEVNULL,
