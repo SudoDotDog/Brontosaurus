@@ -21,6 +21,7 @@ assertIsTrue(action.cloneOrResetAndPullRepository(
 assertIsTrue(action.cloneOrResetAndPullRepository(
     "SudoDotDog", "Brontosaurus-Mint", mint_route))
 assertIsTrue(action.removeFolder(os.path.join(mint_route, 'public')))
+assertIsTrue(action.removeFolder(os.path.join(red_route, 'dist')))
 
 # Install Build
 assertIsTrue(action.installAndBuildPackage(red_route))

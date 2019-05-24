@@ -1,4 +1,4 @@
-FROM sudoo/node:latest
+FROM mhart/alpine-node:12
 
 # Workdir
 WORKDIR /app

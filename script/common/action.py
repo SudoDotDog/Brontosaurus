@@ -57,7 +57,7 @@ def cloneOrResetAndPullRepository(origination, repository, target):
 def installPackage(target):
     print("[INFO] Installing dependency for {0}".format(target))
     child = subprocess.Popen(
-        ["make", "install"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, cwd=target)
+        ["make", "install"], stdout=subprocess.DEVNULL, cwd=target)
     child.wait()
     rc = child.returncode
     return rc == 0
@@ -66,7 +66,7 @@ def installPackage(target):
 def buildPackage(target):
     print("[INFO] Building package for {0}".format(target))
     child = subprocess.Popen(
-        ["make", "build"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, cwd=target)
+        ["make", "build"], stdout=subprocess.DEVNULL, cwd=target)
     child.wait()
     rc = child.returncode
     return rc == 0
