@@ -11,7 +11,7 @@ server_route = os.path.join(BASE_URL, 'module', 'server')
 portal_route = os.path.join(BASE_URL, 'module', 'portal')
 
 # Docker
-image_name = "brontosaurus"
+image_name = "brontosaurus-portal"
 dockerfile_path = os.path.join(BASE_URL, 'docker', 'portal.dockerfile')
 
 # Repository
@@ -19,12 +19,15 @@ assertIsTrue(action.cloneOrResetAndPullRepository(
     "SudoDotDog", "Brontosaurus-Portal", portal_route))
 assertIsTrue(action.cloneOrResetAndPullRepository(
     "SudoDotDog", "Brontosaurus-Server", server_route))
+assertIsTrue(action.removeFolder(os.path.join(server_route, 'public')))
+assertIsTrue(action.removeFolder(os.path.join(portal_route, 'dist')))
 
 # Install Build
 assertIsTrue(action.installAndBuildPackage(portal_route))
 assertIsTrue(action.installAndBuildPackage(server_route))
 
 # Prepare
+assertIsTrue(action.makeDir(os.path.join(server_route, 'public')))
 assertIsTrue(action.makeDir(os.path.join(server_route, 'public', 'portal')))
 assertIsTrue(action.copyModule(
     os.path.join(portal_route, 'dist'),

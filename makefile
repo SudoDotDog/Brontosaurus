@@ -1,9 +1,9 @@
 # Docker
 # portal
-portal_name := brontosaurus
+portal_name := brontosaurus-portal
 portal_tag := brontosaurus-server
 # red
-red_name := brontosaurus-mint
+red_name := brontosaurus-red
 red_tag := brontosaurus-mint
 
 # Command

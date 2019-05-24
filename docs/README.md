@@ -23,6 +23,15 @@ docker run -it -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name
 docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
 ```
 
+Run red on server
+
+```sh
+# Monitor
+docker run -it -e BRONTOSAURUS_DATABASE="<Database>" PORTAL_PATH="<Portal>" -p <TargetPort>:9000 --name <Name> brontosaurus/red:<Version>
+# Daemon
+docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" PORTAL_PATH="<Portal>" -p <TargetPort>:9000 --name <Name> brontosaurus/red:<Version>
+```
+
 ## Host
 
 To host the docker image for `Brontosaurus-Server` and `Brontosaurus-Portal` locally on your 8080 port

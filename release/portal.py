@@ -5,7 +5,7 @@ import os
 from common import action
 from common.assertion import assertIsTrue
 
-image_name = "brontosaurus"
+image_name = "brontosaurus-portal"
 hub_name = "brontosaurus/core"
 
 
