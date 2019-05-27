@@ -54,9 +54,13 @@ sh-red: stop
 	@echo "[INFO] Run red with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e PORTAL_PATH=$(PP) -p 9000:9000 --name $(red_tag) $(red_name) sh
 
-sh-dev: stop
+sh-portal-dev: stop
 	@echo "[INFO] Run docker with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -p 8080:8080 --name $(portal_tag) $(portal_name) sh
+
+sh-red-dev: stop
+	@echo "[INFO] Run red with sh"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -e PORTAL_PATH=$(PP) -p 9000:9000 --name $(red_tag) $(red_name) sh
 
 publish-portal: stop
 	@echo "[Info] Publish portal"
@@ -65,3 +69,5 @@ publish-portal: stop
 publish-red: stop
 	@echo "[Info] Publish red"
 	@$(python3) release/red.py
+
+publish-all: publish-portal publish-red

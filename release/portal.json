@@ -11,5 +11,8 @@
     ],
     "1.1.0": [
         "use node 12"
+    ],
+    "1.2.0": [
+        "break change: use production environment"
     ]
 }
