@@ -5,7 +5,7 @@ WORKDIR /app
 
 EXPOSE 9000
 
-ENV NODE_ENV development
+ENV NODE_ENV production
 
 COPY module/mint/package.json .
 COPY module/mint/yarn.lock .

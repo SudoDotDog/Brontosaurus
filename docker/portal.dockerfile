@@ -5,7 +5,7 @@ WORKDIR /app
 
 EXPOSE 8080
 
-ENV NODE_ENV development
+ENV NODE_ENV production
 
 COPY module/server/package.json .
 COPY module/server/yarn.lock .
