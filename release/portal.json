@@ -1,18 +1,21 @@
 {
     "1.0.0": [
-        "release"
+        "Release: release"
     ],
     "1.0.1": [
-        "upgrade dependencies",
-        "add health protocol"
+        "Chore: upgrade dependencies",
+        "Feat: add health protocol"
     ],
     "1.0.2": [
-        "crap debug"
+        "Fix: crap debug"
     ],
     "1.1.0": [
-        "use node 12"
+        "Chore: use node 12"
     ],
     "1.2.0": [
-        "break change: use production environment"
+        "Chore: use production environment"
+    ],
+    "1.2.1": [
+        "Feat: UI improvement, add enter function"
     ]
 }

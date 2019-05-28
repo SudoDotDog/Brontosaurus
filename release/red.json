@@ -1,14 +1,14 @@
 {
     "1.0.0": [
-        "upgrade dependencies",
-        "add health protocol",
-        "release"
+        "Chore: upgrade dependencies",
+        "Feat: add health protocol",
+        "Release: release"
     ],
     "1.1.0": [
-        "use node 12",
-        "implement window env portal"
+        "Chore: use node 12",
+        "Chore: implement window env portal"
     ],
     "1.2.0": [
-        "break change: use production environment"
+        "Chore: use production environment"
     ]
 }
