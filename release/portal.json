@@ -17,5 +17,8 @@
     ],
     "1.2.1": [
         "Feat: UI improvement, add enter function"
+    ],
+    "1.2.2": [
+        "Fix, UI background image size"
     ]
 }
