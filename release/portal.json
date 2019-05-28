@@ -19,6 +19,10 @@
         "Feat: UI improvement, add enter function"
     ],
     "1.2.2": [
-        "Fix, UI background image size"
+        "Fix: UI background image size"
+    ],
+    "1.2.3": [
+        "Feat: Add mobile support",
+        "Chore: Remove margin"
     ]
 }
