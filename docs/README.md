@@ -8,13 +8,14 @@
 
 This repository is responsible for docker image build and release for Brontosaurus components
 
-## Submodule and SDK
+## Resources
 
-See [Submodule and SDK Status and List](/docs/submodule-sdk.md) here
+- [ChangeLog](/docs/change-log.md)
+- [Submodule and SDK Status and List](/docs/submodule-sdk.md)
 
 ## Image
 
-Run portal on server
+Run portal container
 
 ```sh
 # Monitor
@@ -23,7 +24,7 @@ docker run -it -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name
 docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
 ```
 
-Run red on server
+Run red container
 
 ```sh
 # Monitor
@@ -34,7 +35,7 @@ docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" PORTAL_PATH="<Portal>" -p 
 
 ## Host
 
-To host the docker image for `Brontosaurus-Server` and `Brontosaurus-Portal` locally on your 8080 port
+To host the docker image for `Brontosaurus-Portal` locally on your 8080 port, `Brontosaurus-Red` locally on your 9000 port 
 
 ```sh
 make DB="${host of your mongodb instance}" # production env
@@ -42,7 +43,7 @@ make sh-red DB="${host of your mongodb instance}" # development red
 make sh-portal DB="${host of your mongodb instance}" # development portal
 ```
 
-Also, to host the docker image for `Brontosaurus-Server` and `Brontosaurus-Portal` locally on your 80 port
+Also, to host the docker image for `Brontosaurus-Portal` locally on your 80 port
 
 ```sh
 make sh-80 DB="${host of your mongodb instance}"
@@ -54,13 +55,13 @@ You will need `Docker`, `yarn` and `make` for this repository
 
 ## Build
 
-To build the docker image for `Brontosaurus-Server` and `Brontosaurus-Portal`
+To build the docker image for `Brontosaurus-Portal` and `Brontosaurus-Red`
 
 ```sh
 make build
 ```
 
-You can also build `portal` or `red` individually
+You can also build `Brontosaurus-Portal` or `Brontosaurus-Red` individually
 
 ```sh
 make build-portal # Build portal
