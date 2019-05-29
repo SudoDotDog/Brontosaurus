@@ -10,5 +10,8 @@
     ],
     "1.2.0": [
         "Chore: use production environment"
+    ],
+    "1.3.0": [
+        "Chore: use latest DB setting"
     ]
 }
