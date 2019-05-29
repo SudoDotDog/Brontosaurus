@@ -41,6 +41,14 @@ red: stop
 	@echo "[INFO] Run red with default"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e PORTAL_PATH=$(PP) -p 9000:9000 --name $(red_tag) $(red_name)
 
+portal-dev: stop
+	@echo "[INFO] Run portal with default"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -p 8080:8080 --name $(portal_tag) $(portal_name)
+
+red-dev: stop
+	@echo "[INFO] Run red with default"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -e PORTAL_PATH=$(PP) -p 9000:9000 --name $(red_tag) $(red_name)
+
 sh-80: stop
 	@echo "[INFO] Run docker with sh"
 	@docker rm $(portal_tag)
