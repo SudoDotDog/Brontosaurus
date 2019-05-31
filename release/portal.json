@@ -1,19 +1,19 @@
 {
     "1.0.0": [
-        "Release: release"
+        "Release: Release"
     ],
     "1.0.1": [
-        "Chore: upgrade dependencies",
-        "Feat: add health protocol"
+        "Chore: Upgrade dependencies",
+        "Feat: Add health protocol"
     ],
     "1.0.2": [
-        "Fix: crap debug"
+        "Fix: Crap debug"
     ],
     "1.1.0": [
-        "Chore: use node 12"
+        "Chore: Use node 12"
     ],
     "1.2.0": [
-        "Chore: use production environment"
+        "Chore: Use production environment"
     ],
     "1.2.1": [
         "Feat: UI improvement, add enter function"
@@ -35,5 +35,9 @@
     "1.3.1": [
         "Feat: Add locale setting",
         "Feat: Improve visual"
+    ],
+    "1.3.2": [
+        "Feat: Use global configurations",
+        "Performance: Performance improvements"
     ]
 }
