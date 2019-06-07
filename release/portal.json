@@ -42,5 +42,9 @@
     ],
     "1.3.3": [
         "Feat: Better scale capacity for mobile"
+    ],
+    "1.3.4": [
+        "Feat: Implement multiple language support",
+        "Fix: Minor style improvements"
     ]
 }
