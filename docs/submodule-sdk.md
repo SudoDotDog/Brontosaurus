@@ -18,6 +18,10 @@ You may want to integrate Brontosaurus auth with your favorite language, here is
 [![npm version](https://badge.fury.io/js/%40brontosaurus%2Fweb.svg)](https://badge.fury.io/js/%40brontosaurus%2Fweb)
 [![downloads](https://img.shields.io/npm/dm/@brontosaurus/web.svg)](https://www.npmjs.com/package/@brontosaurus/web)
 
+[Brontosaurus Flutter](https://github.com/SudoDotDog/Brontosaurus-Flutter)
+
+Under development
+
 ## Server Integrate
 
 [Brontosaurus Node](https://github.com/SudoDotDog/Brontosaurus-Node)
