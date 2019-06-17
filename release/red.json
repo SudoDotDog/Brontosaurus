@@ -29,5 +29,8 @@
         "Feat: Add Organization owner setting",
         "Feat: Add inplode for organization",
         "Fix: Fix minor bugs"
+    ],
+    "1.4.1": [
+        "Chore: Increate page limit to 25"
     ]
 }
