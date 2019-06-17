@@ -19,5 +19,10 @@
     ],
     "1.3.2": [
         "Feat: Better scale capacity for mobile"
+    ],
+    "1.3.3": [
+        "Feat: Add organization selection when register",
+        "Feat: Add group selection",
+        "Fix: Fix add group route"
     ]
 }
