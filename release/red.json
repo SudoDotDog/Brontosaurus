@@ -24,5 +24,10 @@
         "Feat: Add organization selection when register",
         "Feat: Add group selection",
         "Fix: Fix add group route"
+    ],
+    "1.4.0": [
+        "Feat: Add Organization owner setting",
+        "Feat: Add inplode for organization",
+        "Fix: Fix minor bugs"
     ]
 }
