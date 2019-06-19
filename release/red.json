@@ -31,6 +31,10 @@
         "Fix: Fix minor bugs"
     ],
     "1.4.1": [
-        "Chore: Increate page limit to 25"
+        "Chore: Increase page limit to 25"
+    ],
+    "1.4.2": [
+        "Feat: Add create application feature",
+        "Chore: Upgrade dependencies"
     ]
 }

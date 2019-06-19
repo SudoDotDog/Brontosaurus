@@ -50,7 +50,10 @@
     "1.4.0": [
         "Feat: Add Organization owner setting",
         "Feat: Add inplode for organization",
-        "Feat: Add Organzation sub account register",
-        "Fix: Fix Organzation display"
+        "Feat: Add Organization sub account register",
+        "Fix: Fix Organization display"
+    ],
+    "1.4.1": [
+        "Chore: Upgrade dependencies"
     ]
 }

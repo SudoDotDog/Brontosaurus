@@ -13,6 +13,7 @@
         "deserialize",
         "getcwd",
         "ifeq",
+        "inplode",
         "isfile",
         "lockfile",
         "mkdir",
