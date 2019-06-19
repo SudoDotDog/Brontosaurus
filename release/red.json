@@ -36,5 +36,8 @@
     "1.4.2": [
         "Feat: Add create application feature",
         "Chore: Upgrade dependencies"
+    ],
+    "1.4.3": [
+        "Fix: Fix major application creation bug"
     ]
 }
