@@ -5,6 +5,9 @@ portal_tag := brontosaurus-server
 # red
 red_name := brontosaurus-red
 red_tag := brontosaurus-mint
+# green
+green_name := brontosaurus-green
+green_tag := brontosaurus-green
 
 # Command
 python3 := python3
@@ -14,7 +17,7 @@ python3 := python3
 main:
 	@echo "[INFO] Nothing to run"
 
-build: build-portal build-red
+build: build-portal build-red build-green
 
 build-portal:
 	@echo "[INFO] Build portal docker image"
@@ -24,10 +27,15 @@ build-red:
 	@echo "[INFO] Build red docker image"
 	@$(python3) script/red.py
 
+build-green:
+	@echo "[INFO] Build green docker image"
+	@$(python3) script/green.py
+
 stop:
 	@echo "[INFO] Stopping running container"
 	@docker rm $(portal_tag) -f
 	@docker rm $(red_tag) -f
+	@docker rm $(green_tag) -f
 
 purge:
 	@echo "[INFO] Purge container"
@@ -40,6 +48,10 @@ portal: stop
 red: stop
 	@echo "[INFO] Run red with default"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e PORTAL_PATH=$(PP) -p 9000:9000 --name $(red_tag) $(red_name)
+
+green: stop
+	@echo "[INFO] Run green with default"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8500:8500 --name $(green_tag) $(green_name)
 
 portal-dev: stop
 	@echo "[INFO] Run portal with default"
@@ -78,4 +90,8 @@ publish-red: stop
 	@echo "[Info] Publish red"
 	@$(python3) release/red.py
 
-publish-all: publish-portal publish-red
+publish-green: stop
+	@echo "[Info] Publish green"
+	@$(python3) release/green.py
+
+publish-all: publish-portal publish-red publish-green
