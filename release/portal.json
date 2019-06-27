@@ -60,5 +60,8 @@
         "Feat: Add 2FA support",
         "Feat: Add limbo support",
         "Fix: Fix limbo binding"
+    ],
+    "1.5.1": [
+        "Fix: Upgrade"
     ]
 }
