@@ -46,5 +46,10 @@
     ],
     "1.4.5": [
         "Fix: Fix type error"
+    ],
+    "1.5.0": [
+        "Feat: Add 2FA support",
+        "Feat: Add limbo support",
+        "Fix: Fix limbo binding"
     ]
 }
