@@ -71,6 +71,11 @@ Under development
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint)
 
+[Brontosaurus Green](https://github.com/SudoDotDog/Brontosaurus-Green)
+
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Green.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Green)
+[![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Green/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Green)
+
 [Brontosaurus Red](https://github.com/SudoDotDog/Brontosaurus-Red)
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Red.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Red)
