@@ -70,5 +70,9 @@
     "1.6.0": [
         "Feat: Add attempt setting",
         "Feat: Add error message display"
+    ],
+    "1.6.1": [
+        "Fix: Fix error recovery",
+        "Fix: Update language"
     ]
 }

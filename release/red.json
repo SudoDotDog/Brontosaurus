@@ -61,5 +61,11 @@
     "1.6.0": [
         "Feat: Externalize email and phone",
         "Feat: Add account attempt"
+    ],
+    "1.6.1": [
+        "Fix: Fix reset attempt function"
+    ],
+    "1.6.2": [
+        "Fix: Fix organization button size"
     ]
 }
