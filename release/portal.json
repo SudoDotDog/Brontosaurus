@@ -66,5 +66,9 @@
     ],
     "1.5.2": [
         "Feat: Press enter for submit"
+    ],
+    "1.6.0": [
+        "Feat: Add attempt setting",
+        "Feat: Add error message display"
     ]
 }
