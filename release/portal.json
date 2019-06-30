@@ -74,5 +74,11 @@
     "1.6.1": [
         "Fix: Fix error recovery",
         "Fix: Update language"
+    ],
+    "1.6.2": [
+        "Feat: Add error handling function",
+        "Feat: Add account inactive function",
+        "Feat: Add improve resetting attempt",
+        "Fix: Fix minor bugs"
     ]
 }

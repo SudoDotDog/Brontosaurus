@@ -67,5 +67,10 @@
     ],
     "1.6.2": [
         "Fix: Fix organization button size"
+    ],
+    "1.6.3": [
+        "Feat: Improve resetting attempt",
+        "Feat: Implement active handling function",
+        "Fix: Fix minor bugs"
     ]
 }
