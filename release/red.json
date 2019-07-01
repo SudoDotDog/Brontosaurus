@@ -72,5 +72,9 @@
         "Feat: Improve resetting attempt",
         "Feat: Implement active handling function",
         "Fix: Fix minor bugs"
+    ],
+    "1.6.4": [
+        "Feat: Implement current organization menu",
+        "Feat: Improve sub account registration"
     ]
 }
