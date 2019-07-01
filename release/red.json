@@ -76,5 +76,14 @@
     "1.6.4": [
         "Feat: Implement current organization menu",
         "Feat: Improve sub account registration"
+    ],
+    "1.6.5": [
+        "Feat: Improve temp password pattern for inplode",
+        "Fix: Fix sub account registration"
+    ],
+    "1.6.6": [
+        "Feat: Implement global preference setting routes",
+        "Feat: Implement names preference setting routes",
+        "Fix: Fix minor bugs"
     ]
 }
