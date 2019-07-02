@@ -80,5 +80,19 @@
         "Feat: Add account inactive function",
         "Feat: Add improve resetting attempt",
         "Fix: Fix minor bugs"
+    ],
+    "1.6.3": [
+        "Feat: Add system name display",
+        "Feat: Add account name fetch"
+    ],
+    "1.6.4": [
+        "Feat: Add account name display"
+    ],
+    "1.6.5": [
+        "Fix: Critical crush bug fix"
+    ],
+    "1.6.6": [
+        "Fix: Critical crush bug fix",
+        "Fix: Fix space padding"
     ]
 }
