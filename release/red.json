@@ -88,5 +88,8 @@
     ],
     "1.6.7": [
         "Fix: Fix minor bugs"
+    ],
+    "1.6.8": [
+        "Feat: Add default green config"
     ]
 }
