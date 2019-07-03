@@ -85,5 +85,8 @@
         "Feat: Implement global preference setting routes",
         "Feat: Implement names preference setting routes",
         "Fix: Fix minor bugs"
+    ],
+    "1.6.7": [
+        "Fix: Fix minor bugs"
     ]
 }

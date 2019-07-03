@@ -94,5 +94,8 @@
     "1.6.6": [
         "Fix: Critical crush bug fix",
         "Fix: Fix space padding"
+    ],
+    "1.6.7": [
+        "Fix: Fix minor bugs"
     ]
 }
