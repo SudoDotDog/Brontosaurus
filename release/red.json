@@ -91,5 +91,14 @@
     ],
     "1.6.8": [
         "Feat: Add default green config"
+    ],
+    "1.7.0": [
+        "Feat: Implement input validation",
+        "Feat: Implement Decoration system",
+        "Feat: Add edit feature for all namespace",
+        "Feat: Add page split",
+        "Feat: Add group, organization, account decorator",
+        "Chore: Update organization database",
+        "Fix: Fix minor bugs"
     ]
 }

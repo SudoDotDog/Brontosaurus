@@ -97,5 +97,9 @@
     ],
     "1.6.7": [
         "Fix: Fix minor bugs"
+    ],
+    "1.7.0": [
+        "Feat: Implement password validation",
+        "Fix: Fix minor bugs"
     ]
 }
