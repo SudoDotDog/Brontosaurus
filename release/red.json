@@ -105,5 +105,8 @@
         "Feat: Use anchor system for all database model",
         "Fix: Fix language for two-factor related",
         "Fix: Fix minor bugs"
+    ],
+    "1.7.2": [
+        "Chore: Allow space on common name"
     ]
 }
