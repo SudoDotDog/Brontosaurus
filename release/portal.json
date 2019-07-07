@@ -109,5 +109,12 @@
     ],
     "1.7.2": [
         "Chore: Allow space on common name"
+    ],
+    "1.8.0": [
+        "Chore: Follow red version",
+        "Fix: fix minor bugs"
+    ],
+    "1.8.1": [
+        "Feat: Use latest database"
     ]
 }

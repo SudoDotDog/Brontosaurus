@@ -2,5 +2,10 @@
     "1.0.0": [
         "Feat: Init object",
         "Feat: Add organization list function"
+    ],
+    "1.1.0": [
+        "Feat: Decode uri for single origination fetch",
+        "Feat: Use latest database",
+        "Fix: Fix minor bugs"
     ]
 }

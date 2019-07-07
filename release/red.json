@@ -108,5 +108,18 @@
     ],
     "1.7.2": [
         "Chore: Allow space on common name"
+    ],
+    "1.8.0": [
+        "Feat: Response error with message",
+        "Feat: Add common key validation",
+        "Fix: fix minor bugs"
+    ],
+    "1.8.1": [
+        "Feat: Improve error message",
+        "Fix: Fix uri encode error"
+    ],
+    "1.8.2": [
+        "Feat: Use indicator for two more page",
+        "Fix: Fix application, user fetching bug"
     ]
 }
