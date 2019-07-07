@@ -101,5 +101,10 @@
     "1.7.0": [
         "Feat: Implement password validation",
         "Fix: Fix minor bugs"
+    ],
+    "1.7.1": [
+        "Feat: Use anchor system for all database model",
+        "Fix: Fix language for error message",
+        "Fix: Fix minor bugs"
     ]
 }

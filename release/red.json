@@ -100,5 +100,10 @@
         "Feat: Add group, organization, account decorator",
         "Chore: Update organization database",
         "Fix: Fix minor bugs"
+    ],
+    "1.7.1": [
+        "Feat: Use anchor system for all database model",
+        "Fix: Fix language for two-factor related",
+        "Fix: Fix minor bugs"
     ]
 }
