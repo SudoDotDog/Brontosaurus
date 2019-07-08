@@ -121,5 +121,9 @@
     "1.8.2": [
         "Feat: Use indicator for two more page",
         "Fix: Fix application, user fetching bug"
+    ],
+    "1.8.3": [
+        "Feat: Display command center value from preference as title",
+        "Fix: Allow 1s token generation delay"
     ]
 }
