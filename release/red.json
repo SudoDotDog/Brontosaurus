@@ -133,5 +133,8 @@
         "Feat: Add more menu for organization and account",
         "Feat: Add organization, account binding",
         "Fix: Fix minor bugs"
+    ],
+    "1.8.6": [
+        "Fix: Fix uri encode bug"
     ]
 }
