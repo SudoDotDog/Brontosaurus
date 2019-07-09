@@ -127,6 +127,9 @@
         "Fix: Allow 1s token generation delay"
     ],
     "1.8.4": [
+        "Trivial: Skip Version"
+    ],
+    "1.8.5": [
         "Feat: Add more menu for organization and account",
         "Feat: Add organization, account binding",
         "Fix: Fix minor bugs"

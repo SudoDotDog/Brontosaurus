@@ -118,6 +118,9 @@
         "Feat: Use latest database"
     ],
     "1.8.2": [
+        "Trivial: Skip Version"
+    ],
+    "1.8.3": [
         "Feat: Use latest database"
     ]
 }
