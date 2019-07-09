@@ -125,5 +125,10 @@
     "1.8.3": [
         "Feat: Display command center value from preference as title",
         "Fix: Allow 1s token generation delay"
+    ],
+    "1.8.4": [
+        "Feat: Add more menu for organization and account",
+        "Feat: Add organization, account binding",
+        "Fix: Fix minor bugs"
     ]
 }
