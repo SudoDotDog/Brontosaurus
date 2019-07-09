@@ -141,5 +141,10 @@
         "Feat: Add members information for organization",
         "Feat: Add withdraw organization route for accounts",
         "Feat: Use more menu for account dangerous actions"
+    ],
+    "1.8.8": [
+        "Feat: Prevent withdraw organization owner",
+        "Feat: Add error handling for assign users",
+        "Feat: Use more menu for account dangerous actions"
     ]
 }
