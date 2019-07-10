@@ -146,5 +146,8 @@
         "Feat: Prevent withdraw organization owner",
         "Feat: Add error handling for assign users",
         "Feat: Use more menu for account dangerous actions"
+    ],
+    "1.8.9": [
+        "Feat: Support dot, command for common name"
     ]
 }
