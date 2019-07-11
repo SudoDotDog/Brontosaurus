@@ -154,5 +154,12 @@
         "Feat: Support tag keyword",
         "Feat: Add tag to account information",
         "Feat: Add tag to organization information"
+    ],
+    "1.9.1": [
+        "Feat: Inplode with tag"
+    ],
+    "1.9.2": [
+        "Feat: Add more fetch display",
+        "Feat: Add many jumping link"
     ]
 }

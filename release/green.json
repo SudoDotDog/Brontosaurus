@@ -7,5 +7,9 @@
         "Feat: Decode uri for single origination fetch",
         "Feat: Use latest database",
         "Fix: Fix minor bugs"
+    ],
+    "1.2.0": [
+        "Feat: Use Tag system with latest DB",
+        "Feat: Only provide search org by tag"
     ]
 }
