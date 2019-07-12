@@ -161,5 +161,8 @@
     "1.9.2": [
         "Feat: Add more fetch display",
         "Feat: Add many jumping link"
+    ],
+    "1.9.3": [
+        "Feat: Support more symbol"
     ]
 }
