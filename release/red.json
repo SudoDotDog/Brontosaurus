@@ -164,5 +164,14 @@
     ],
     "1.9.3": [
         "Feat: Support more symbol"
+    ],
+    "1.10.0": [
+        "Refactor: Use root route for main menu",
+        "Refactor: Restyle navigation bar",
+        "Feat: Add second level navigation",
+        "Feat: Implement Admin Menu",
+        "Feat: Create Admin name space",
+        "Feat: Add Edit/More jumping route",
+        "Fix: Bug fix"
     ]
 }

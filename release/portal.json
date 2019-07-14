@@ -126,5 +126,8 @@
     "1.9.0": [
         "Feat: Support tag keyword",
         "Feat: Add tag to jwt response"
+    ],
+    "1.10.0": [
+        "Chore: Follow red version"
     ]
 }
