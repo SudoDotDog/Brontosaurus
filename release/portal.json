@@ -129,5 +129,14 @@
     ],
     "1.10.0": [
         "Chore: Follow red version"
+    ],
+    "1.10.1": [
+        "Feat: Implement save username/password",
+        "Feat: Implement auto focus",
+        "Fix: Fix IOS webkit support",
+        "Fix: Fix minor bugs"
+    ],
+    "1.10.2": [
+        "Feat: Add multi-language support for save username field"
     ]
 }
