@@ -138,5 +138,9 @@
     ],
     "1.10.2": [
         "Feat: Add multi-language support for save username field"
+    ],
+    "1.10.3": [
+        "Feat: Add Client side validation",
+        "Fix: Fix minor bugs"
     ]
 }
