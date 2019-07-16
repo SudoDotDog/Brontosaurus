@@ -11,5 +11,13 @@
     "1.2.0": [
         "Feat: Use Tag system with latest DB",
         "Feat: Only provide search org by tag"
+    ],
+    "1.3.0": [
+        "Feat: Add tagged organization route",
+        "Feat: Add grouped account route",
+        "Chore: Consume latest db"
+    ],
+    "1.3.1": [
+        "Feat: Add Validation Bridge Route"
     ]
 }
