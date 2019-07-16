@@ -23,5 +23,8 @@
     "1.4.0": [
         "Feat: Add display name",
         "Fix: Fix minor bugs"
+    ],
+    "1.4.1": [
+        "Chore: Change response api format"
     ]
 }
