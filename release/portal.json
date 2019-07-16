@@ -148,5 +148,10 @@
         "Feat: Add more error descriptions",
         "Feat: Add auto focus",
         "Fix: Fix minor bugs"
+    ],
+    "1.12.0": [
+        "Feat: Add display name",
+        "Feat: Implement display tokenize",
+        "Fix: Fix minor bugs"
     ]
 }

@@ -188,5 +188,10 @@
         "Feat: Implement organization account limit validation",
         "Fix: Fix create organization",
         "Fix: Fix minor bugs"
+    ],
+    "1.12.0": [
+        "Feat: Add display name",
+        "Feat: Implement display name edit/fetch",
+        "Fix: Fix minor bugs"
     ]
 }

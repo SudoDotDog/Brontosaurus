@@ -19,5 +19,9 @@
     ],
     "1.3.1": [
         "Feat: Add Validation Bridge Route"
+    ],
+    "1.4.0": [
+        "Feat: Add display name",
+        "Fix: Fix minor bugs"
     ]
 }
