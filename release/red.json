@@ -181,5 +181,12 @@
         "Feat: Add more clear display",
         "Feat: Implement strict group verify",
         "Fix: Fix minor bugs"
+    ],
+    "1.11.0": [
+        "Feat: Add server side validation",
+        "Feat: Add account register indicator",
+        "Feat: Implement organization account limit validation",
+        "Fix: Fix create organization",
+        "Fix: Fix minor bugs"
     ]
 }

@@ -142,5 +142,11 @@
     "1.10.3": [
         "Feat: Add Client side validation",
         "Fix: Fix minor bugs"
+    ],
+    "1.11.0": [
+        "Feat: Add organization side validation",
+        "Feat: Add more error descriptions",
+        "Feat: Add auto focus",
+        "Fix: Fix minor bugs"
     ]
 }
