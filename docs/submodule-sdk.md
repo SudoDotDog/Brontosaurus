@@ -22,6 +22,13 @@ You may want to integrate Brontosaurus auth with your favorite language, here is
 
 Under development
 
+[Brontosaurus Expo](https://github.com/SudoDotDog/Brontosaurus-Expo)
+
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Expo.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Expo)
+[![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Expo/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Expo)
+[![npm version](https://badge.fury.io/js/%40brontosaurus%2Fexpo.svg)](https://badge.fury.io/js/%40brontosaurus%2Fexpo)
+[![downloads](https://img.shields.io/npm/dm/@brontosaurus/expo.svg)](https://www.npmjs.com/package/@brontosaurus/expo)
+
 ## Server Integrate
 
 [Brontosaurus Node](https://github.com/SudoDotDog/Brontosaurus-Node)
