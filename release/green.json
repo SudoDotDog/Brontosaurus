@@ -26,5 +26,9 @@
     ],
     "1.4.1": [
         "Chore: Change response api format"
+    ],
+    "1.5.0": [
+        "Chore: Upgrade dependencies",
+        "Fix: Fix tag fetching function"
     ]
 }
