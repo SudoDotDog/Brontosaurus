@@ -8,3 +8,7 @@ Natively, Brontosaurus support NodeJS and any Modern web development technology 
 -   [Create a Brontosaurus Cluster with Kubernetes](/docs/server/k8s.md)
 -   [Create and Host Brontosaurus Server](/docs/server/host.md)
 -   [Integrate Brontosaurus with React](/docs/sdk/react.md)
+
+A mongodb instance is required to run Brontosaurus, see:
+
+-   [Init Brontosaurus Database](/docs/document/database.md)
