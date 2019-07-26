@@ -153,5 +153,8 @@
         "Feat: Add display name",
         "Feat: Implement display tokenize",
         "Fix: Fix minor bugs"
+    ],
+    "1.12.1": [
+        "Fix: Fix portal version"
     ]
 }

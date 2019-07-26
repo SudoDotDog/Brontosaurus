@@ -197,5 +197,8 @@
     "1.12.1": [
         "Feat: Add display name field to register",
         "Fix: Fix minor bugs"
+    ],
+    "1.12.2": [
+        "Fix: Fix red version"
     ]
 }
