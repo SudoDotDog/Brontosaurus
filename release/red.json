@@ -200,5 +200,8 @@
     ],
     "1.12.2": [
         "Fix: Fix red version"
+    ],
+    "1.12.3": [
+        "Feat: Use router link"
     ]
 }
