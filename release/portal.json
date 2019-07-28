@@ -167,5 +167,9 @@
     ],
     "1.13.2": [
         "Chore: Use better favicon"
+    ],
+    "1.13.3": [
+        "Feat: Use cache control for static files",
+        "Feat: Use immutable for static files"
     ]
 }
