@@ -164,5 +164,8 @@
     ],
     "1.13.1": [
         "Fix: Fix webpack bug"
+    ],
+    "1.13.2": [
+        "Chore: Use better favicon"
     ]
 }
