@@ -9,6 +9,7 @@ BASE_URL = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
 # Routes
 server_route = os.path.join(BASE_URL, 'module', 'server')
 portal_route = os.path.join(BASE_URL, 'module', 'portal')
+icon_route = os.path.join(BASE_URL, 'icon', 'icon-512x512.png')
 
 # Docker
 image_name = "brontosaurus-portal"
@@ -32,6 +33,10 @@ assertIsTrue(action.makeDir(os.path.join(server_route, 'public', 'portal')))
 assertIsTrue(action.copyModule(
     os.path.join(portal_route, 'dist'),
     os.path.join(server_route, 'public', 'portal'),
+))
+assertIsTrue(action.copyFile(
+    icon_route,
+    os.path.join(server_route, 'public', 'portal', 'favicon.png'),
 ))
 
 # Docker

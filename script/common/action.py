@@ -92,7 +92,12 @@ def copyModule(source, target):
         filePath = os.path.join(source, file)
         if (os.path.isfile(filePath)):
             shutil.copy(filePath, target)
+    return True
 
+
+def copyFile(source, target):
+    print("[INFO] Copying file to {0}".format(target))
+    shutil.copy(source, target)
     return True
 
 

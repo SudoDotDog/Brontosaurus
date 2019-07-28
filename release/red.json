@@ -203,5 +203,10 @@
     ],
     "1.12.3": [
         "Feat: Use router link"
+    ],
+    "1.13.0": [
+        "Feat: Reduce package size",
+        "Feat: Add favicon",
+        "Fix: Fix minor bugs"
     ]
 }

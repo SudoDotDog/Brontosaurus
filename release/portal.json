@@ -156,5 +156,10 @@
     ],
     "1.12.1": [
         "Fix: Fix portal version"
+    ],
+    "1.13.0": [
+        "Feat: Reduce package size",
+        "Feat: Add favicon",
+        "Fix: Fix minor bugs"
     ]
 }
