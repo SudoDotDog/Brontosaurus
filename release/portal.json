@@ -161,5 +161,8 @@
         "Feat: Reduce package size",
         "Feat: Add favicon",
         "Fix: Fix minor bugs"
+    ],
+    "1.13.1": [
+        "Fix: Fix webpack bug"
     ]
 }
