@@ -220,5 +220,8 @@
     ],
     "1.13.4": [
         "Feat: Use immutable for static files"
+    ],
+    "1.13.5": [
+        "Feat: Reset mint while change permission"
     ]
 }
