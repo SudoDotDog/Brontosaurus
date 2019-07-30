@@ -30,5 +30,9 @@
     "1.5.0": [
         "Chore: Upgrade dependencies",
         "Fix: Fix tag fetching function"
+    ],
+    "1.6.0": [
+        "Chore: Upgrade dependencies",
+        "Feat: Implement account fetching"
     ]
 }
