@@ -1,8 +1,8 @@
 # Brontosaurus
 
-![logo](/icon/icon-64x64.png)
-
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus)
+
+![logo](/icon/icon-64x64.png)
 
 :whale: Brontosaurus Auth
 
