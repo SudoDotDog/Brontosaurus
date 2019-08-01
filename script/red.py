@@ -9,7 +9,7 @@ BASE_URL = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
 # Routes
 mint_route = os.path.join(BASE_URL, 'module', 'mint')
 red_route = os.path.join(BASE_URL, 'module', 'red')
-icon_route = os.path.join(BASE_URL, 'icon', 'icon-512x512.png')
+icon_route = os.path.join(BASE_URL, 'icon', 'transparent', 'icon-512x512.png')
 
 # Docker
 image_name = "brontosaurus-red"
