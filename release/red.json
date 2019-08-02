@@ -223,5 +223,8 @@
     ],
     "1.13.5": [
         "Feat: Reset mint while change permission"
+    ],
+    "1.13.6": [
+        "Feat: Use latest favicon"
     ]
 }

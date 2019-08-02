@@ -171,5 +171,8 @@
     "1.13.3": [
         "Feat: Use cache control for static files",
         "Feat: Use immutable for static files"
+    ],
+    "1.13.4": [
+        "Feat: Use the latest favicon"
     ]
 }
