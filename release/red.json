@@ -226,5 +226,9 @@
     ],
     "1.13.6": [
         "Feat: Use latest favicon"
+    ],
+    "1.13.7": [
+        "Feat: Implement organization deactivate",
+        "Feat: Implement organization sub account registration"
     ]
 }
