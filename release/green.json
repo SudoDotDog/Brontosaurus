@@ -34,5 +34,9 @@
     "1.6.0": [
         "Chore: Upgrade dependencies",
         "Feat: Implement account fetching"
+    ],
+    "1.7.0": [
+        "Feat: Implement verify organization route",
+        "Feat: Implement verify account route"
     ]
 }
