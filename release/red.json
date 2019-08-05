@@ -230,5 +230,8 @@
     "1.13.7": [
         "Feat: Implement organization deactivate",
         "Feat: Implement organization sub account registration"
+    ],
+    "1.13.8": [
+        "Feat: Add simple i18n"
     ]
 }
