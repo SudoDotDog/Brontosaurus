@@ -31,6 +31,8 @@ build-green:
 	@echo "[INFO] Build green docker image"
 	@$(python3) script/green.py
 
+build-all: build-portal build-red build-green
+
 stop:
 	@echo "[INFO] Stopping running container"
 	@docker rm $(portal_tag) -f
