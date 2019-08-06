@@ -174,5 +174,8 @@
     ],
     "1.13.4": [
         "Feat: Use the latest favicon"
+    ],
+    "2.0.0": [
+        "Feat: Use RSA 256"
     ]
 }

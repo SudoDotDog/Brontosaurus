@@ -233,5 +233,8 @@
     ],
     "1.13.8": [
         "Feat: Add simple i18n"
+    ],
+    "2.0.0": [
+        "Feat: Use RSA 256"
     ]
 }
