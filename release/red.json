@@ -243,5 +243,9 @@
     "2.1.1": [
         "Feat: Use correct alg name",
         "Feat: Use shorter token"
+    ],
+    "2.1.2": [
+        "Feat: Add reset green feature for application",
+        "Feat: Add reset key feature for application"
     ]
 }
