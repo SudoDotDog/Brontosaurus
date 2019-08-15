@@ -247,5 +247,8 @@
     "2.1.2": [
         "Feat: Add reset green feature for application",
         "Feat: Add reset key feature for application"
+    ],
+    "2.1.3": [
+        "Feat: Implement user promotion"
     ]
 }
