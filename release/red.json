@@ -253,5 +253,8 @@
     ],
     "2.1.4": [
         "Fix: Display display name without organization"
+    ],
+    "2.1.5": [
+        "Chore: add more i18n items"
     ]
 }
