@@ -256,5 +256,8 @@
     ],
     "2.1.5": [
         "Chore: add more i18n items"
+    ],
+    "2.1.6": [
+        "Chore: upgrade neon ui"
     ]
 }
