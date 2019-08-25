@@ -22,13 +22,13 @@ This module contains typescript declaration file by default, no types package re
 
 Brontosaurus Node SDK support both Client Side and Server Side Validation. About those see [Token Validation](/docs/document/token-validation.md)
 
-For Client side validation see the following example code:
+### Client side validation
 
 ```ts
 import { Authorization, AuthToken } from "@brontosaurus/node";
 
 export const auth: Authorization = Authorization.create(
-    Get_Brontosaurus_Server(),
+    undefined,
     Get_Brontosaurus_Application_key(),
     Get_Brontosaurus_Public_key(),
 );
@@ -36,6 +36,24 @@ export const auth: Authorization = Authorization.create(
 const token: AuthToken | null = auth.token(principal);
 
 if (token && token.authenticate()) {
+    return true;
+}
+return false;
+```
+
+### Server side validation
+
+```ts
+import { Authorization, AuthToken } from "@brontosaurus/node";
+
+export const auth: Authorization = Authorization.create(
+    Get_Brontosaurus_Server(),
+    Get_Brontosaurus_Application_key(),
+);
+
+const token: AuthToken | null = auth.token(principal);
+
+if (token && await token.validate()) {
     return true;
 }
 return false;
