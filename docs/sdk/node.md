@@ -53,7 +53,10 @@ export const auth: Authorization = Authorization.create(
 
 const token: AuthToken | null = auth.token(principal);
 
-if (token && await token.validate()) {
+if (token
+    && token.clock()
+    && token.match()
+    && await token.validate()) {
     return true;
 }
 return false;
