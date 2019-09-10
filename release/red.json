@@ -267,7 +267,8 @@
         "Chore: Add more i18n items"
     ],
     "2.1.9": [
-        "Chore: Add more i18n items"
+        "Chore: Add more i18n items",
+        "Fix: Fix minor bugs"
     ],
     "2.3.0": [
         "Feat: Implement and use JWT standard",
