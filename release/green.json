@@ -47,7 +47,8 @@
     ],
     "2.1.1": [
         "Feat: Use correct alg name",
-        "Feat: Use shorter token"
+        "Feat: Use shorter token",
+        "Fix: Fix minor bugs"
     ],
     "2.3.0": [
         "Feat: Implement and use JWT standard",
