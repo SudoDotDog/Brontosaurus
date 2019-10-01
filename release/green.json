@@ -53,5 +53,10 @@
     "2.3.0": [
         "Feat: Implement and use JWT standard",
         "Fix: Fix minor bugs"
+    ],
+    "3.0.0": [
+        "Feat: Allow Hyphen in username (Break Change)",
+        "Feat: Add email address to token body",
+        "Fix: Fix minor bugs"
     ]
 }
