@@ -58,5 +58,9 @@
         "Feat: Allow Hyphen in username (Break Change)",
         "Feat: Add email address to token body",
         "Fix: Fix minor bugs"
+    ],
+    "3.0.1": [
+        "Feat: Improve logging",
+        "Feat: Add account detail support"
     ]
 }
