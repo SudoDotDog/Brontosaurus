@@ -197,5 +197,8 @@
     ],
     "3.0.1": [
         "Feat: Add React Native Webview Support"
+    ],
+    "3.0.2": [
+        "Revert: Revert change about React Native Webview"
     ]
 }
