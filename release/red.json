@@ -286,5 +286,8 @@
         "Feat: Add Email Validation",
         "Feat: Improve refreshed green security",
         "Fix: Fix Organization Register bug"
+    ],
+    "3.0.3": [
+        "Fix: Fix short email address validation"
     ]
 }
