@@ -278,5 +278,8 @@
         "Feat: Allow Hyphen in username (Break Change)",
         "Feat: Add email address to token body",
         "Fix: Fix minor bugs"
+    ],
+    "3.0.1": [
+        "Fix: Fix url encoded request bug"
     ]
 }
