@@ -289,5 +289,9 @@
     ],
     "3.0.3": [
         "Fix: Fix short email address validation"
+    ],
+    "3.0.4": [
+        "Chore: Use Latest Database",
+        "Chore: Disable Sub Register Route"
     ]
 }
