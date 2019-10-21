@@ -200,5 +200,9 @@
     ],
     "3.0.2": [
         "Revert: Revert change about React Native Webview"
+    ],
+    "3.1.0": [
+        "Feat: Add history for all systems",
+        "Feat: Add group control wile logging-in"
     ]
 }

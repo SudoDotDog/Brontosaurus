@@ -293,5 +293,10 @@
     "3.0.4": [
         "Chore: Use Latest Database",
         "Chore: Disable Sub Register Route"
+    ],
+    "3.1.0": [
+        "Feat: Add history for all systems",
+        "Feat: Add group control wile logging-in",
+        "Feat: Add group panel features"
     ]
 }
