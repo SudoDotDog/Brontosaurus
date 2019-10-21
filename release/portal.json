@@ -204,5 +204,8 @@
     "3.1.0": [
         "Feat: Add history for all systems",
         "Feat: Add group control wile logging-in"
+    ],
+    "3.1.1": [
+        "Fix: Fix account application group checking"
     ]
 }

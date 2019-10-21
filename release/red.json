@@ -298,5 +298,8 @@
         "Feat: Add history for all systems",
         "Feat: Add group control wile logging-in",
         "Feat: Add group panel features"
+    ],
+    "3.1.1": [
+        "Chore: Use React Fallback"
     ]
 }
