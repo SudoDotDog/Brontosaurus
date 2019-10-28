@@ -301,5 +301,8 @@
     ],
     "3.1.1": [
         "Chore: Use React Fallback"
+    ],
+    "3.1.2": [
+        "Chore: Add Second Validation"
     ]
 }
