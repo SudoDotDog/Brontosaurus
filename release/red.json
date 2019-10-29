@@ -304,5 +304,12 @@
     ],
     "3.1.2": [
         "Chore: Add Second Validation"
+    ],
+    "3.2.0": [
+        "Feat: Add Portal Access Option",
+        "Feat: Add Green Access Option"
+    ],
+    "3.2.1": [
+        "Feat: Add Portal Access Indicator"
     ]
 }
