@@ -68,5 +68,8 @@
     ],
     "3.1.0": [
         "Feat: Add history for all systems"
+    ],
+    "3.2.0": [
+        "Feat: Use new green verify pattern"
     ]
 }

@@ -311,5 +311,9 @@
     ],
     "3.2.1": [
         "Feat: Add Portal Access Indicator"
+    ],
+    "3.2.2": [
+        "Feat: Display Green Access Indicator outside",
+        "Feat: Display Portal Access Indicator outside"
     ]
 }
