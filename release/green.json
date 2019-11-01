@@ -74,5 +74,10 @@
     ],
     "3.2.1": [
         "Feat: Add Inplode Organization Support"
+    ],
+    "3.2.2": [
+        "Feat: Add Limbo account Support",
+        "Feat: Add Direct green verify Support",
+        "Fix: Fix minor bugs"
     ]
 }

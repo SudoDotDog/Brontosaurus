@@ -315,5 +315,9 @@
     "3.2.2": [
         "Feat: Display Green Access Indicator outside",
         "Feat: Display Portal Access Indicator outside"
+    ],
+    "3.2.3": [
+        "Feat: Improve Limbo temp password security",
+        "Fix: Fix minor bugs"
     ]
 }
