@@ -79,5 +79,8 @@
         "Feat: Add Limbo account Support",
         "Feat: Add Direct green verify Support",
         "Fix: Fix minor bugs"
+    ],
+    "3.2.3": [
+        "Feat: Implement Specific Account Route"
     ]
 }
