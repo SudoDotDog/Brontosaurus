@@ -214,5 +214,8 @@
     ],
     "3.2.1": [
         "Fix: Fix description"
+    ],
+    "3.2.2": [
+        "Chore: Use latest database version"
     ]
 }

@@ -319,5 +319,8 @@
     "3.2.3": [
         "Feat: Improve Limbo temp password security",
         "Fix: Fix minor bugs"
+    ],
+    "3.2.4": [
+        "Chore: Use latest database version"
     ]
 }

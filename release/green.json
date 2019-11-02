@@ -82,5 +82,10 @@
     ],
     "3.2.3": [
         "Feat: Implement Specific Account Route"
+    ],
+    "3.2.4": [
+        "Feat: Add Query Account Route",
+        "Feat: Add Query Organization Route",
+        "Chore: Upgrade Database version"
     ]
 }
