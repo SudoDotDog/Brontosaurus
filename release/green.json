@@ -87,5 +87,9 @@
         "Feat: Add Query Account Route",
         "Feat: Add Query Organization Route",
         "Chore: Upgrade Database version"
+    ],
+    "3.2.5": [
+        "Feat: Remove Unused Route",
+        "Fix: Fix Verify Response Type"
     ]
 }
