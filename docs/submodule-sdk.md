@@ -34,6 +34,13 @@ You may want to integrate Brontosaurus auth with your favorite language, here is
 [![npm version](https://badge.fury.io/js/%40brontosaurus%2Fnode.svg)](https://badge.fury.io/js/%40brontosaurus%2Fnode)
 [![downloads](https://img.shields.io/npm/dm/@brontosaurus/node.svg)](https://www.npmjs.com/package/@brontosaurus/node)
 
+[Brontosaurus Bamboo](https://github.com/SudoDotDog/Brontosaurus-Bamboo)
+
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Bamboo.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Bamboo)
+[![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Bamboo/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Bamboo)
+[![npm version](https://badge.fury.io/js/%40brontosaurus%2Fbamboo.svg)](https://badge.fury.io/js/%40brontosaurus%2Fbamboo)
+[![downloads](https://img.shields.io/npm/dm/@brontosaurus/bamboo.svg)](https://www.npmjs.com/package/@brontosaurus/bamboo)
+
 [Brontosaurus Init](https://github.com/SudoDotDog/Brontosaurus-Init)
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Init.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Init)
@@ -88,3 +95,11 @@ You may want to integrate Brontosaurus auth with your favorite language, here is
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Portal.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Portal)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Portal/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Portal)
+
+## Environment
+
+[Brontosaurus-Library](https://github.com/SudoDotDog/Brontosaurus-Library)
+
+[![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Library.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Library)
+[![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Library/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Library)
+
