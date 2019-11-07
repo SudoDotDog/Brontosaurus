@@ -221,5 +221,8 @@
     "3.2.3": [
         "Chore: Use latest random package",
         "Chore: Upgrade TypeScript"
+    ],
+    "3.2.4": [
+        "Feat: Check password before account status"
     ]
 }

@@ -326,5 +326,9 @@
     "3.2.5": [
         "Chore: Use latest random package",
         "Chore: Upgrade TypeScript"
+    ],
+    "3.2.6": [
+        "Feat: Show disabled account during searching",
+        "Feat: Show account status"
     ]
 }

@@ -95,5 +95,8 @@
     "3.2.6": [
         "Chore: Use latest random package",
         "Chore: Upgrade TypeScript"
+    ],
+    "3.2.7": [
+        "Feat: Response with account active status"
     ]
 }
