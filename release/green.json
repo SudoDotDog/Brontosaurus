@@ -91,5 +91,9 @@
     "3.2.5": [
         "Feat: Remove Unused Route",
         "Fix: Fix Verify Response Type"
+    ],
+    "3.2.6": [
+        "Chore: Use latest random package",
+        "Chore: Upgrade TypeScript"
     ]
 }

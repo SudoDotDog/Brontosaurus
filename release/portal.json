@@ -217,5 +217,9 @@
     ],
     "3.2.2": [
         "Chore: Use latest database version"
+    ],
+    "3.2.3": [
+        "Chore: Use latest random package",
+        "Chore: Upgrade TypeScript"
     ]
 }
