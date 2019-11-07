@@ -330,5 +330,9 @@
     "3.2.6": [
         "Feat: Show disabled account during searching",
         "Feat: Show account status"
+    ],
+    "3.2.7": [
+        "Feat: Show active status in organization search",
+        "Feat: Show active status in organization detail"
     ]
 }
