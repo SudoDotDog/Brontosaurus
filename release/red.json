@@ -334,5 +334,10 @@
     "3.2.7": [
         "Feat: Show active status in organization search",
         "Feat: Show active status in organization detail"
+    ],
+    "3.2.8": [
+        "Feat: Implement Active indicator on Group page",
+        "Feat: Implement Active indicator on Account page",
+        "Chore: Improve performance"
     ]
 }
