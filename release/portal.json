@@ -224,5 +224,9 @@
     ],
     "3.2.4": [
         "Feat: Check password before account status"
+    ],
+    "3.3.0": [
+        "Feat: Implement application groups requiring login",
+        "Fix: Fix body token organization tag missing"
     ]
 }

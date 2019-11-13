@@ -339,5 +339,8 @@
         "Feat: Implement Active indicator on Group page",
         "Feat: Implement Active indicator on Account page",
         "Chore: Improve performance"
+    ],
+    "3.3.0": [
+        "Feat: Implement application groups requiring editing"
     ]
 }
