@@ -228,5 +228,9 @@
     "3.3.0": [
         "Feat: Implement application groups requiring login",
         "Fix: Fix body token organization tag missing"
+    ],
+    "3.3.1": [
+        "Feat: Add Database Status Logging",
+        "Chore: Upgrade Mongoose"
     ]
 }
