@@ -346,5 +346,10 @@
     "3.3.1": [
         "Feat: Add Database Status Logging",
         "Chore: Upgrade Mongoose"
+    ],
+    "3.3.2": [
+        "Feat: Implement Organization Activation Route",
+        "Feat: Implement Account Activation Route",
+        "Chore: Fix Minor Bugs"
     ]
 }
