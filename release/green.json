@@ -105,5 +105,8 @@
     "3.3.1": [
         "Feat: Add Database Status Logging",
         "Chore: Upgrade Mongoose"
+    ],
+    "3.3.2": [
+        "Feat: Add Register Sub-Account Portal"
     ]
 }
