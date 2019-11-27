@@ -108,5 +108,8 @@
     ],
     "3.3.2": [
         "Feat: Add Register Sub-Account Portal"
+    ],
+    "3.3.3": [
+        "Feat: Add Register Account Portal"
     ]
 }
