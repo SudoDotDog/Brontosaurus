@@ -351,5 +351,9 @@
         "Feat: Implement Organization Activation Route",
         "Feat: Implement Account Activation Route",
         "Chore: Fix Minor Bugs"
+    ],
+    "3.3.3": [
+        "Feat: Use new Database",
+        "Feat: Add Common Name Validation Limitation"
     ]
 }

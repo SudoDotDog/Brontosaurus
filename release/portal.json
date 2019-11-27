@@ -232,5 +232,9 @@
     "3.3.1": [
         "Feat: Add Database Status Logging",
         "Chore: Upgrade Mongoose"
+    ],
+    "3.3.2": [
+        "Feat: Use new Database",
+        "Feat: Add Common Name Validation Limitation"
     ]
 }

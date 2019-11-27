@@ -111,5 +111,9 @@
     ],
     "3.3.3": [
         "Feat: Add Register Account Portal"
+    ],
+    "3.3.4": [
+        "Feat: Use new Database",
+        "Feat: Add Common Name Validation Limitation"
     ]
 }
