@@ -236,5 +236,11 @@
     "3.3.2": [
         "Feat: Use new Database",
         "Feat: Add Common Name Validation Limitation"
+    ],
+    "3.4.0": [
+        "Feat: Improve Performance",
+        "Feat: Use History Record Pattern",
+        "Chore: Use Correct HTTP Response Code",
+        "Fix: Fix Minor Bugs"
     ]
 }

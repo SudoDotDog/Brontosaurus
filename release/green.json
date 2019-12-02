@@ -115,5 +115,12 @@
     "3.3.4": [
         "Feat: Use new Database",
         "Feat: Add Common Name Validation Limitation"
+    ],
+    "3.4.0": [
+        "Feat: Improve Performance",
+        "Feat: Use History Record Pattern",
+        "Feat: Add Account Contact Update Route",
+        "Feat: Add Record Push Route",
+        "Fix: Fix Minor Bugs"
     ]
 }
