@@ -122,5 +122,9 @@
         "Feat: Add Account Contact Update Route",
         "Feat: Add Record Push Route",
         "Fix: Fix Minor Bugs"
+    ],
+    "3.4.1": [
+        "Chore: Correct Response Text",
+        "Chore: Fix Lint"
     ]
 }
