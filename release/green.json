@@ -126,5 +126,9 @@
     "3.4.1": [
         "Chore: Correct Response Text",
         "Chore: Fix Lint"
+    ],
+    "3.5.0": [
+        "Chore: Use Unified Topology Database Confection Setting",
+        "Fix: Fix Minor Bugs"
     ]
 }

@@ -360,5 +360,9 @@
         "Feat: Improve Performance",
         "Feat: Use History Record Pattern",
         "Fix: Fix Minor Bugs"
+    ],
+    "3.5.0": [
+        "Chore: Use Unified Topology Database Confection Setting",
+        "Fix: Fix Minor Bugs"
     ]
 }

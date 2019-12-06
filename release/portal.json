@@ -242,5 +242,9 @@
         "Feat: Use History Record Pattern",
         "Chore: Use Correct HTTP Response Code",
         "Fix: Fix Minor Bugs"
+    ],
+    "3.5.0": [
+        "Chore: Use Unified Topology Database Confection Setting",
+        "Fix: Fix Minor Bugs"
     ]
 }
