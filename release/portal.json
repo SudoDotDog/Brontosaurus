@@ -246,5 +246,8 @@
     "3.5.0": [
         "Chore: Use Unified Topology Database Confection Setting",
         "Fix: Fix Minor Bugs"
+    ],
+    "3.5.1": [
+        "Chore: Use Latest Construct Packages"
     ]
 }
