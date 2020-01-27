@@ -1,15 +1,15 @@
 language:
- - node_js
- - python
+  - node_js
+  - python
 
 python:
- - '3'
+  - "3"
 
 node_js:
- - '10'
+  - "10"
 
 services:
- - docker
+  - docker
 
 script:
- - make build
+  - make build
