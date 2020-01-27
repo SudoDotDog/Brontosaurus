@@ -20,6 +20,8 @@
         "lockfile",
         "mkdir",
         "mongod",
+        "pixil",
+        "pixilart",
         "rmtree",
         "setx",
         "shutil",
@@ -27,7 +29,8 @@
         "submodule",
         "sudoo",
         "triforce",
-        "tshook"
+        "tshook",
+        "unqid"
     ],
     "tslint.configFile": "typescript/tslint.json",
     "files.eol": "\n"
