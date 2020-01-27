@@ -97,3 +97,5 @@ publish-green: stop
 	@$(python3) release/green.py
 
 publish-all: publish-portal publish-red publish-green
+
+build-and-publish: build-all publish-all
