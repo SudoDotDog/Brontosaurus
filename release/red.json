@@ -367,5 +367,8 @@
     ],
     "3.5.1": [
         "Chore: Use Latest Construct Packages"
+    ],
+    "3.6.0": [
+        "Feat: Use all es6 deploy"
     ]
 }
