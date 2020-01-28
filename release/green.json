@@ -133,5 +133,8 @@
     ],
     "3.6.0": [
         "Feat: Use all es6 deploy"
+    ],
+    "3.6.1": [
+        "Chore: Remove useless logs"
     ]
 }
