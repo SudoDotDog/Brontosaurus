@@ -373,5 +373,9 @@
     ],
     "3.6.1": [
         "Chore: Remove useless logs"
+    ],
+    "3.7.0": [
+        "Feat: Implement Temporary Password",
+        "Feat: Implement Application Password"
     ]
 }
