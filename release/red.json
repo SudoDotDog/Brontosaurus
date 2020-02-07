@@ -381,5 +381,8 @@
     "3.7.1": [
         "Feat: Use all es6 packages",
         "Fix: Fix Temporary password generation bug"
+    ],
+    "3.7.2": [
+        "Fix: Fix non-character parsing bug"
     ]
 }
