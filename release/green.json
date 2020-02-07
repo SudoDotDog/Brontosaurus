@@ -140,5 +140,9 @@
     "3.7.0": [
         "Feat: Implement Temporary Password",
         "Feat: Implement Application Password"
+    ],
+    "3.7.1": [
+        "Feat: Use all es6 packages",
+        "Fix: Fix Temporary password generation bug"
     ]
 }
