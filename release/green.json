@@ -147,5 +147,12 @@
     ],
     "3.7.2": [
         "Fix: Fix non-character parsing bug"
+    ],
+    "3.8.0": [
+        "Feat: Add mailer support",
+        "Fix: Fix minor db bugs"
+    ],
+    "3.8.1": [
+        "Feat: Add database preference support"
     ]
 }
