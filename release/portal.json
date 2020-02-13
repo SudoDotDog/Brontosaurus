@@ -266,5 +266,16 @@
     ],
     "3.7.2": [
         "Fix: Fix non-character parsing bug"
+    ],
+    "3.8.0": [
+        "Feat: Implement Timeout page",
+        "Feat: Allow reset password",
+        "Fix: Fix minor db bugs"
+    ],
+    "3.8.1": [
+        "Feat: Implement Timeout page status",
+        "Feat: Add Simple Repository",
+        "Feat: Add preference support",
+        "Fix: Fix minor db bugs"
     ]
 }
