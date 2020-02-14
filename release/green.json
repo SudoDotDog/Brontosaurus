@@ -154,5 +154,9 @@
     ],
     "3.8.1": [
         "Feat: Add database preference support"
+    ],
+    "3.8.2": [
+        "Chore: Upgrade dependencies",
+        "Feat: Remove timestamp on production running"
     ]
 }

@@ -277,5 +277,9 @@
         "Feat: Add Simple Repository",
         "Feat: Add preference support",
         "Fix: Fix minor db bugs"
+    ],
+    "3.8.2": [
+        "Chore: Improve dialog translation",
+        "Feat: Remove timestamp on production running"
     ]
 }

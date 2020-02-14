@@ -395,5 +395,8 @@
         "Feat: Add Simple Route",
         "Feat: Add preference support",
         "Fix: Fix minor db bugs"
+    ],
+    "3.8.2": [
+        "Feat: Remove timestamp on production running"
     ]
 }
