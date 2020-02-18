@@ -281,5 +281,9 @@
     "3.8.2": [
         "Chore: Improve dialog translation",
         "Feat: Remove timestamp on production running"
+    ],
+    "3.9.0": [
+        "Feat: Remove Special Password Beacon",
+        "Feat: Initial Modifies Pattern"
     ]
 }
