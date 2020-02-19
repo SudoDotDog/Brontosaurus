@@ -402,5 +402,8 @@
     "3.9.0": [
         "Feat: Remove Special Password Beacon",
         "Feat: Initial Modifies Pattern"
+    ],
+    "3.10.0": [
+        "Feat: Add phone number token field"
     ]
 }
