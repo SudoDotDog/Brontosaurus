@@ -405,5 +405,8 @@
     ],
     "3.10.0": [
         "Feat: Add phone number token field"
+    ],
+    "3.10.1": [
+        "Fix: fix infinity auth redirect bug"
     ]
 }
