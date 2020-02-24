@@ -288,5 +288,10 @@
     ],
     "3.10.0": [
         "Feat: Add phone number token field"
+    ],
+    "3.10.1": [
+        "Feat: Add username indicator for auth portals errors",
+        "Feat: Disable login button when input definitely wrong status",
+        "Chore: Improve disable button style"
     ]
 }
