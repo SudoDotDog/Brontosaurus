@@ -408,5 +408,10 @@
     ],
     "3.10.1": [
         "Fix: fix infinity auth redirect bug"
+    ],
+    "3.10.2": [
+        "Chore: Upgrade typescript version",
+        "Chore: Upgrade minor version",
+        "Chore: Use all es6 internal dependencies"
     ]
 }

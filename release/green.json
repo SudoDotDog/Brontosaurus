@@ -165,5 +165,12 @@
     ],
     "3.10.0": [
         "Feat: Add phone number token field"
+    ],
+    "3.10.1": [
+        "Skilled to match version of other components"
+    ],
+    "3.10.2": [
+        "Chore: Upgrade typescript version",
+        "Chore: Upgrade minor version"
     ]
 }

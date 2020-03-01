@@ -293,5 +293,10 @@
         "Feat: Add username indicator for auth portals errors",
         "Feat: Disable login button when input definitely wrong status",
         "Chore: Improve disable button style"
+    ],
+    "3.10.2": [
+        "Chore: Upgrade typescript version",
+        "Chore: Upgrade minor version",
+        "Chore: Use all es6 internal dependencies"
     ]
 }
