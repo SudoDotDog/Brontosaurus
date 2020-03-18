@@ -172,5 +172,10 @@
     "3.10.2": [
         "Chore: Upgrade typescript version",
         "Chore: Upgrade minor version"
+    ],
+    "3.11.0": [
+        "Break: Add namespace property",
+        "Feat: Add namespace register and API",
+        "Fix: Minor bug fixes"
     ]
 }
