@@ -424,5 +424,8 @@
         "Feat: Add namespace red api",
         "Feat: Add namespace edit function",
         "Fix: Minor bug fixes"
+    ],
+    "3.12.1": [
+        "Fix: Fix account namespace params"
     ]
 }
