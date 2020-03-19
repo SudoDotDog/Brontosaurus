@@ -419,5 +419,10 @@
         "Feat: Add namespace register and API",
         "Feat: Add namespace control panel",
         "Fix: Minor bug fixes"
+    ],
+    "3.12.0": [
+        "Feat: Add namespace red api",
+        "Feat: Add namespace edit function",
+        "Fix: Minor bug fixes"
     ]
 }

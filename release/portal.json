@@ -304,5 +304,8 @@
         "Feat: Add namespace register and API",
         "Feat: Add namespace login",
         "Fix: Minor bug fixes"
+    ],
+    "3.12.0": [
+        "Fix: Minor bug fixes"
     ]
 }
