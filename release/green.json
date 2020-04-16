@@ -188,5 +188,8 @@
     "3.12.2": [
         "Chore: Using new assembling configuration",
         "Fix: Fix minor issues"
+    ],
+    "3.12.3": [
+        "Chore: Match version number"
     ]
 }
