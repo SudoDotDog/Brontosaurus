@@ -184,5 +184,9 @@
     ],
     "3.12.1": [
         "Fix: Fix query account namespace response"
+    ],
+    "3.12.2": [
+        "Chore: Using new assembling configuration",
+        "Fix: Fix minor issues"
     ]
 }

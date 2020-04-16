@@ -430,5 +430,9 @@
     ],
     "3.12.2": [
         "Fix: Fix default namespace value"
+    ],
+    "3.12.3": [
+        "Chore: Using new assembling configuration",
+        "Fix: Fix minor issues"
     ]
 }
