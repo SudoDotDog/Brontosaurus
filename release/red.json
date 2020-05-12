@@ -439,5 +439,9 @@
         "Feat: Add avatar token field",
         "Feat: Allow edit avatar",
         "Chore: Minor improvements"
+    ],
+    "3.13.1": [
+        "Fix: Fix avatar data type",
+        "Fix: Fix minor bugs"
     ]
 }
