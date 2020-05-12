@@ -314,5 +314,10 @@
     ],
     "3.12.3": [
         "Chore: Match version number"
+    ],
+    "3.13.0": [
+        "Feat: Add avatar token field",
+        "Feat: Allow edit avatar",
+        "Chore: Minor improvements"
     ]
 }
