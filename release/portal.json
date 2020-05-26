@@ -329,5 +329,11 @@
     "3.13.3": [
         "Chore: Use latest typescript",
         "Fix: Fix express route matcher"
+    ],
+    "3.14.0": [
+        "Feat: Add attempt feature",
+        "Feat: Add login recording",
+        "Feat: Improve DB performance",
+        "Fix: Fix minor bugs"
     ]
 }
