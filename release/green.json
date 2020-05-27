@@ -216,5 +216,8 @@
     "3.15.0": [
         "Feat: Add inplode with password feature",
         "Fix: Fix minor bugs"
+    ],
+    "3.15.1": [
+        "Chore: Use latest DB"
     ]
 }
