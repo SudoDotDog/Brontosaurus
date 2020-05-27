@@ -212,5 +212,9 @@
         "Feat: Add login recording",
         "Feat: Improve DB performance",
         "Fix: Fix minor bugs"
+    ],
+    "3.15.0": [
+        "Feat: Add inplode with password feature",
+        "Fix: Fix minor bugs"
     ]
 }

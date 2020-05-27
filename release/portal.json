@@ -335,5 +335,9 @@
         "Feat: Add login recording",
         "Feat: Improve DB performance",
         "Fix: Fix minor bugs"
+    ],
+    "3.15.0": [
+        "Chore: Version match",
+        "Fix: Fix minor bugs"
     ]
 }

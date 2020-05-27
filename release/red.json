@@ -458,5 +458,9 @@
         "Feat: Improve DB performance",
         "Feat: Add attempts checking",
         "Fix: Fix minor bugs"
+    ],
+    "3.15.0": [
+        "Feat: Sort attempts in reverse order",
+        "Fix: Fix minor bugs"
     ]
 }
