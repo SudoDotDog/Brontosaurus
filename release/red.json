@@ -466,5 +466,8 @@
     "3.15.1": [
         "Feat: Add attempt count display",
         "Feat: Add attempt count fetching"
+    ],
+    "3.15.2": [
+        "Chore: Version Match"
     ]
 }
