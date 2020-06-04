@@ -474,5 +474,11 @@
         "Feat: Implement caching search",
         "Feat: Implement initial data display",
         "Chore: Upgrade dependencies"
+    ],
+    "3.15.4": [
+        "Chore: Version Match"
+    ],
+    "3.15.5": [
+        "Fix: Fix build bugs"
     ]
 }

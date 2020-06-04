@@ -350,5 +350,11 @@
     "3.15.3": [
         "Chore: Version Match",
         "Chore: Upgrade dependencies"
+    ],
+    "3.15.4": [
+        "Feat: Implement callback search function"
+    ],
+    "3.15.5": [
+        "Fix: Fix build bugs"
     ]
 }
