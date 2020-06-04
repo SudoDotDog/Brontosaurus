@@ -30,7 +30,8 @@
         "sudoo",
         "triforce",
         "tshook",
-        "unqid"
+        "unqid",
+        "xenial"
     ],
     "tslint.configFile": "typescript/tslint.json",
     "files.eol": "\n"
