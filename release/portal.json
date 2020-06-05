@@ -356,5 +356,9 @@
     ],
     "3.15.5": [
         "Fix: Fix build bugs"
+    ],
+    "3.15.6": [
+        "Feat: Implement search params jumping",
+        "Fix: Fix security error by third party package"
     ]
 }
