@@ -360,5 +360,8 @@
     "3.15.6": [
         "Feat: Implement search params jumping",
         "Fix: Fix security error by third party package"
+    ],
+    "3.15.7": [
+        "Feat: Add license information for static files"
     ]
 }
