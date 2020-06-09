@@ -487,5 +487,10 @@
     ],
     "3.15.7": [
         "Feat: Add license information for static files"
+    ],
+    "3.16.0": [
+        "Feat: Add untrusted domain control",
+        "Feat: Add server side regexp validation",
+        "Feat: Add redirections editing"
     ]
 }

@@ -238,5 +238,9 @@
     ],
     "3.15.7": [
         "Chore: Version Match"
+    ],
+    "3.16.0": [
+        "Chore: Upgrade types configuration",
+        "Chore: Match DB version"
     ]
 }
