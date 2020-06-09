@@ -242,5 +242,8 @@
     "3.16.0": [
         "Chore: Upgrade types configuration",
         "Chore: Match DB version"
+    ],
+    "3.16.1": [
+        "Fix: Fix regexp invalid error"
     ]
 }

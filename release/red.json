@@ -492,5 +492,8 @@
         "Feat: Add untrusted domain control",
         "Feat: Add server side regexp validation",
         "Feat: Add redirections editing"
+    ],
+    "3.16.1": [
+        "Fix: Fix regexp invalid error"
     ]
 }

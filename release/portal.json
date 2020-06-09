@@ -368,5 +368,8 @@
         "Feat: Add untrusted error message",
         "Feat: Add untrusted domain control",
         "Feat: Add server side regexp validation"
+    ],
+    "3.16.1": [
+        "Fix: Fix regexp invalid error"
     ]
 }
