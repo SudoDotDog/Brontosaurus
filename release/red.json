@@ -495,5 +495,11 @@
     ],
     "3.16.1": [
         "Fix: Fix regexp invalid error"
+    ],
+    "3.17.0": [
+        "Feat: Add data validation",
+        "Chore: Use new test framework",
+        "Chore: Use new lint framework",
+        "Fix: Fix major bug"
     ]
 }
