@@ -377,5 +377,9 @@
         "Chore: Use new test framework",
         "Chore: Use new lint framework",
         "Fix: Fix major bug"
+    ],
+    "3.18.0": [
+        "Feat: Add security logging",
+        "Chore: Use eslint typescript for code quality"
     ]
 }
