@@ -381,5 +381,9 @@
     "3.18.0": [
         "Feat: Add security logging",
         "Chore: Use eslint typescript for code quality"
+    ],
+    "3.18.1": [
+        "Chore: Use latest pattern structure",
+        "Fix: Fix pattern import issue"
     ]
 }

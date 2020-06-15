@@ -255,5 +255,9 @@
     "3.18.0": [
         "Chore: Use eslint typescript for code quality",
         "Chore: Version Match"
+    ],
+    "3.18.1": [
+        "Chore: Use latest pattern structure",
+        "Fix: Fix pattern import issue"
     ]
 }
