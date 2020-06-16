@@ -390,5 +390,8 @@
         "Feat: Add protocol getting and update",
         "Feat: Add protocol display",
         "Fix: Fix minor bugs"
+    ],
+    "3.20.0": [
+        "Chore: Version Match"
     ]
 }

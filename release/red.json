@@ -514,5 +514,8 @@
         "Feat: Add frame, post, alert, and none protocol validation",
         "Feat: Add protocol getting and update",
         "Fix: Fix minor bugs"
+    ],
+    "3.20.0": [
+        "Chore: Version Match"
     ]
 }

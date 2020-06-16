@@ -264,5 +264,10 @@
         "Feat: Add tag query",
         "Feat: Add protocol database field",
         "Fix: Fix minor bugs"
+    ],
+    "3.20.0": [
+        "Feat: Add account query options",
+        "Fix: Fix path validation issue",
+        "Fix: Fix minor bugs"
     ]
 }
