@@ -509,5 +509,10 @@
     "3.18.1": [
         "Chore: Use latest pattern structure",
         "Fix: Fix pattern import issue"
+    ],
+    "3.19.0": [
+        "Feat: Add frame, post, alert, and none protocol validation",
+        "Feat: Add protocol getting and update",
+        "Fix: Fix minor bugs"
     ]
 }

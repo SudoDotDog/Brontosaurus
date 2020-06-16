@@ -385,5 +385,10 @@
     "3.18.1": [
         "Chore: Use latest pattern structure",
         "Fix: Fix pattern import issue"
+    ],
+    "3.19.0": [
+        "Feat: Add protocol getting and update",
+        "Feat: Add protocol display",
+        "Fix: Fix minor bugs"
     ]
 }

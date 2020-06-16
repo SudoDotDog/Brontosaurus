@@ -259,5 +259,10 @@
     "3.18.1": [
         "Chore: Use latest pattern structure",
         "Fix: Fix pattern import issue"
+    ],
+    "3.19.0": [
+        "Feat: Add tag query",
+        "Feat: Add protocol database field",
+        "Fix: Fix minor bugs"
     ]
 }
