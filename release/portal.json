@@ -393,5 +393,11 @@
     ],
     "3.20.0": [
         "Chore: Version Match"
+    ],
+    "3.21.0": [
+        "Feat: Add insecure protocol response display",
+        "Feat: Add none and alert protocol warning",
+        "Fix: Fix internationalization for insecure redirection",
+        "Fix: Fix minor bugs"
     ]
 }

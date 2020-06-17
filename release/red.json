@@ -517,5 +517,9 @@
     ],
     "3.20.0": [
         "Chore: Version Match"
+    ],
+    "3.21.0": [
+        "Feat: Add style browser support for Edge",
+        "Fix: Fix minor bugs"
     ]
 }

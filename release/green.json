@@ -269,5 +269,9 @@
         "Feat: Add account query options",
         "Fix: Fix path validation issue",
         "Fix: Fix minor bugs"
+    ],
+    "3.21.0": [
+        "Feat: Add tags and organizations result to details protocol",
+        "Feat: Query performance improvement"
     ]
 }
