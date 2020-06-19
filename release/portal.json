@@ -399,5 +399,10 @@
         "Feat: Add none and alert protocol warning",
         "Fix: Fix internationalization for insecure redirection",
         "Fix: Fix minor bugs"
+    ],
+    "3.21.1": [
+        "Chore: Update database controller",
+        "Core: Version Match",
+        "Fix: Fix minor bugs"
     ]
 }

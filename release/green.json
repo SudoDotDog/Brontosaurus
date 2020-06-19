@@ -273,5 +273,9 @@
     "3.21.0": [
         "Feat: Add tags and organizations result to details protocol",
         "Feat: Query performance improvement"
+    ],
+    "3.21.1": [
+        "Chore: Update database controller",
+        "Core: Version Match"
     ]
 }
