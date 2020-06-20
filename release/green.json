@@ -277,5 +277,9 @@
     "3.21.1": [
         "Chore: Update database controller",
         "Core: Version Match"
+    ],
+    "3.22.0": [
+        "Chore: Use actual server version response",
+        "Fix: Fix minor bugs"
     ]
 }

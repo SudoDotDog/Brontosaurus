@@ -526,5 +526,9 @@
         "Feat: Implement database controller agents",
         "Fix: Fix major organization bug",
         "Fix: Fix minor bugs"
+    ],
+    "3.22.0": [
+        "Chore: Use actual server version response",
+        "Fix: Fix minor bugs"
     ]
 }
