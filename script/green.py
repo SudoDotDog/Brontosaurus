@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 
+import json
 import os
 from common import action
 from common.assertion import assertIsTrue
+
+
+def versiontuple(v):
+    return tuple(map(int, (v.split("."))))
+
 
 BASE_URL = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
 
@@ -21,5 +27,14 @@ assertIsTrue(action.removeFolder(os.path.join(green_route, 'dist')))
 # Install Build
 assertIsTrue(action.installAndBuildPackage(green_route))
 
+# Version
+green = open(os.path.join(BASE_URL, 'release', 'green.json'))
+text = green.read()
+data = json.loads(text)
+
+latest = max(data, key=versiontuple)
+
+print(latest)
+
 # Docker
-assertIsTrue(action.buildDocker(dockerfile_path, image_name, BASE_URL))
+assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))
