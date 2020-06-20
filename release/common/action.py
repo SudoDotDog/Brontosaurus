@@ -5,6 +5,10 @@ import subprocess
 import shutil
 
 
+def versiontuple(v):
+    return tuple(map(int, (v.split("."))))
+
+
 def tagDocker(imageName, hubName, version):
     tag = "{0}:{1}".format(hubName, version)
     print(
