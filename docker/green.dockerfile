@@ -5,6 +5,7 @@ WORKDIR /app
 
 EXPOSE 8500
 
+ARG release_version
 ENV NODE_ENV production
 
 COPY module/green/package.json .
