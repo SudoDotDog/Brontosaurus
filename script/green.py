@@ -34,7 +34,5 @@ data = json.loads(text)
 
 latest = max(data, key=versiontuple)
 
-print(latest)
-
 # Docker
 assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))

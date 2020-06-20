@@ -76,6 +76,10 @@ sh-red: stop
 	@echo "[INFO] Run red with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e PORTAL_PATH=$(PP) -p 9000:9000 --name $(red_tag) $(red_name) sh
 
+sh-green: stop
+	@echo "[INFO] Run green with sh"
+	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -p 8500:8500 --name $(green_tag) $(green_name) sh
+
 sh-portal-dev: stop
 	@echo "[INFO] Run docker with sh"
 	@docker run -it -e BRONTOSAURUS_DATABASE=$(DB) -e NODE_ENV=development -p 8080:8080 --name $(portal_tag) $(portal_name) sh

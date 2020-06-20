@@ -102,11 +102,12 @@ def copyFile(source, target):
 
 
 def buildDocker(dockerFile, imageName, version, workPath):
+    versionArg = "release_version={0}".format(version)
+
     print("[INFO] Build Docker {0}".format(imageName))
     print(
-        "[COMD] * docker build -t {0} -f {1} {2}".format(imageName, dockerFile, workPath))
+        "[COMD] * docker build -t {0} --build-arg {1} -f {2} {3}".format(imageName, versionArg, dockerFile, workPath))
 
-    versionArg = "release_version={0}".format(version)
     child = subprocess.Popen(
         ["docker", "build", "-t", imageName, "--build-arg",
             versionArg, "-f", dockerFile, workPath],
