@@ -39,5 +39,12 @@ assertIsTrue(action.copyFile(
     os.path.join(server_route, 'public', 'portal', 'favicon.png'),
 ))
 
+# Version
+portal = open(os.path.join(BASE_URL, 'release', 'portal.json'))
+text = portal.read()
+data = json.loads(text)
+
+latest = max(data, key=action.versiontuple)
+
 # Docker
-assertIsTrue(action.buildDocker(dockerfile_path, image_name, BASE_URL))
+assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))

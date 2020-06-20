@@ -39,5 +39,12 @@ assertIsTrue(action.copyFile(
     os.path.join(mint_route, 'public', 'red', 'favicon.png'),
 ))
 
+# Version
+red = open(os.path.join(BASE_URL, 'release', 'red.json'))
+text = red.read()
+data = json.loads(text)
+
+latest = max(data, key=action.versiontuple)
+
 # Docker
-assertIsTrue(action.buildDocker(dockerfile_path, image_name, BASE_URL))
+assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))
