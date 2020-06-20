@@ -5,6 +5,9 @@ WORKDIR /app
 
 EXPOSE 8080
 
+ARG release_version
+ENV RELEASE_VERSION ${release_version}
+
 ENV NODE_ENV production
 
 COPY module/server/package.json .
