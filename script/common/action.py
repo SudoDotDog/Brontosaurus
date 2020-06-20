@@ -101,12 +101,15 @@ def copyFile(source, target):
     return True
 
 
-def buildDocker(dockerFile, imageName, workPath):
+def buildDocker(dockerFile, imageName, version, workPath):
     print("[INFO] Build Docker {0}".format(imageName))
     print(
         "[COMD] * docker build -t {0} -f {1} {2}".format(imageName, dockerFile, workPath))
+
+    versionArg = "release_version={0}".format(version)
     child = subprocess.Popen(
-        ["docker", "build", "-t", imageName, "-f", dockerFile, workPath],
+        ["docker", "build", "-t", imageName, "--build-arg",
+            versionArg, "-f", dockerFile, workPath],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
