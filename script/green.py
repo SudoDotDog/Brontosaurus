@@ -5,11 +5,6 @@ import os
 from common import action
 from common.assertion import assertIsTrue
 
-
-def versiontuple(v):
-    return tuple(map(int, (v.split("."))))
-
-
 BASE_URL = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
 
 # Routes
@@ -32,7 +27,7 @@ green = open(os.path.join(BASE_URL, 'release', 'green.json'))
 text = green.read()
 data = json.loads(text)
 
-latest = max(data, key=versiontuple)
+latest = max(data, key=action.versiontuple)
 
 # Docker
 assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))
