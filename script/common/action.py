@@ -107,7 +107,7 @@ def buildPackageWithVersion(target, version):
 def installAndBuildPackageWithVersion(target, version):
     installRc = installPackage(target)
     if installRc:
-        return buildPackage(target, version)
+        return buildPackageWithVersion(target, version)
     return False
 
 
@@ -137,6 +137,7 @@ def buildDocker(dockerFile, imageName, version, workPath):
     versionArg = "release_version={0}".format(version)
 
     print("[INFO] Build Docker {0}".format(imageName))
+    print("[INFO] Build version: {0}".format(version))
     print(
         "[COMD] * docker build -t {0} --build-arg {1} -f {2} {3}".format(imageName, versionArg, dockerFile, workPath))
 

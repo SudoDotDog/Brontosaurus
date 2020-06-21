@@ -530,5 +530,8 @@
     "3.22.0": [
         "Chore: Use actual server version response",
         "Fix: Fix minor bugs"
+    ],
+    "3.23.0": [
+        "Chore: Add version indicator at ui building procedure"
     ]
 }
