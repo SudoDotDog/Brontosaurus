@@ -92,6 +92,25 @@ def installAndBuildPackage(target):
     return False
 
 
+def buildPackageWithVersion(target, version):
+    print("[INFO] Building package for {0}".format(target))
+    print("[INFO] Build version: {0}".format(version))
+    versioned_env = os.environ.copy()
+    versioned_env["RELEASE_VERSION"] = version
+    child = subprocess.Popen(
+        ["make", "build"], stdout=subprocess.DEVNULL, cwd=target, env=versioned_env)
+    child.wait()
+    rc = child.returncode
+    return rc == 0
+
+
+def installAndBuildPackageWithVersion(target, version):
+    installRc = installPackage(target)
+    if installRc:
+        return buildPackage(target, version)
+    return False
+
+
 def makeDir(target):
     if not os.path.exists(target):
         os.makedirs(target)

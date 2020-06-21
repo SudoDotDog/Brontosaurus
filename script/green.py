@@ -18,12 +18,12 @@ assertIsTrue(action.cloneOrResetAndPullRepository(
     "SudoDotDog", "Brontosaurus-Green", green_route))
 assertIsTrue(action.removeFolder(os.path.join(green_route, 'dist')))
 
-# Install Build
-assertIsTrue(action.installAndBuildPackage(green_route))
-
 # Version
 version_path = os.path.join(BASE_URL, 'release', 'green.json')
 latest = action.getLatestVersion(version_path)
+
+# Install Build
+assertIsTrue(action.installAndBuildPackageWithVersion(green_route, latest))
 
 # Docker
 assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))

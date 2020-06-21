@@ -23,8 +23,12 @@ assertIsTrue(action.cloneOrResetAndPullRepository(
 assertIsTrue(action.removeFolder(os.path.join(server_route, 'public')))
 assertIsTrue(action.removeFolder(os.path.join(portal_route, 'dist')))
 
+# Version
+version_path = os.path.join(BASE_URL, 'release', 'portal.json')
+latest = action.getLatestVersion(version_path)
+
 # Install Build
-assertIsTrue(action.installAndBuildPackage(portal_route))
+assertIsTrue(action.installAndBuildPackageWithVersion(portal_route, latest))
 assertIsTrue(action.installAndBuildPackage(server_route))
 
 # Prepare
@@ -38,10 +42,6 @@ assertIsTrue(action.copyFile(
     icon_route,
     os.path.join(server_route, 'public', 'portal', 'favicon.png'),
 ))
-
-# Version
-version_path = os.path.join(BASE_URL, 'release', 'portal.json')
-latest = action.getLatestVersion(version_path)
 
 # Docker
 assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))
