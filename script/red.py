@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import json
 import os
 from common import action
 from common.assertion import assertIsTrue
@@ -41,11 +40,8 @@ assertIsTrue(action.copyFile(
 ))
 
 # Version
-red = open(os.path.join(BASE_URL, 'release', 'red.json'))
-text = red.read()
-data = json.loads(text)
-
-latest = max(data, key=action.versiontuple)
+version_path = os.path.join(BASE_URL, 'release', 'red.json')
+latest = action.getLatestVersion(version_path)
 
 # Docker
 assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))

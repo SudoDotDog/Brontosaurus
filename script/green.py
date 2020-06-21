@@ -22,11 +22,8 @@ assertIsTrue(action.removeFolder(os.path.join(green_route, 'dist')))
 assertIsTrue(action.installAndBuildPackage(green_route))
 
 # Version
-green = open(os.path.join(BASE_URL, 'release', 'green.json'))
-text = green.read()
-data = json.loads(text)
-
-latest = max(data, key=action.versiontuple)
+version_path = os.path.join(BASE_URL, 'release', 'green.json')
+latest = action.getLatestVersion(version_path)
 
 # Docker
 assertIsTrue(action.buildDocker(dockerfile_path, image_name, latest, BASE_URL))
