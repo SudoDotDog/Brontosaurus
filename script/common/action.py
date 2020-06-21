@@ -1,11 +1,22 @@
 # -*- coding: utf-8 -*-
 
+import json
 import os
 import subprocess
 import shutil
 
+
 def versiontuple(v):
     return tuple(map(int, (v.split("."))))
+
+
+def getLatestVersion(path):
+    version = open(path)
+    text = version.read()
+    data = json.loads(text)
+    latest = max(data, key=versiontuple)
+    return latest
+
 
 def cloneRepository(origination, repository, target):
     print("[INFO] Git Clone {0}".format(target))
