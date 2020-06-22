@@ -538,5 +538,8 @@
         "Feat: Add version display",
         "Chore: Update neon ui structure",
         "Chore: Remove version logging"
+    ],
+    "3.24.1": [
+        "Chore: Version Match"
     ]
 }
