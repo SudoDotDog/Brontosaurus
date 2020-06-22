@@ -411,5 +411,11 @@
     ],
     "3.23.0": [
         "Chore: Add version indicator at ui building procedure"
+    ],
+    "3.24.0": [
+        "Feat: Add version display",
+        "Chore: Update neon ui structure",
+        "Chore: Remove version logging",
+        "Fix: Fix overflow flag issue"
     ]
 }
