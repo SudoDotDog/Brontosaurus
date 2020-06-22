@@ -417,5 +417,8 @@
         "Chore: Update neon ui structure",
         "Chore: Remove version logging",
         "Fix: Fix overflow flag issue"
+    ],
+    "3.24.1": [
+        "Feat: Add favicon update"
     ]
 }
