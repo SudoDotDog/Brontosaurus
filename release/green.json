@@ -290,5 +290,10 @@
     ],
     "3.24.1": [
         "Chore: Version Match"
+    ],
+    "3.25.0": [
+        "Chore: Use AutoHook for all routes",
+        "Chore: Upgrade database structure",
+        "Fix: Fix minor bugs"
     ]
 }

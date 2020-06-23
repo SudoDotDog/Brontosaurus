@@ -420,5 +420,12 @@
     ],
     "3.24.1": [
         "Feat: Add favicon update"
+    ],
+    "3.25.0": [
+        "Feat: Implement previous password record function",
+        "Feat: Implement reset record function",
+        "Chore: Use AutoHook for all routes",
+        "Chore: Upgrade database structure",
+        "Fix: Fix minor bugs"
     ]
 }
