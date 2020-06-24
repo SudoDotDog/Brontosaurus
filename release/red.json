@@ -548,5 +548,8 @@
         "Chore: Use AutoHook for all routes",
         "Chore: Upgrade database structure",
         "Fix: Fix minor bugs"
+    ],
+    "3.26.0": [
+        "Feat: Partially use pattern validation"
     ]
 }
