@@ -431,5 +431,9 @@
     "3.26.0": [
         "Feat: Partially use pattern validation",
         "Chore: Improve code quality"
+    ],
+    "3.26.1": [
+        "Feat: Improve style display",
+        "Fix: Fix minor bugs"
     ]
 }

@@ -298,5 +298,10 @@
     ],
     "3.26.0": [
         "Feat: Partially use pattern validation"
+    ],
+    "3.26.1": [
+        "Chore: Refactor all route with pattern",
+        "Chore: Improve error response",
+        "Fix: Fix minor bugs"
     ]
 }

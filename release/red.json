@@ -551,5 +551,11 @@
     ],
     "3.26.0": [
         "Feat: Partially use pattern validation"
+    ],
+    "3.26.1": [
+        "Feat: Improve style display",
+        "Fix: Fix style issue",
+        "Fix: Fix redirection v-dom key",
+        "Fix: Fix minor bugs"
     ]
 }
