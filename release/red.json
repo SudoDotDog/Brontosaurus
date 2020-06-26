@@ -557,5 +557,10 @@
         "Fix: Fix style issue",
         "Fix: Fix redirection v-dom key",
         "Fix: Fix minor bugs"
+    ],
+    "3.27.0": [
+        "Feat: Add system language detection",
+        "Feat: Move status and version bar",
+        "Fix: Fix minor bugs"
     ]
 }

@@ -435,5 +435,9 @@
     "3.26.1": [
         "Feat: Improve style display",
         "Fix: Fix minor bugs"
+    ],
+    "3.27.0": [
+        "Feat: Add system language detection",
+        "Fix: Fix security log bug"
     ]
 }
