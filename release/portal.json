@@ -438,6 +438,7 @@
     ],
     "3.27.0": [
         "Feat: Add system language detection",
+        "Feat: Add pattern error response details",
         "Fix: Fix security log bug"
     ]
 }
