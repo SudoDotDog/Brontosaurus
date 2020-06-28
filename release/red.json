@@ -562,5 +562,9 @@
         "Feat: Add system language detection",
         "Feat: Move status and version bar",
         "Fix: Fix minor bugs"
+    ],
+    "3.28.0": [
+        "Feat: Use sudoo fetch package",
+        "Chore: Use latest express package"
     ]
 }

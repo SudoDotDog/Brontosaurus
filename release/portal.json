@@ -440,5 +440,10 @@
         "Feat: Add system language detection",
         "Feat: Add pattern error response details",
         "Fix: Fix security log bug"
+    ],
+    "3.28.0": [
+        "Feat: Add loading indicator clear policy",
+        "Feat: Use sudoo fetch package",
+        "Chore: Use latest express package"
     ]
 }
