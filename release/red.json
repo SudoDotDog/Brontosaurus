@@ -566,5 +566,11 @@
     "3.28.0": [
         "Feat: Use sudoo fetch package",
         "Chore: Use latest express package"
+    ],
+    "3.28.1": [
+        "Feat: Use pattern body validator",
+        "Feat: Add invalid pattern details",
+        "Chore: Use latest lint",
+        "Fix: Fix minor bugs"
     ]
 }

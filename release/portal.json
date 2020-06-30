@@ -445,5 +445,10 @@
         "Feat: Add loading indicator clear policy",
         "Feat: Use sudoo fetch package",
         "Chore: Use latest express package"
+    ],
+    "3.28.1": [
+        "Chore: Use latest lint",
+        "Chore: Version match",
+        "Fix: Fix minor bugs"
     ]
 }

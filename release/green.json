@@ -310,5 +310,10 @@
     "3.28.0": [
         "Chore: Use latest express package",
         "Chore: Version Match"
+    ],
+    "3.28.1": [
+        "Chore: Use latest lint",
+        "Chore: Version match",
+        "Fix: Fix minor bugs"
     ]
 }
