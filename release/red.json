@@ -572,5 +572,8 @@
         "Feat: Add invalid pattern details",
         "Chore: Use latest lint",
         "Fix: Fix minor bugs"
+    ],
+    "3.28.2": [
+        "Chore: Version Match"
     ]
 }

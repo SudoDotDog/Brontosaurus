@@ -315,5 +315,9 @@
         "Chore: Use latest lint",
         "Chore: Version match",
         "Fix: Fix minor bugs"
+    ],
+    "3.28.2": [
+        "Feat: Add query account parameters",
+        "Fix: Fix minor bugs"
     ]
 }

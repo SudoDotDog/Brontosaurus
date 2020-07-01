@@ -450,5 +450,8 @@
         "Chore: Use latest lint",
         "Chore: Version match",
         "Fix: Fix minor bugs"
+    ],
+    "3.28.2": [
+        "Chore: Version Match"
     ]
 }
