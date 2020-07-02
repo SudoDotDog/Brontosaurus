@@ -575,5 +575,14 @@
     ],
     "3.28.2": [
         "Chore: Version Match"
+    ],
+    "3.29.0": [
+        "Feat: Add member of decorators view",
+        "Feat: Add member of groups view",
+        "Feat: Add member of namespaces view",
+        "Feat: Add member of tags view",
+        "Chore: Use latest db",
+        "Chore: Change organization member view",
+        "Fix: Fix minor bugs"
     ]
 }

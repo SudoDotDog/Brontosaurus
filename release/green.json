@@ -319,5 +319,16 @@
     "3.28.2": [
         "Feat: Add query account parameters",
         "Fix: Fix minor bugs"
+    ],
+    "3.29.0": [
+        "Feat: Add query decorators function",
+        "Feat: Add query groups function",
+        "Feat: Add query namespaces function",
+        "Feat: Add query tags function",
+        "Feat: Improve error code response",
+        "Chore: Use latest db",
+        "Chore: Change active enum format",
+        "Chore: Change organization fetch response",
+        "Fix: Fix minor bugs"
     ]
 }
