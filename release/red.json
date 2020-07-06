@@ -590,5 +590,8 @@
         "Feat: Use new css loader packing",
         "Chore: Use pattern verify for more routes",
         "Fix: Fix minor bugs"
+    ],
+    "3.31.0": [
+        "Chore: Version match"
     ]
 }

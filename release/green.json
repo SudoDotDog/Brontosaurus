@@ -334,5 +334,8 @@
     "3.30.0": [
         "Feat: Add group active inactive status",
         "Fix: Fix minor bugs"
+    ],
+    "3.31.0": [
+        "Chore: Version match"
     ]
 }
