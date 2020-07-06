@@ -330,5 +330,9 @@
         "Chore: Change active enum format",
         "Chore: Change organization fetch response",
         "Fix: Fix minor bugs"
+    ],
+    "3.30.0": [
+        "Feat: Add group active inactive status",
+        "Fix: Fix minor bugs"
     ]
 }

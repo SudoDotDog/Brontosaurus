@@ -584,5 +584,11 @@
         "Chore: Use latest db",
         "Chore: Change organization member view",
         "Fix: Fix minor bugs"
+    ],
+    "3.30.0": [
+        "Feat: Add group active inactive status",
+        "Feat: Use new css loader packing",
+        "Chore: Use pattern verify for more routes",
+        "Fix: Fix minor bugs"
     ]
 }

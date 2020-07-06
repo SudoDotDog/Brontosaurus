@@ -457,5 +457,10 @@
     "3.29.0": [
         "Chore: Use latest db",
         "Chore: Version Match"
+    ],
+    "3.30.0": [
+        "Feat: Add group active inactive status",
+        "Feat: Use new css loader packing",
+        "Fix: Fix minor bugs"
     ]
 }
