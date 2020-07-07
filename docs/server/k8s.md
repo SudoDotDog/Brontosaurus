@@ -4,6 +4,88 @@ This Work in Progress document will guide you create and host a Brontosaurus wit
 
 ## Image
 
-Brontosaurus has two active docker image available on Docker Hub now. Image `brontosaurus/core` for core function, image `brontosaurus/red` for a prebuilt command center for light need. However, `brontosaurus/red` is not required, and you can create your personalized control center with Brontosaurus, it now recommended, but you can even edit Brontosaurus Database with `@brontosaurus/db` package for NodeJS.
+Brontosaurus has three active docker image available on Docker Hub now. Image `brontosaurus/core` for core function, image `brontosaurus/red` for a prebuilt command center for light need, and image `brontosaurus/green` for server side SDK support. However, `brontosaurus/red` and `brontosaurus/green` is not required, and you can create your personalized control center with Brontosaurus, it now recommended, but you can even edit Brontosaurus Database with `@brontosaurus/db` package for NodeJS.
 
-Brontosaurus docker hub image doesn't use default `latest` tag, which means you have to specificity the version you want when you are pulling it. When pulling, image version can be assigned like `brontosaurus/core:1.0.0`. Latest version can be found in the [ChangeLog](/docs/change-log.md).
+Brontosaurus docker hub image doesn't use default `latest` tag, which means you have to specificity the version you want when you are pulling it. When pulling, image version can be assigned like `brontosaurus/core:x.x.x`.
+
+Here are the latest version of our images.
+
+[![Brontosaurus Core Image Version](https://img.shields.io/docker/v/brontosaurus/core?label=brontosaurus%2Fcore&sort=semver)](https://hub.docker.com/r/brontosaurus/core)
+[![Brontosaurus Red Image Version](https://img.shields.io/docker/v/brontosaurus/red?color=red&label=brontosaurus%2Fred&sort=semver)](https://hub.docker.com/r/brontosaurus/red)
+[![Brontosaurus Green Image Version](https://img.shields.io/docker/v/brontosaurus/green?color=green&label=brontosaurus%2Fgreen&sort=semver)](https://hub.docker.com/r/brontosaurus/green)
+
+## Configuration
+
+Core example YAML configuration
+
+```yaml
+spec:
+    containers:
+    - image: brontosaurus/core:x.x.x
+      imagePullPolicy: IfNotPresent
+      livenessProbe:
+        httpGet:
+          path: /health
+          port: 8080
+        initialDelaySeconds: 10
+        periodSeconds: 10
+      ports:
+        - containerPort: 8080
+    name: brontosaurus-core-port
+    protocol: TCP
+      env:
+        - name: NODE_ENV
+          value: production
+        - name: BRONTOSAURUS_DATABASE
+          value: <MONGO-DB-URL>
+```
+
+Red example YAML configuration
+
+```yaml
+spec:
+    containers:
+    - image: brontosaurus/red:x.x.x
+      imagePullPolicy: IfNotPresent
+      livenessProbe:
+        httpGet:
+          path: /health
+          port: 9000
+        initialDelaySeconds: 10
+        periodSeconds: 10
+      ports:
+        - containerPort: 9000
+    name: brontosaurus-red-port
+    protocol: TCP
+      env:
+        - name: NODE_ENV
+          value: production
+        - name: PORTAL_PATH
+          value: <PORTAL-HTTPS-URL>
+        - name: BRONTOSAURUS_DATABASE
+          value: <MONGO-DB-URL>
+```
+
+Green example YAML configuration
+
+```yaml
+spec:
+  containers:
+    - image: brontosaurus/green:x.x.x
+      imagePullPolicy: IfNotPresent
+      livenessProbe:
+        httpGet:
+          path: /health
+          port: 8500
+        initialDelaySeconds: 10
+        periodSeconds: 10
+      ports:
+        - containerPort: 8500
+          name: brontosaurus-green-port
+          protocol: TCP
+      env:
+        - name: NODE_ENV
+          value: production
+        - name: BRONTOSAURUS_DATABASE
+          value: <MONGO-DB-URL>
+```
