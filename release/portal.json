@@ -465,5 +465,12 @@
     ],
     "3.31.0": [
         "Fix: Fix major port issue"
+    ],
+    "3.32.0": [
+        "Feat: Implement invalid application error message",
+        "Feat: Implement application error handler",
+        "Feat: Add new application related page target",
+        "Chore: Security improvements",
+        "Fix: Fix minor bugs"
     ]
 }

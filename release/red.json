@@ -593,5 +593,14 @@
     ],
     "3.31.0": [
         "Chore: Version match"
+    ],
+    "3.32.0": [
+        "Feat: Implement namespace active / inactive status",
+        "Feat: Implement decorator active / inactive status",
+        "Feat: Implement application active / inactive status",
+        "Feat: Implement tag active / inactive status",
+        "Chore: Use pattern verify for more routes",
+        "Chore: Security improvements",
+        "Fix: Fix minor bugs"
     ]
 }

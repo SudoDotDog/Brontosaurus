@@ -337,5 +337,10 @@
     ],
     "3.31.0": [
         "Chore: Version match"
+    ],
+    "3.32.0": [
+        "Feat: Implement invalid application green token banishment",
+        "Chore: Security improvements",
+        "Fix: Fix minor bugs"
     ]
 }
