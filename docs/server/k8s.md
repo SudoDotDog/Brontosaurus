@@ -6,6 +6,8 @@ This Work in Progress document will guide you create and host a Brontosaurus wit
 
 Brontosaurus has three active docker image available on Docker Hub now. Image `brontosaurus/core` for core function, image `brontosaurus/red` for a prebuilt command center for light need, and image `brontosaurus/green` for server side SDK support. However, `brontosaurus/red` and `brontosaurus/green` is not required, and you can create your personalized control center with Brontosaurus, it now recommended, but you can even edit Brontosaurus Database with `@brontosaurus/db` package for NodeJS.
 
+> For `@brontosaurus/db`, check out [Use Brontosaurus DB](/docs/db/db.md) Document
+
 Brontosaurus docker hub image doesn't use default `latest` tag, which means you have to specificity the version you want when you are pulling it. When pulling, image version can be assigned like `brontosaurus/core:x.x.x`.
 
 Here are the latest version of our images.
@@ -20,7 +22,7 @@ Core example YAML configuration
 
 ```yaml
 spec:
-    containers:
+  containers:
     - image: brontosaurus/core:x.x.x
       imagePullPolicy: IfNotPresent
       livenessProbe:
@@ -31,8 +33,8 @@ spec:
         periodSeconds: 10
       ports:
         - containerPort: 8080
-    name: brontosaurus-core-port
-    protocol: TCP
+          name: brontosaurus-core-port
+          protocol: TCP
       env:
         - name: NODE_ENV
           value: production
@@ -44,7 +46,7 @@ Red example YAML configuration
 
 ```yaml
 spec:
-    containers:
+  containers:
     - image: brontosaurus/red:x.x.x
       imagePullPolicy: IfNotPresent
       livenessProbe:
@@ -55,8 +57,8 @@ spec:
         periodSeconds: 10
       ports:
         - containerPort: 9000
-    name: brontosaurus-red-port
-    protocol: TCP
+          name: brontosaurus-red-port
+          protocol: TCP
       env:
         - name: NODE_ENV
           value: production

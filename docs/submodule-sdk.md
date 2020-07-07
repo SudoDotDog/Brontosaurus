@@ -75,26 +75,31 @@ You may want to integrate Brontosaurus auth with your favorite language, here is
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Server.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Server)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Server/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Server)
+[![Brontosaurus Core Image Version](https://img.shields.io/docker/v/brontosaurus/core?label=brontosaurus%2Fcore&sort=semver)](https://hub.docker.com/r/brontosaurus/core)
 
 [Brontosaurus Mint](https://github.com/SudoDotDog/Brontosaurus-Mint)
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Mint)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Mint)
+[![Brontosaurus Red Image Version](https://img.shields.io/docker/v/brontosaurus/red?color=red&label=brontosaurus%2Fred&sort=semver)](https://hub.docker.com/r/brontosaurus/red)
 
 [Brontosaurus Green](https://github.com/SudoDotDog/Brontosaurus-Green)
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Green.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Green)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Green/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Green)
+[![Brontosaurus Green Image Version](https://img.shields.io/docker/v/brontosaurus/green?color=green&label=brontosaurus%2Fgreen&sort=semver)](https://hub.docker.com/r/brontosaurus/green)
 
 [Brontosaurus Red](https://github.com/SudoDotDog/Brontosaurus-Red)
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Red.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Red)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Red/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Red)
+[![Brontosaurus Red Image Version](https://img.shields.io/docker/v/brontosaurus/red?color=red&label=brontosaurus%2Fred&sort=semver)](https://hub.docker.com/r/brontosaurus/red)
 
 [Brontosaurus Portal](https://github.com/SudoDotDog/Brontosaurus-Portal)
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Portal.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Portal)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Portal/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Portal)
+[![Brontosaurus Core Image Version](https://img.shields.io/docker/v/brontosaurus/core?label=brontosaurus%2Fcore&sort=semver)](https://hub.docker.com/r/brontosaurus/core)
 
 ## Environment
 
@@ -102,4 +107,3 @@ You may want to integrate Brontosaurus auth with your favorite language, here is
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus-Library.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus-Library)
 [![codecov](https://codecov.io/gh/SudoDotDog/Brontosaurus-Library/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Brontosaurus-Library)
-
