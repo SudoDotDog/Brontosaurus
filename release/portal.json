@@ -472,5 +472,12 @@
         "Feat: Add new application related page target",
         "Chore: Security improvements",
         "Fix: Fix minor bugs"
+    ],
+    "3.33.0": [
+        "Chore: Skip Version due to too many threes :D"
+    ],
+    "3.34.0": [
+        "Chore: Use latest webpack build configuration",
+        "Chore: Upgrade triforce"
     ]
 }

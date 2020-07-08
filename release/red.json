@@ -602,5 +602,18 @@
         "Chore: Use pattern verify for more routes",
         "Chore: Security improvements",
         "Fix: Fix minor bugs"
+    ],
+    "3.33.0": [
+        "Chore: Skip Version due to too many threes :D"
+    ],
+    "3.34.0": [
+        "Feat: Add multiple quick links",
+        "Feat: Improve activation status display",
+        "Feat: Add group links",
+        "Chore: Upgrade Neon / Styles",
+        "Chore: Use latest webpack build configuration",
+        "Chore: Upgrade triforce",
+        "Fix: Fix namespace display",
+        "Fix: Fix minor bugs"
     ]
 }
