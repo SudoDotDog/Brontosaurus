@@ -615,5 +615,12 @@
         "Chore: Upgrade triforce",
         "Fix: Fix namespace display",
         "Fix: Fix minor bugs"
+    ],
+    "3.35.0": [
+        "Feat: Implement language extending for edit pages",
+        "Feat: implement more i18n related for more pages",
+        "Chore: Upgrade triforce",
+        "Chore: Update Webpack dependencies",
+        "Fix: Fix redirection link building pattern"
     ]
 }

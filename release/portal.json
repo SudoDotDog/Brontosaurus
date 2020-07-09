@@ -479,5 +479,10 @@
     "3.34.0": [
         "Chore: Use latest webpack build configuration",
         "Chore: Upgrade triforce"
+    ],
+    "3.35.0": [
+        "Chore: Upgrade triforce",
+        "Chore: Update Webpack dependencies",
+        "Chore: Version Match"
     ]
 }
