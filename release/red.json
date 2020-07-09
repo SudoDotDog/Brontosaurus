@@ -627,5 +627,10 @@
         "Feat: Implement language extending",
         "Feat: implement more i18n related for edit pages",
         "Fix: Fix minor bugs"
+    ],
+    "3.36.1": [
+        "Feat: Implement test redirection i18n",
+        "Feat: Implement test previous password i18n",
+        "Fix: Fix account history i18n issue"
     ]
 }
