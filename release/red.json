@@ -622,5 +622,10 @@
         "Chore: Upgrade triforce",
         "Chore: Update Webpack dependencies",
         "Fix: Fix redirection link building pattern"
+    ],
+    "3.36.0": [
+        "Feat: Implement language extending",
+        "Feat: implement more i18n related for edit pages",
+        "Fix: Fix minor bugs"
     ]
 }
