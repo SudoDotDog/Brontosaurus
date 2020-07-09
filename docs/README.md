@@ -45,9 +45,11 @@ docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" PORTAL_PATH="<Portal>" -p 
 To host the docker image for `Brontosaurus-Portal` locally on your 8080 port, `Brontosaurus-Red` locally on your 9000 port. 
 
 ```sh
-make DB="${host of your MongoDB instance}" # production env
-make sh-red DB="${host of your MongoDB instance}" # development red
-make sh-portal DB="${host of your MongoDB instance}" # development portal
+make DB="${host of your MongoDB instance}" # launch with production environment
+
+make sh-red DB="${host of your MongoDB instance}" # access development red with sh
+make sh-portal DB="${host of your MongoDB instance}" # access development portal with sh
+make sh-green DB="${host of your MongoDB instance}" # access development green with sh
 ```
 
 Also, to host the docker image for `Brontosaurus-Portal` locally on your 80 port.
