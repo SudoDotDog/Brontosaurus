@@ -358,5 +358,9 @@
     ],
     "3.36.1": [
         "Chore: Version Match"
+    ],
+    "3.37.0": [
+        "Chore: Upgrade Pattern Verify",
+        "Chore: Version Match"
     ]
 }

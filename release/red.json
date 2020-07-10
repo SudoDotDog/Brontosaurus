@@ -632,5 +632,11 @@
         "Feat: Implement test redirection i18n",
         "Feat: Implement test previous password i18n",
         "Fix: Fix account history i18n issue"
+    ],
+    "3.37.0": [
+        "Feat: Implement i18n for admin panel index",
+        "Feat: Implement i18n for preference index",
+        "Feat: Implement i18n for preference panels",
+        "Chore: Upgrade Pattern Verify"
     ]
 }
