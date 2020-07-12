@@ -24,7 +24,7 @@ You will need an `ApplicationKey` and a `ServerPath` for the following steps.
 
 ## Register
 
-Brontosaurus need to be registered to your application before you use it.
+Brontosaurus needs to be registered to your application before you use it.
 
 For an application that doesn't require a sign-in, you can use:
 
@@ -33,18 +33,18 @@ import { Brontosaurus } from "@brontosaurus/web"
 Brontosaurus.hydrate(serverPath, applicationKey, true);
 ```
 
-For an application that requires signed-in, remove the last parameter of `hydrate` function. Like:
+For an application that requires signed-in, remove the last parameter of the `hydrate` function. Like:
 
 ```ts
 import { Brontosaurus } from "@brontosaurus/web"
 Brontosaurus.hydrate(serverPath, applicationKey);
 ```
 
-Other than `hydrate`, there are several ways to register Brontosaurus with `@brontosaurus/web`, check the document for more information.
+Besides `hydrate`, there are several ways to register Brontosaurus with `@brontosaurus/web` and check the document for more information.
 
 ## Logout
 
-Wherever of your application, use the following code to logout current user.
+Wherever of your application, use the following code to logout the current user.
 
 ```ts
 import { Brontosaurus } from "@brontosaurus/web"
