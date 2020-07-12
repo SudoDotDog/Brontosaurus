@@ -494,5 +494,11 @@
     "3.37.0": [
         "Chore: Upgrade Pattern Verify",
         "Chore: Version Match"
+    ],
+    "3.38.0": [
+        "Feat: Implement external link toggle",
+        "Feat: Implement documentation link toggle",
+        "Chore: Upgrade dependencies",
+        "Chore: Version Match"
     ]
 }

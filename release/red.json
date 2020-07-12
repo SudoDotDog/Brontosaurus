@@ -638,5 +638,11 @@
         "Feat: Implement i18n for preference index",
         "Feat: Implement i18n for preference panels",
         "Chore: Upgrade Pattern Verify"
+    ],
+    "3.38.0": [
+        "Feat: Enable external link",
+        "Chore: Upgrade dependencies",
+        "Chore: Use latest brontosaurus web and react sdk",
+        "Chore: Version Match"
     ]
 }
