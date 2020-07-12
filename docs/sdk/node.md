@@ -1,6 +1,6 @@
 # Node JS SDK for Brontosaurus
 
-This Work in Progress document introduce installation step of `@brontosaurus/node`.
+This Work in Progress document introduces the installation step of `@brontosaurus/node`.
 
 ## Install
 
@@ -16,7 +16,7 @@ With Yarn
 yarn add @brontosaurus/node
 ```
 
-This module contains typescript declaration file by default, no types package required
+This module contains typescript declaration file by default. No types package required.
 
 ## Validate Token
 
