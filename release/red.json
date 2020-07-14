@@ -644,5 +644,14 @@
         "Chore: Upgrade dependencies",
         "Chore: Use latest brontosaurus web and react sdk",
         "Chore: Version Match"
+    ],
+    "3.39.0": [
+        "Feat: Add record database",
+        "Feat: Add create i18n for all",
+        "Feat: Add i18n for all responses",
+        "Feat: Add i18n for all entries",
+        "Feat: Remove record route",
+        "Chore: Consume latest DB",
+        "Fix: Fix minor bugs"
     ]
 }

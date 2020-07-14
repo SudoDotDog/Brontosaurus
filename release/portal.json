@@ -500,5 +500,10 @@
         "Feat: Implement documentation link toggle",
         "Chore: Upgrade dependencies",
         "Chore: Version Match"
+    ],
+    "3.39.0": [
+        "Feat: Add record database",
+        "Chore: Consume latest DB",
+        "Fix: Fix minor bugs"
     ]
 }
