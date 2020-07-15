@@ -508,5 +508,9 @@
     ],
     "3.39.1": [
         "Chore: Version Match"
+    ],
+    "3.40.0": [
+        "Feat: Implement background images settings",
+        "Chore: Version Match"
     ]
 }

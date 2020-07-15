@@ -656,5 +656,10 @@
     ],
     "3.39.1": [
         "Fix: Fix non-organization owner error"
+    ],
+    "3.40.0": [
+        "Feat: Implement background images settings",
+        "Feat: Implement i18n for all preferences",
+        "Feat: Implement i18n for account attempts"
     ]
 }
