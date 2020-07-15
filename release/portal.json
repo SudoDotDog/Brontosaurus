@@ -505,5 +505,8 @@
         "Feat: Add record database",
         "Chore: Consume latest DB",
         "Fix: Fix minor bugs"
+    ],
+    "3.39.1": [
+        "Chore: Version Match"
     ]
 }

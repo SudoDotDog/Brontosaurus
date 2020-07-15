@@ -653,5 +653,8 @@
         "Feat: Remove record route",
         "Chore: Consume latest DB",
         "Fix: Fix minor bugs"
+    ],
+    "3.39.1": [
+        "Fix: Fix non-organization owner error"
     ]
 }

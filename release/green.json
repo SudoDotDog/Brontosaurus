@@ -371,5 +371,8 @@
         "Feat: Remove record route",
         "Chore: Consume latest DB",
         "Fix: Fix minor bugs"
+    ],
+    "3.39.1": [
+        "Chore: Version Match"
     ]
 }
