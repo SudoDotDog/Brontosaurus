@@ -378,5 +378,9 @@
     "3.40.0": [
         "Feat: Implement background images settings",
         "Chore: Version Match"
+    ],
+    "3.41.0": [
+        "Feat: Add required tag fields",
+        "Chore: Upgrade database schema"
     ]
 }
