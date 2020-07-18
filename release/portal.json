@@ -519,5 +519,10 @@
         "Chore: Upgrade database schema",
         "Fix: Fix no redirect related protocol ignore bug",
         "Fix: Fix minor bugs"
+    ],
+    "3.42.0": [
+        "Chore: Upgrade triforce",
+        "Chore: Version Match",
+        "Fix: Fix minor bugs"
     ]
 }

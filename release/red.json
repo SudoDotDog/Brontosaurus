@@ -669,5 +669,13 @@
         "Feat: Implement i18n for organization sub routes",
         "Chore: Upgrade database schema",
         "Fix: Fix minor bugs"
+    ],
+    "3.42.0": [
+        "Feat: Add title changing for all index menus",
+        "Feat: Add title changing for all routes",
+        "Feat: Add mounted checking for fetching routes",
+        "Chore: Upgrade triforce",
+        "Fix: Fix namespace more edit redirections",
+        "Fix: Fix minor bugs"
     ]
 }
