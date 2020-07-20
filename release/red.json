@@ -677,5 +677,11 @@
         "Chore: Upgrade triforce",
         "Fix: Fix namespace more edit redirections",
         "Fix: Fix minor bugs"
+    ],
+    "3.43.0": [
+        "Feat: Implement pattern verify refactor for all routes",
+        "Fix: Fix Namespace editing issue",
+        "Fix: Fix decoration redirection bug",
+        "Fix: Fix minor bugs"
     ]
 }
