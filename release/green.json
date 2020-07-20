@@ -386,5 +386,8 @@
     "3.42.0": [
         "Chore: Upgrade triforce",
         "Chore: Version Match"
+    ],
+    "3.43.0": [
+        "Chore: Version Match"
     ]
 }

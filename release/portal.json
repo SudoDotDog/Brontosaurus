@@ -524,5 +524,8 @@
         "Chore: Upgrade triforce",
         "Chore: Version Match",
         "Fix: Fix minor bugs"
+    ],
+    "3.43.0": [
+        "Chore: Version Match"
     ]
 }
