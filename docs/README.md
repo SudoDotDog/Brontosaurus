@@ -22,7 +22,7 @@ This repository is responsible for docker image build and release for Brontosaur
 
 ## Image
 
-Run portal container
+Run portal container with docker
 
 ```sh
 # Monitor
@@ -31,7 +31,7 @@ docker run -it -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name
 docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
 ```
 
-Run red container
+Run red container with docker
 
 ```sh
 # Monitor
