@@ -22,7 +22,7 @@ This repository is responsible for docker image build and release for Brontosaur
 
 ## Image
 
-Run portal container with docker
+Run `Portal` container with docker
 
 ```sh
 # Monitor
@@ -31,13 +31,22 @@ docker run -it -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name
 docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8080 --name <Name> brontosaurus/core:<Version>
 ```
 
-Run red container with docker
+Run `Red` container with docker
 
 ```sh
 # Monitor
-docker run -it -e BRONTOSAURUS_DATABASE="<Database>" PORTAL_PATH="<Portal>" -p <TargetPort>:9000 --name <Name> brontosaurus/red:<Version>
+docker run -it -e BRONTOSAURUS_DATABASE="<Database>" -e PORTAL_PATH="<Portal>" -p <TargetPort>:9000 --name <Name> brontosaurus/red:<Version>
 # Daemon
-docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" PORTAL_PATH="<Portal>" -p <TargetPort>:9000 --name <Name> brontosaurus/red:<Version>
+docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" -e PORTAL_PATH="<Portal>" -p <TargetPort>:9000 --name <Name> brontosaurus/red:<Version>
+```
+
+Run `Green` container with docker
+
+```sh
+# Monitor
+docker run -it -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8500 --name <Name> brontosaurus/green:<Version>
+# Daemon
+docker run -dit -e BRONTOSAURUS_DATABASE="<Database>" -p <TargetPort>:8500 --name <Name> brontosaurus/green:<Version>
 ```
 
 ## Host
