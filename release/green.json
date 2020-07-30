@@ -392,5 +392,9 @@
     ],
     "3.43.1": [
         "Fix: Fix minor bugs"
+    ],
+    "3.44.0": [
+        "Feat: Add public key fetching route",
+        "Fix: Fix path finder issue"
     ]
 }
