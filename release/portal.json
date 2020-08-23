@@ -534,5 +534,9 @@
     "3.44.0": [
         "Feat: Use global path builder",
         "Fix: Fix minor bugs"
+    ],
+    "3.44.1": [
+        "Chore: Upgrade TypeScript",
+        "Chore: Fix code linting"
     ]
 }
