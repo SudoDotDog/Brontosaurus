@@ -400,5 +400,11 @@
     "3.44.1": [
         "Chore: Upgrade TypeScript",
         "Chore: Fix code linting"
+    ],
+    "3.45.0": [
+        "Feat: Improve query account response",
+        "Feat: Add query account response type checking",
+        "Feat: Upgrade matched bamboo sdk",
+        "Chore: Fix minor bugs"
     ]
 }
