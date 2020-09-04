@@ -405,6 +405,13 @@
         "Feat: Improve query account response",
         "Feat: Add query account response type checking",
         "Feat: Upgrade matched bamboo sdk",
-        "Chore: Fix minor bugs"
+        "Fix: Fix minor bugs"
+    ],
+    "3.46.0": [
+        "Feat: Add more response data to detailed routes",
+        "Feat: Add saved response indicator for account updating",
+        "Feat: Upgrade matched bamboo sdk",
+        "Fix: Fix update account exiting",
+        "Fix: Fix minor bugs"
     ]
 }
