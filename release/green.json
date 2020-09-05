@@ -413,5 +413,8 @@
         "Feat: Upgrade matched bamboo sdk",
         "Fix: Fix update account exiting",
         "Fix: Fix minor bugs"
+    ],
+    "3.46.1": [
+        "Chore: Upgrade Dependencies"
     ]
 }
