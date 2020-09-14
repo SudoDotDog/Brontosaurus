@@ -547,5 +547,9 @@
     ],
     "3.46.1": [
         "Chore: Upgrade Dependencies"
+    ],
+    "3.46.2": [
+        "Chore: Upgrade Dependencies",
+        "Chore: Regular maintenance update"
     ]
 }
