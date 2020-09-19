@@ -551,5 +551,10 @@
     "3.46.2": [
         "Chore: Upgrade Dependencies",
         "Chore: Regular maintenance update"
+    ],
+    "3.46.3": [
+        "Feat: Remove email restriction",
+        "Chore: Upgrade Dependencies",
+        "Fix: Fix minor bugs"
     ]
 }

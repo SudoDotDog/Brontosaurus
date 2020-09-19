@@ -707,5 +707,10 @@
     "3.46.2": [
         "Chore: Upgrade Dependencies",
         "Chore: Regular maintenance update"
+    ],
+    "3.46.3": [
+        "Chore: Upgrade Dependencies",
+        "Chore: Version Match",
+        "Fix: Fix minor bugs"
     ]
 }
