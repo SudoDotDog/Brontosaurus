@@ -8,4 +8,4 @@ Any version of Mongodb should be fine for hosting, sharding your database is hig
 
 ## Script
 
-To init database collections, you will need `Brontosaurus-Init` repository export scripts. Check out those status here [Submodule and SDK Status and List](/docs/submodule-sdk.md). It's only available as source code now.
+To init database collections, you will need `Brontosaurus-Init` repository export scripts. Check out those status here [Submodule and SDK Status and List](../submodule-sdk.md). It's only available as source code now.

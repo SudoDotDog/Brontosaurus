@@ -20,7 +20,7 @@ This module contains typescript declaration file by default. No types package re
 
 ## Validate Token
 
-Brontosaurus Node SDK support both Client Side and Server Side Validation. About those see [Token Validation](/docs/document/token-validation.md)
+Brontosaurus Node SDK support both Client Side and Server Side Validation. About those see [Token Validation](../document/token-validation.md)
 
 ### Client side validation
 

@@ -4,4 +4,4 @@ This Work in Progress document introduce installation step of `@brontosaurus/bam
 
 ## APIS
 
--   [Query Account](/docs/sdk/bamboo/query-account.md)
+-   [Query Account](../sdk/bamboo/query-account.md)
