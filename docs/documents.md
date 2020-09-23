@@ -2,4 +2,4 @@
 
 These documents shown detail of Brontosaurus implement.
 
--   [Global Configuration](/docs/document/global-configuration.md)
+-   [Global Configuration](./document/global-configuration.md)

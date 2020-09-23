@@ -6,19 +6,19 @@ Natively, Brontosaurus support NodeJS and any Modern web development technology 
 
 ### Server Side
 
--   [Host Brontosaurus Server with Docker](/docs/server/docker.md)
--   [Create a Brontosaurus Cluster with Kubernetes](/docs/server/k8s.md)
--   [Create and Host Brontosaurus Server](/docs/server/host.md)
--   [Install Node JS SDK for Brontosaurus](/docs/sdk/node.md)
+-   [Host Brontosaurus Server with Docker](./server/docker.md)
+-   [Create a Brontosaurus Cluster with Kubernetes](./server/k8s.md)
+-   [Create and Host Brontosaurus Server](./server/host.md)
+-   [Install Node JS SDK for Brontosaurus](./sdk/node.md)
 
 ### Client Side
 
--   [Integrate Brontosaurus with React](/docs/sdk/react.md)
+-   [Integrate Brontosaurus with React](./sdk/react.md)
 
 A mongodb instance is required to run Brontosaurus, see:
 
--   [Init Brontosaurus Database](/docs/document/init-database.md)
+-   [Init Brontosaurus Database](./document/init-database.md)
 
 ### Customized Driver
 
--   [Use Brontosaurus DB](/docs/db/db.md)
+-   [Use Brontosaurus DB](./db/db.md)
