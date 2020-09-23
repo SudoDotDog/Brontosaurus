@@ -2,6 +2,6 @@
 
 View the changelog JSON file for updates:
 
--   [Portal Changelog](/release/portal.json)
--   [Red Changelog](/release/red.json)
--   [Green Changelog](/release/green.json)
+-   [Portal Changelog](https://github.com/SudoDotDog/Brontosaurus/blob/master/release/portal.json)
+-   [Red Changelog](https://github.com/SudoDotDog/Brontosaurus/blob/master/release/red.json)
+-   [Green Changelog](https://github.com/SudoDotDog/Brontosaurus/blob/master/release/green.json)
