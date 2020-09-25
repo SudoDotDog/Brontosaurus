@@ -28,6 +28,7 @@ Brontosaurus will need a database initialization process to create an initial ac
 Brontosaurus client integration is available for `flutter`, `react`, and `react-native`. See the following document for quick start guides.
 
 -   [Integrate Brontosaurus with React](./sdk/react.md)
+-   [Integrate Brontosaurus with Flutter](./sdk/flutter.md)
 
 ### Customized Driver
 
