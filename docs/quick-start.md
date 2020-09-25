@@ -1,15 +1,17 @@
 # Start using Brontosaurus
 
+Thanks for trying Brontosaurs Authorization.
+
 Brontosaurus provides easy to use SDK for multiple languages and environments.
 
-Natively, Brontosaurus support NodeJS and any Modern web development technology stack, read the following document for details.
+Natively, Brontosaurus support NodeJS and any Modern web development technology stack. Read the following document for details.
 
 ### Before All
 
-A mongodb instance is required to run Brontosaurus.
+A MongoDB instance is required to run Brontosaurus.
 See [MongoDB Quick Start](//mongodb.github.io/node-mongodb-native/3.4/quick-start/quick-start/) to get an instance running.
 
-Brontosaurus will need a database initialization process to create initial account, preference and more.
+Brontosaurus will need a database initialization process to create an initial account, preference, and more.
 
 -   [Init Brontosaurus Database](./document/init-database.md)
 
@@ -23,7 +25,7 @@ Brontosaurus will need a database initialization process to create initial accou
 
 ### Client Side
 
-Brontosaurus client integration is available for `flutter`, `react`, and `react-native`. See the following document for quick start guide.
+Brontosaurus client integration is available for `flutter`, `react`, and `react-native`. See the following document for quick start guides.
 
 -   [Integrate Brontosaurus with React](./sdk/react.md)
 
