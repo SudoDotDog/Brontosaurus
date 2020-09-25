@@ -10,6 +10,7 @@ Natively, Brontosaurus support NodeJS and any Modern web development technology 
 -   [Create a Brontosaurus Cluster with Kubernetes](./server/k8s.md)
 -   [Create and Host Brontosaurus Server](./server/host.md)
 -   [Install Node JS SDK for Brontosaurus](./sdk/node.md)
+-   [Use Brontosaurus Green SDK for entity management](./sdk/bamboo.md)
 
 ### Client Side
 
