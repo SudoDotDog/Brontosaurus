@@ -1,13 +1,13 @@
 # Query Account with Bamboo SDK
 
-The following code shows a example to query account list with the Bamboo SDK
+The following code shows a example to query account list with the Bamboo SDK.
+
+If the bamboo instance is not setup yet, visit [Node JS SDK for Brontosaurus Green](../bamboo.md) see _Initialize_ section.
 
 ## Simple
 
 ```ts
-import { Bamboo, QueryAccountResponse } from '@sudoo/bamboo';
-
-const bamboo: Bamboo = Bamboo.create($PATH, $AUTH);
+import { bamboo } from '$your-bamboo-instance-file';
 
 const result: QueryAccountResponse = await bamboo.queryAccount({
 });
