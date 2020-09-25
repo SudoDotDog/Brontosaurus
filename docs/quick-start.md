@@ -9,7 +9,7 @@ Natively, Brontosaurus support NodeJS and any Modern web development technology 
 ### Before All
 
 A MongoDB instance is required to run Brontosaurus.
-See [MongoDB Quick Start](//mongodb.github.io/node-mongodb-native/3.4/quick-start/quick-start/) to get an instance running.
+See [MongoDB Installation Manual](//docs.mongodb.com/manual/installation/) to get an instance running.
 
 Brontosaurus will need a database initialization process to create an initial account, preference, and more.
 
