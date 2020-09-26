@@ -7,3 +7,11 @@
 [![Brontosaurus Green Image Version](https://img.shields.io/docker/v/brontosaurus/green?color=green&label=brontosaurus%2Fgreen&sort=semver)](https://hub.docker.com/r/brontosaurus/green)
 
 Brontosaurus Authorization Solution
+
+-   [Quick Start](./quick-start.md)
+-   [Development](./development.md)
+-   [Upgrade](./upgrade/upgrade.md)
+-   [Documents](./documents.md)
+-   [ChangeLog](./change-log.md)
+-   [Submodule and SDK Status and List](./submodule-sdk.md)
+-   [Read Me](./README.md)
