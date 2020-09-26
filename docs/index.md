@@ -15,7 +15,7 @@ Brontosaurus Authorization Solution
 ## Resources
 
 -   [Quick Start](./quick-start.md)
--   [Development](./development.md)
+-   [Contribute](./contribute.md)
 -   [Upgrade](./upgrade/upgrade.md)
 -   [Documents](./documents.md)
 -   [ChangeLog](./change-log.md)
@@ -25,3 +25,5 @@ Brontosaurus Authorization Solution
 
 -   [Brontosaurus Github Repository](//github.com/SudoDotDog/Brontosaurus)
 -   [Brontosaurus README](./README.md)
+
+> Built with Love by [WMXPY](//github.com/WMXPY) & [PCXPY](//github.com/PCXPY)
