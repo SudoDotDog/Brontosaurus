@@ -15,8 +15,8 @@ This repository is responsible for docker image build and release for Brontosaur
 ## Resources
 
 -   [Quick Start](./quick-start.md)
--   [Contribute](./contribute.md)
--   [Upgrade](./upgrade/upgrade.md)
 -   [Documents](./documents.md)
--   [ChangeLog](./change-log.md)
--   [Submodule and SDK Status and List](./submodule-sdk.md)
+-   [Contribute Brontosaurus](./contribute.md)
+-   [Upgrade Instruction](./upgrade/upgrade.md)
+-   [Change Log](./change-log.md)
+-   [Submodule & SDK Status List](./submodule-sdk.md)
