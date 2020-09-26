@@ -8,10 +8,17 @@
 
 Brontosaurus Authorization Solution
 
+![Brontosaurus Logo](https://raw.githubusercontent.com/SudoDotDog/Brontosaurus/master/icon/transparent/icon-128x128.png)
+
+## Resources
+
 -   [Quick Start](./quick-start.md)
 -   [Development](./development.md)
 -   [Upgrade](./upgrade/upgrade.md)
 -   [Documents](./documents.md)
 -   [ChangeLog](./change-log.md)
 -   [Submodule and SDK Status and List](./submodule-sdk.md)
--   [Read Me](./README.md)
+
+# Links
+
+-   [Brontosaurus README](./README.md)
