@@ -28,4 +28,8 @@ Brontosaurus Authorization Solution
 -   [SudoDotDog Github Page](//github.com/SudoDotDog)
 -   [SudoDotDog Package Documents](//sudo.dog)
 
+## Support
+
+For any kind of support, contact us at [hello@sudo.dog](mailto://hello@sudo.dog)
+
 > Built with Love by [WMXPY](//github.com/WMXPY) & [PCXPY](//github.com/PCXPY)
