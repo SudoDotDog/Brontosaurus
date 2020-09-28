@@ -34,6 +34,12 @@
 
 -   Brontosaurs Image is a runnable docker image for deployment
 
+## N
+
+### Namespace
+
+-   Namespace is a brontosaurus record type.
+
 ## O
 
 ### Organization
