@@ -8,6 +8,7 @@ import { Authorization, AuthToken } from "@brontosaurus/node";
 export const auth: Authorization = Authorization.create(
     Get_Brontosaurus_Server(),
     Get_Brontosaurus_Application_key(),
+    undefined,
 );
 
 const token: AuthToken | null = auth.token(principal);

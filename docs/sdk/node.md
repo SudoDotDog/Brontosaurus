@@ -16,7 +16,7 @@ With Yarn
 yarn add @brontosaurus/node
 ```
 
-This module contains typescript declaration file by default. No types package required.
+This module provides its own typescript declaration file. No types package required.
 
 ## Initialization
 
@@ -32,6 +32,9 @@ export const auth: Authorization = Authorization.create(
 );
 ```
 
+Although the public key and server address can be set as undefined, if possible, set it to correct value can avoid potential problems. 
+
 ## Validate Token
 
-Brontosaurus Node SDK support both Client Side and Server Side Validation. About those see [Token Validation](../document/token-validation.md)
+Brontosaurus Node SDK support both Client Side and Server Side Validation.  
+See [Token Validation](../document/token-validation.md) for details.
