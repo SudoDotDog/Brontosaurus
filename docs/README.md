@@ -16,6 +16,7 @@ This repository is responsible for docker image build and release for Brontosaur
 
 -   [Quick Start](./quick-start.md)
 -   [Documents](./documents.md)
+-   [Vocabulary](./vocabulary.md)
 -   [Contribute Brontosaurus](./contribute.md)
 -   [Upgrade Instruction](./upgrade/upgrade.md)
 -   [Change Log](./change-log.md)

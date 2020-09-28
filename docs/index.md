@@ -16,6 +16,7 @@ Brontosaurus Authorization Solution
 
 -   [Quick Start](./quick-start.md)
 -   [Documents](./documents.md)
+-   [Vocabulary](./vocabulary.md)
 -   [Contribute Brontosaurus](./contribute.md)
 -   [Upgrade Instruction](./upgrade/upgrade.md)
 -   [Change Log](./change-log.md)
