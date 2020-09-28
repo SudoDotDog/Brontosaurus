@@ -12,6 +12,8 @@
 
 This repository is responsible for docker image build and release for Brontosaurus components.
 
+Visit our official website: [Brontosaurus Land](//brontosaurus.land)
+
 ## Resources
 
 -   [Quick Start](./quick-start.md)
