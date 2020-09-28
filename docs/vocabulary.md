@@ -4,11 +4,18 @@
 
 ### Account
 
-Account is brontosaurus record type, account can be controlled by a human user or robot.
+-   Account is brontosaurus record type.
+-   An account can be controlled by a human user or robot.
 
 ## G
 
 ### Group
 
-Group is brontosaurus record type.  
-Group is one of the property of an account record, an account can be assign to multiple group.
+-   Group is brontosaurus record type.
+-   Group is one of the property of an account record, an account can be assign to multiple group.
+
+## I
+
+### Image
+
+-   Brontosaurs Image is a runnable docker image for deployment
