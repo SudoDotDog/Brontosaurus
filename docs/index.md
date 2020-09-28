@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # Brontosaurus
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus)
