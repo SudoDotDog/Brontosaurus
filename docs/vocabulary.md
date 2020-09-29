@@ -16,7 +16,7 @@
 ### Core
 
 -   Core is a `brontosaurus` module.
--   Core module is core module of the authorization system.
+-   Core module is the core module of the authorization system.
 
 ## D
 
@@ -32,12 +32,12 @@
 ### Green
 
 -   Green is a `brontosaurus` module.
--   Green module is use to communicate between integrated service and auth database.
+-   Green module is used to communicate between an integrated service and an authorization database.
 
 ### Green Key
 
 -   Green key is a generated password for authorization between applications.
--   User can retrieve green key by red or green module.
+-   Users can retrieve the green key by red or green module.
 
 ### Group
 
@@ -71,20 +71,20 @@
 
 -   Private key is a generated password for token signature creation.
 -   Every application owns a different private key.
--   User can not retrieve private key by any method.
+-   Users can not retrieve private keys by any method.
 
 ### Public Key
 
 -   Public key is a generated password for token signature validation.
 -   Every application owns a different public key.
--   User can get public key by red module or green module.
+-   Users can get the public key by the red module or green module.
 
 ## R
 
 ### Red
 
 -   Red is a `brontosaurus` module.
--   Red module is use to interact with database by admin users.
+-   Red module is used to interact with the database by admin users.
 
 ## T
 
