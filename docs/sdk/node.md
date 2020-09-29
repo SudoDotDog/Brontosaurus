@@ -36,5 +36,9 @@ Although the public key and server address can be set as undefined, if possible,
 
 ## Validate Token
 
-Brontosaurus Node SDK support both Client Side and Server Side Validation.  
-See [Token Validation](../document/token-validation.md) for details.
+Brontosaurus Node SDK support both Client Side and Server Side Validation.
+
+See the following document for instructions.
+
+-   [Client Side Validation](./node/client-side-validation.md)
+-   [Server Side Validation](./node/server-side-validation.md)
