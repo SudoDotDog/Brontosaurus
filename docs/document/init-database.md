@@ -1,11 +1,21 @@
 # Init Brontosaurus Database
 
-This Work in Progress document introduce init process for a Brontosaurus Database.
+This document introduce init process for a Brontosaurus Database.
 
 ## Requirements
 
-Any version of Mongodb should be fine for hosting, sharding your database is highly recommended for performance.
+Any version of Mongodb should be fine for hosting, sharding your database is highly recommended for robust purposes.
 
-## Script
+## Install
 
-To init database collections, you will need `Brontosaurus-Init` repository export scripts. Check out those status here [Submodule and SDK Status and List](../submodule-sdk.md). It's only available as source code now.
+Install is not required.
+
+```sh
+yarn global add @brontosaurus/init
+# Or
+npm install @brontosaurus/init -g
+```
+
+If `@brontosaurus/init` package is not installed, replace `brontosaurus-init` command to `npx @brontosaurus/init` command below.
+
+## Usage
