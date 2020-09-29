@@ -11,6 +11,13 @@
 
 -   Application is a `brontosaurus` record type.
 
+## C
+
+### Core
+
+-   Core is a `brontosaurus` module.
+-   Core module is core module of the authorization system.
+
 ## D
 
 ### Decorator
@@ -25,7 +32,12 @@
 ### Green
 
 -   Green is a `brontosaurus` module.
--   Green module is use to communicate between integrated service and auth database
+-   Green module is use to communicate between integrated service and auth database.
+
+### Green Key
+
+-   Green key is a generated password for authorization between applications.
+-   User can retrieve green key by red or green module.
 
 ### Group
 
@@ -52,6 +64,27 @@
 -   Organization is a `brontosaurus` record type.
 -   Organization is a property of an account record. An account can be assigned to a single organization.
 -   Organization is accessible by an integrated client.
+
+## P
+
+### Private Key
+
+-   Private key is a generated password for token signature creation.
+-   Every application owns a different private key.
+-   User can not retrieve private key by any method.
+
+### Public Key
+
+-   Public key is a generated password for token signature validation.
+-   Every application owns a different public key.
+-   User can get public key by red module or green module.
+
+## R
+
+### Red
+
+-   Red is a `brontosaurus` module.
+-   Red module is use to interact with database by admin users.
 
 ## T
 
