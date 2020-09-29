@@ -13,12 +13,13 @@ Most application styling configuration can also be set through a global preferen
 
 These items are shown as:
 
-```json
-{
-    "active": Boolean,
-    "name": String,
-    "value": String, (JSON stringified)
-    "history": String[]
+```ts
+type Preference = {
+
+    active: boolean,
+    name: string,
+    value: string, // (JSON Stringified)
+    history: string[]
 }
 ```
 
