@@ -712,5 +712,9 @@
         "Chore: Upgrade Dependencies",
         "Chore: Version Match",
         "Fix: Fix minor bugs"
+    ],
+    "3.46.4": [
+        "Chore: Upgrade Dependencies",
+        "Chore: Version Match"
     ]
 }
