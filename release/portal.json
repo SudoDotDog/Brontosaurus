@@ -556,5 +556,10 @@
         "Feat: Remove email restriction",
         "Chore: Upgrade Dependencies",
         "Fix: Fix minor bugs"
+    ],
+    "3.46.4": [
+        "Feat: Improve email compare function",
+        "Chore: Increase unit test coverage",
+        "Chore: Upgrade Dependencies"
     ]
 }
