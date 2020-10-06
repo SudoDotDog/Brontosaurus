@@ -6,7 +6,7 @@
 [![Brontosaurus Red Image Version](https://img.shields.io/docker/v/brontosaurus/red?color=red&label=brontosaurus%2Fred&sort=semver)](https://hub.docker.com/r/brontosaurus/red)
 [![Brontosaurus Green Image Version](https://img.shields.io/docker/v/brontosaurus/green?color=green&label=brontosaurus%2Fgreen&sort=semver)](https://hub.docker.com/r/brontosaurus/green)
 
-:whale: Brontosaurus Auth
+:whale: Brontosaurus SSO Solution
 
 ## Introduction
 
