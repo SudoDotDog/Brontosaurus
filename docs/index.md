@@ -28,5 +28,6 @@ Brontosaurus Authorization Solution
 -   [Brontosaurus README](./README.md)
 -   [SudoDotDog Github Page](//github.com/SudoDotDog)
 -   [SudoDotDog Package Documents](//sudo.dog)
+-   [BWNL Package Documents](//bwnl.io)
 
 > Built with Love by [WMXPY](//github.com/WMXPY) & [PCXPY](//github.com/PCXPY)
