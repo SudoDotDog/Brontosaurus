@@ -15,11 +15,16 @@
 
 ### Brontosaurus
 
--   Brontosaurus is the overview name of this software
+-   Brontosaurus is the overview name of this software.
 
 ## C
 
-### Core
+### Core (Package)
+
+-   Core is a npm package `@brontosaurus/core`.
+-   Core package includes function for token encryption and formatting.
+
+### Core (Module)
 
 -   Core is a `brontosaurus` module.
 -   Core module is the core module of the authorization system.
