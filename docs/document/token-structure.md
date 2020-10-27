@@ -7,14 +7,14 @@ Brontosaurus use `JWT (JSON Web Token)` as base token structural protocol. For i
 ```ts
 type Header = {
 
-    readonly algorithm: "RSA-SHA256";
-    readonly alg: "RS256";
+    algorithm: "RSA-SHA256";
+    alg: "RS256";
 
-    readonly attempt: string;
-    readonly expireAt: number;
-    readonly issuedAt: number;
+    attempt: string;
+    expireAt: number;
+    issuedAt: number;
 
-    readonly key: string;
+    key: string;
 }
 ```
 
@@ -25,20 +25,20 @@ Some field has more specific description, for more information, try to find it w
 ```ts
 type Header = {
 
-    readonly username: string;
-    readonly namespace: string;
-    readonly mint: string;
-    readonly groups: string[];
-    readonly tags: string[];
-    readonly infos: Record<string, Basics>;
-    readonly beacons: Record<string, Basics>;
-    readonly modifies: string[];
+    username: string;
+    namespace: string;
+    mint: string;
+    groups: string[];
+    tags: string[];
+    infos: Record<string, Basics>;
+    beacons: Record<string, Basics>;
+    modifies: string[];
 
-    readonly avatar?: string;
-    readonly email?: string;
-    readonly phone?: string;
-    readonly displayName?: string;
-    readonly organization?: string;
-    readonly organizationTags?: string[];
+    avatar?: string;
+    email?: string;
+    phone?: string;
+    displayName?: string;
+    organization?: string;
+    organizationTags?: string[];
 }
 ```
