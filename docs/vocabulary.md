@@ -11,6 +11,12 @@
 
 -   Application is a `brontosaurus` record type.
 
+## B
+
+### Brontosaurus
+
+-   Brontosaurus is the overview name of this software
+
 ## C
 
 ### Core
@@ -94,3 +100,8 @@
 -   Tag is a property of an account record. An account can own multiple tags.
 -   Tag is the property of an organization record. An organization can own multiple tags.
 -   Tag is accessible by an integrated client.
+
+### Token
+
+-   Token is a generated string that shows user information and authenticate status
+-   For token structure, see [Token Structure](./document/token-structure.md)
