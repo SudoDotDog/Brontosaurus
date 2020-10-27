@@ -4,7 +4,7 @@ This Work in Progress document introduces the global preference configuration of
 
 ## Configurations
 
-Most application styling configuration can also be set through a global preference setting. They are:
+Most application configuration can be set through a global preference setting. They are:
 
 ```ts
 type RegisterInfo = {
