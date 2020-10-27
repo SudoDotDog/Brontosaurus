@@ -15,8 +15,8 @@
 
 ### Bamboo
 
--   Bamboo is a npm package `@brontosaurus/bamboo`.
--   Bamboo package includes request function for `Brontosaurus Green` module.
+-   Bamboo is an npm package `@brontosaurus/bamboo`.
+-   Bamboo package includes request functions for the `Brontosaurus Green` module.
 
 ### Brontosaurus
 
@@ -31,19 +31,19 @@
 
 ### Core (Package)
 
--   Core is a npm package `@brontosaurus/core`.
--   Core package includes function for token encryption and formatting.
+-   Core is an npm package `@brontosaurus/core`.
+-   Core package includes functions for token encryption and formatting.
 
 ## D
 
 ### DB (Package)
 
--   DB is a npm package `@brontosaurus/db`.
+-   DB is an npm package `@brontosaurus/db`.
 -   DB package includes Brontosaurus Mongodb database controller functions.
 
 ### DB (Abbreviation)
 
--   DB is the abbreviated word for database.
+-   DB is the abbreviated word for the database.
 
 ### Decorator
 
@@ -78,8 +78,8 @@
 
 ### Init
 
--   Init is a npm package `@brontosaurus/init`.
--   Init package includes functions and CLI command for database initialization.
+-   Init is an npm package `@brontosaurus/init`.
+-   Init package includes functions and CLI commands for database initialization.
 
 ## N
 
@@ -127,5 +127,5 @@
 
 ### Token
 
--   Token is a generated string that shows user information and authenticate status.
+-   Token is a generated string that shows user information and authenticates status.
 -   For token structure, see [Token Structure](./document/token-structure.md).
