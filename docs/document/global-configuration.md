@@ -15,25 +15,25 @@ type RegisterInfo = {
 
 type Preferences = {
 
-    readonly registerInfo: RegisterInfo;
-    readonly prepared: boolean;
+    registerInfo: RegisterInfo;
+    prepared: boolean;
 
-    readonly mailerTransport: any;
-    readonly mailerSourceResetPassword: string;
-    readonly mailerSourceNotification: string;
+    mailerTransport: any;
+    mailerSourceResetPassword: string;
+    mailerSourceNotification: string;
 
-    readonly accountName: string;
-    readonly systemName: string;
-    readonly commandCenterName: string;
+    accountName: string;
+    systemName: string;
+    commandCenterName: string;
 
-    readonly globalAvatar: string;
-    readonly globalBackgroundImages: string[];
-    readonly globalFavicon: string;
-    readonly globalHelpLink: string;
-    readonly globalPrivacyPolicy: string;
+    globalAvatar: string;
+    globalBackgroundImages: string[];
+    globalFavicon: string;
+    globalHelpLink: string;
+    globalPrivacyPolicy: string;
 
-    readonly indexPage: string;
-    readonly entryPage: string;
+    indexPage: string;
+    entryPage: string;
 };
 ```
 
