@@ -16,10 +16,10 @@ These items are shown as:
 ```ts
 type Preference = {
 
-    active: boolean,
-    name: string,
-    value: string, // (JSON Stringified)
-    history: string[]
+    active: boolean;
+    name: string;
+    value: string; // (JSON Stringified)
+    history: string[];
 }
 ```
 
