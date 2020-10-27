@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/SudoDotDog/Brontosaurus.svg?branch=master)](https://travis-ci.com/SudoDotDog/Brontosaurus)
 
-Brontosaurus Authorization Solution
+Brontosaurus SSO Solution
 
 ![Brontosaurus Logo](https://raw.githubusercontent.com/SudoDotDog/Brontosaurus/master/icon/transparent/icon-128x128.png)
 
