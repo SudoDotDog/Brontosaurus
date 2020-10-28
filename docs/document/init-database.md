@@ -1,4 +1,4 @@
-# Init Brontosaurus Database
+# Initialize Brontosaurus Database
 
 This document introduces initialize the process for a Brontosaurus Database.
 
