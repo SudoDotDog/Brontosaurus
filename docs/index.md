@@ -24,7 +24,9 @@ Brontosaurus SSO Solution
 
 ## Links
 
--   [Brontosaurus Github Repository](//github.com/SudoDotDog/Brontosaurus)
+-   [Brontosaurus Github Organization](//github.com/SudoDotDog/Brontosaurus)
+-   [Brontosaurus NPM Organization](//www.npmjs.com/org/brontosaurus)
+-   [Brontosaurus Docker Hub](//hub.docker.com/u/brontosaurus)
 -   [Brontosaurus README](./README.md)
 -   [SudoDotDog Github Page](//github.com/SudoDotDog)
 -   [SudoDotDog Package Documents](//sudo.dog)
