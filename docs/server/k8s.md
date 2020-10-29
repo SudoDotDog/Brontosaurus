@@ -12,9 +12,9 @@ Brontosaurus docker hub image doesn't use default `latest` tag, which means you 
 
 Here are the latest versions of our images.
 
-[![Brontosaurus Core Image Version](https://img.shields.io/docker/v/brontosaurus/core?label=brontosaurus%2Fcore&sort=semver)](https://hub.docker.com/r/brontosaurus/core)
-[![Brontosaurus Red Image Version](https://img.shields.io/docker/v/brontosaurus/red?color=red&label=brontosaurus%2Fred&sort=semver)](https://hub.docker.com/r/brontosaurus/red)
-[![Brontosaurus Green Image Version](https://img.shields.io/docker/v/brontosaurus/green?color=green&label=brontosaurus%2Fgreen&sort=semver)](https://hub.docker.com/r/brontosaurus/green)
+[![Brontosaurus Core Image Version](//img.shields.io/docker/v/brontosaurus/core?label=brontosaurus%2Fcore&sort=semver)](//hub.docker.com/r/brontosaurus/core)
+[![Brontosaurus Red Image Version](//img.shields.io/docker/v/brontosaurus/red?color=red&label=brontosaurus%2Fred&sort=semver)](//hub.docker.com/r/brontosaurus/red)
+[![Brontosaurus Green Image Version](//img.shields.io/docker/v/brontosaurus/green?color=green&label=brontosaurus%2Fgreen&sort=semver)](//hub.docker.com/r/brontosaurus/green)
 
 ## Configuration
 
