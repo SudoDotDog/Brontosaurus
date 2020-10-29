@@ -31,7 +31,7 @@ Brontosaurus SSO Solution
 -   [SudoDotDog Github Page](//github.com/SudoDotDog)
 -   [SudoDotDog Package Documents](//sudo.dog)
 -   [BWNL Package Documents](//bwnl.io)
--   [Barktler](//github.com/Barktler) API solution > [Barktler.com](//barktler.com)
--   WMXPY's personal blog > [WMXPY's Automated Bug Factory](//mengw.io)
+-   [Barktler API Solution](//barktler.com)
+-   [WMXPY's Automated Bug Factory](//mengw.io) 
 
 > Built with Love by [WMXPY](//github.com/WMXPY) & [PCXPY](//github.com/PCXPY)
