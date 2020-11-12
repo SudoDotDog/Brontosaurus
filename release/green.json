@@ -435,5 +435,8 @@
         "Feat: Add new bamboo sdk support",
         "Chore: Upgrade Dependencies",
         "Chore: Use latest versions"
+    ],
+    "3.47.1": [
+        "Chore: Version Match"
     ]
 }
