@@ -561,5 +561,10 @@
         "Feat: Improve email compare function",
         "Chore: Increase unit test coverage",
         "Chore: Upgrade Dependencies"
+    ],
+    "3.47.0": [
+        "Chore: Upgrade Dependencies",
+        "Chore: Use latest versions",
+        "Chore: Version Match"
     ]
 }

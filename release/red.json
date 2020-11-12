@@ -716,5 +716,10 @@
     "3.46.4": [
         "Chore: Upgrade Dependencies",
         "Chore: Version Match"
+    ],
+    "3.47.0": [
+        "Chore: Upgrade Dependencies",
+        "Chore: Use latest versions",
+        "Chore: Version Match"
     ]
 }

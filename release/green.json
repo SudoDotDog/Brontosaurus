@@ -429,5 +429,11 @@
     "3.46.4": [
         "Chore: Upgrade Dependencies",
         "Chore: Version Match"
+    ],
+    "3.47.0": [
+        "Feat: Add organization tag manipulate functions",
+        "Feat: Add new bamboo sdk support",
+        "Chore: Upgrade Dependencies",
+        "Chore: Use latest versions"
     ]
 }
