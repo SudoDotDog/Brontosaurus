@@ -103,7 +103,7 @@ You may want to integrate Brontosaurus auth with your favorite language, here is
 [![codecov](//codecov.io/gh/SudoDotDog/Brontosaurus-Portal/branch/master/graph/badge.svg)](//codecov.io/gh/SudoDotDog/Brontosaurus-Portal)
 [![Brontosaurus Core Image Version](//img.shields.io/docker/v/brontosaurus/core?label=brontosaurus%2Fcore&sort=semver)](//hub.docker.com/r/brontosaurus/core)
 
-## Environment
+## Community
 
 [Brontosaurus-Library](//github.com/SudoDotDog/Brontosaurus-Library)
 
