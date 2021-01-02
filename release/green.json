@@ -438,5 +438,9 @@
     ],
     "3.47.1": [
         "Chore: Version Match"
+    ],
+    "3.47.2": [
+        "Chore: Upgrade all dependencies",
+        "Fix: Fix vulnerable dependencies issues"
     ]
 }
