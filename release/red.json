@@ -725,5 +725,9 @@
     "3.47.1": [
         "Fix: Fix style import issue",
         "Chore: Change build config"
+    ],
+    "3.47.2": [
+        "Chore: Upgrade all dependencies",
+        "Fix: Fix vulnerable dependencies issues"
     ]
 }
