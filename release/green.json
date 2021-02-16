@@ -448,5 +448,13 @@
         "Prof: Performance improvement",
         "Chore: Upgrade all dependencies",
         "Fix: Fix minor bugs"
+    ],
+    "3.49.0": [
+        "Feat: Add activate account feature",
+        "Feat: Add deactivate account feature",
+        "Prof: Performance improvement",
+        "Chore: Add database connection health check",
+        "Chore: Upgrade dependencies",
+        "Fix: Fix minor bugs"
     ]
 }
