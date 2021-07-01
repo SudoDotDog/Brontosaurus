@@ -29,8 +29,8 @@ Brontosaurus SSO Solution
 -   [Brontosaurus Docker Hub](//hub.docker.com/u/brontosaurus)
 -   [Brontosaurus README](./README.md)
 -   [SudoDotDog Github Page](//github.com/SudoDotDog)
--   [SudoDotDog Package Documents](//sudo.dog)
--   [BWNL Package Documents](//bwnl.io)
+-   [SudoDotDog Packages Documents](//sudo.dog)
+-   [BWNL Packages Documents](//bwnl.io)
 -   [Barktler API Solution](//barktler.com)
 -   [WMXPY's Automated Bug Factory](//mengw.io) 
 
