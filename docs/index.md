@@ -1,3 +1,8 @@
+---
+title: Brontosaurus
+layout: default
+---
+
 # Brontosaurus
 
 [![Build Status](//travis-ci.com/SudoDotDog/Brontosaurus.svg?branch=master)](//travis-ci.com/SudoDotDog/Brontosaurus)
