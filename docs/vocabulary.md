@@ -1,3 +1,8 @@
+---
+title: Vocabulary
+layout: default
+---
+
 # Vocabulary
 
 ## A

@@ -1,3 +1,8 @@
+---
+title: Start using Brontosaurus
+layout: default
+---
+
 # Start using Brontosaurus
 
 Thanks for trying Brontosaurs Authorization.

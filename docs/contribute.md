@@ -1,3 +1,8 @@
+---
+title: Contribute Brontosaurus
+layout: default
+---
+
 # Contribute Brontosaurus
 
 See the following step to run each brontosaurus component on your local device.

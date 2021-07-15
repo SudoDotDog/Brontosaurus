@@ -1,3 +1,8 @@
+---
+title: Documents
+layout: default
+---
+
 # Documents
 
 These documents shown detail of Brontosaurus implement.

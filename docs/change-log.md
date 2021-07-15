@@ -1,3 +1,8 @@
+---
+title: ChangeLog
+layout: default
+---
+
 # ChangeLog
 
 View the changelog JSON file for updates:

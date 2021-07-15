@@ -1,3 +1,8 @@
+---
+title: Submodule and SDK Status and List
+layout: default
+---
+
 # Submodule and SDK Status and List
 
 You may want to integrate Brontosaurus auth with your favorite language, here is a link!
