@@ -40,4 +40,9 @@
 {% include_relative {{ include.file }} %}
 {% endhighlight %}
 
+{% when 'yaml' %}
+{% highlight yaml %}
+{% include_relative {{ include.file }} %}
+{% endhighlight %}
+
 {% endcase %}

@@ -22,9 +22,9 @@ Brontosaurus will need a database initialization process to create an initial ac
 
 ### Server Side
 
--   [Host Brontosaurus Server with Docker](./server/docker.md)
--   [Create a Brontosaurus Cluster with Kubernetes](./server/k8s.md)
--   [Create and Host Brontosaurus Server](./server/host.md)
+-   [Host Brontosaurus Server with Docker](./server/docker)
+-   [Create a Brontosaurus Cluster with Kubernetes](./server/k8s)
+-   [Create and Host Brontosaurus Server](./server/host)
 -   [Install Node JS SDK for Brontosaurus](./sdk/node.md)
 -   [Use Brontosaurus Green SDK for entity management](./sdk/bamboo.md)
 
