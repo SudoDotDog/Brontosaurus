@@ -7,3 +7,8 @@ __pycache__
 
 # Temp
 temp.txt
+
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
