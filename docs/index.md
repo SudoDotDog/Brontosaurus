@@ -20,19 +20,18 @@ Brontosaurus SSO Solution
 ## Resources
 
 -   [Quick Start](./quick-start)
--   [Documents](./documents.md)
--   [Vocabulary](./vocabulary.md)
--   [Contribute Brontosaurus](./contribute.md)
--   [Upgrade Instruction](./upgrade/upgrade.md)
--   [Change Log](./change-log.md)
--   [Submodule & SDK Status List](./submodule-sdk.md)
+-   [Documents](./documents)
+-   [Vocabulary](./vocabulary)
+-   [Contribute Brontosaurus](./contribute)
+-   [Upgrade Instruction](./upgrade/upgrade)
+-   [Change Log](./change-log)
+-   [Submodule & SDK Status List](./submodule-sdk)
 
 ## Links
 
 -   [Brontosaurus Github Page](//github.com/SudoDotDog/Brontosaurus)
 -   [Brontosaurus NPM Organization](//www.npmjs.com/org/brontosaurus)
 -   [Brontosaurus Docker Hub](//hub.docker.com/u/brontosaurus)
--   [Brontosaurus README](./README.md)
 -   [SudoDotDog Github Page](//github.com/SudoDotDog)
 -   [SudoDotDog Packages Documents](//sudo.dog)
 -   [BWNL Packages Documents](//bwnl.io)

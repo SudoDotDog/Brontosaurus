@@ -25,7 +25,7 @@ type Header = {
 
 ## Body
 
-Some field has more specific description, for more information, try to find it within [Vocabulary](../vocabulary.md).
+Some field has more specific description, for more information, try to find it within [Vocabulary](../vocabulary).
 
 ```ts
 type Header = {

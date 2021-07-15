@@ -85,7 +85,7 @@ layout: default
 
 -   Init is an npm package `@brontosaurus/init`.
 -   Init package includes functions and CLI commands for database initialization.
--   For usage and more information, see [Initialize Brontosaurus Database](./document/init-database.md)
+-   For usage and more information, see [Initialize Brontosaurus Database](./document/init-database)
 
 ## N
 
@@ -134,4 +134,4 @@ layout: default
 ### Token
 
 -   Token is a generated string that shows user information and authenticates status.
--   For token structure, see [Token Structure](./document/token-structure.md).
+-   For token structure, see [Token Structure](./document/token-structure).

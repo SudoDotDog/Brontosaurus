@@ -45,5 +45,5 @@ Brontosaurus Node SDK support both Client Side and Server Side Validation.
 
 See the following document for instructions.
 
--   [Client Side Validation](./node/client-side-validation.md)
--   [Server Side Validation](./node/server-side-validation.md)
+-   [Client Side Validation](./node/client-side-validation)
+-   [Server Side Validation](./node/server-side-validation)

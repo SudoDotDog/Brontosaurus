@@ -16,13 +16,13 @@ Visit our official website: [Brontosaurus Land](//brontosaurus.land)
 
 ## Resources
 
--   [Quick Start](./quick-start.md)
--   [Documents](./documents.md)
--   [Vocabulary](./vocabulary.md)
--   [Contribute Brontosaurus](./contribute.md)
--   [Upgrade Instruction](./upgrade/upgrade.md)
--   [Change Log](./change-log.md)
--   [Submodule & SDK Status List](./submodule-sdk.md)
+-   [Quick Start](./quick-start)
+-   [Documents](./documents)
+-   [Vocabulary](./vocabulary)
+-   [Contribute Brontosaurus](./contribute)
+-   [Upgrade Instruction](./upgrade/upgrade)
+-   [Change Log](./change-log)
+-   [Submodule & SDK Status List](./submodule-sdk)
 
 ## Links
 

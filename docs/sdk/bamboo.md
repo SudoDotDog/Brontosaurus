@@ -15,7 +15,7 @@ yarn add @brontosaurus/bamboo
 npm install @brontosaurus/bamboo --save
 ```
 
-Note that `@brontosaurus/bamboo` will and only work within a NodeJS environment. If you are looking to integrate Brontosaurus with other platforms, like web, or mobile application, check out [Quick Start](../quick-start.md) _Client Side_ section.
+Note that `@brontosaurus/bamboo` will and only work within a NodeJS environment. If you are looking to integrate Brontosaurus with other platforms, like web, or mobile application, check out [Quick Start](../quick-start) _Client Side_ section.
 
 ## Initialize
 
@@ -30,4 +30,4 @@ export const bamboo: Bamboo = Bamboo.create($PATH, $AUTH);
 
 ## APIS
 
--   [Query Account](../sdk/bamboo/query-account.md)
+-   [Query Account](../sdk/bamboo/query-account)

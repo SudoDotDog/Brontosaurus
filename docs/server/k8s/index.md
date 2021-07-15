@@ -11,7 +11,7 @@ This Work in Progress document will guide you to create and host a Brontosaurus 
 
 Brontosaurus has three active docker images available on Docker Hub now. Image `brontosaurus/core` for core function, image `brontosaurus/red` for a prebuilt command center for light need, and image `brontosaurus/green` for server-side SDK support. However, `brontosaurus/red` and `brontosaurus/green` are not required, and you can create your personalized control center with Brontosaurus. It now recommended, but you can even edit the Brontosaurus Database with `@brontosaurus/db` package for NodeJS.
 
-> For `@brontosaurus/db`, check out [Use Brontosaurus DB](../db/db.md) Document
+> For `@brontosaurus/db`, check out [Use Brontosaurus DB](../db/db) Document
 
 Brontosaurus docker hub image doesn't use default `latest` tag, which means you have to specificity the version you want when you are pulling it. When pulling, the image version can be assigned like `brontosaurus/core:x.x.x`.
 
