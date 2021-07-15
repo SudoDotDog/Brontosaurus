@@ -1,3 +1,8 @@
+---
+title: Query Account with Bamboo SDK
+layout: default
+---
+
 # Query Account with Bamboo SDK
 
 The following code shows an example to query the account list with the Bamboo SDK.

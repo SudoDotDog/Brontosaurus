@@ -1,3 +1,8 @@
+---
+title: Token Validation
+layout: default
+---
+
 # Token Validation
 
 This Work in Progress document explain token validation step in Brontosaurus.

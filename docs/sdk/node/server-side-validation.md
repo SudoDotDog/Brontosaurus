@@ -1,3 +1,8 @@
+---
+title: Node SDK Server Side Validation
+layout: default
+---
+
 # Node SDK Server Side Validation
 
 ## Usage

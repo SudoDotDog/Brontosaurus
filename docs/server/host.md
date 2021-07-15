@@ -1,3 +1,8 @@
+---
+title: Host Brontosaurus Server
+layout: default
+---
+
 # Host Brontosaurus Server
 
 This Work in Progress document will guide you create and host a Brontosaurus within 20 minutes.

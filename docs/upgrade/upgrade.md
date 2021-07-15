@@ -1,3 +1,8 @@
+---
+title: Upgrade
+layout: default
+---
+
 # Upgrade
 
 This work in progress document will help you safe and easily upgrade Brontosaurus component with break change.

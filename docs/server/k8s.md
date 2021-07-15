@@ -1,3 +1,8 @@
+---
+title: Create a Brontosaurus Cluster with Kubernetes
+layout: default
+---
+
 # Create a Brontosaurus Cluster with Kubernetes
 
 This Work in Progress document will guide you to create and host a Brontosaurus instance within 5 minutes.

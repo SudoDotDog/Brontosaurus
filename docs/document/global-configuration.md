@@ -1,3 +1,8 @@
+---
+title: Global Configuration
+layout: default
+---
+
 # Global Configuration
 
 This Work in Progress document introduces the global preference configuration of Brontosaurus.

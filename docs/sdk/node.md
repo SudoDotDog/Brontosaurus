@@ -1,3 +1,8 @@
+---
+title: Node JS SDK for Brontosaurus
+layout: default
+---
+
 # Node JS SDK for Brontosaurus
 
 This Work in Progress document introduces the installation step of `@brontosaurus/node`.

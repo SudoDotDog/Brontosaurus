@@ -1,3 +1,8 @@
+---
+title: Node JS SDK for Brontosaurus Green
+layout: default
+---
+
 # Node JS SDK for Brontosaurus Green
 
 This Work in Progress document introduces Brontosaurus NodeJS SDK with `@brontosaurus/bamboo` package.

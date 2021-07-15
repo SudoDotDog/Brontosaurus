@@ -1,3 +1,8 @@
+---
+title: Use Brontosaurus DB
+layout: default
+---
+
 # Use Brontosaurus DB
 
 The `@brontosaurus/db` package is use to develop customized driver for Brontosaurs user database. This work in progress document will give an introduction about the package.

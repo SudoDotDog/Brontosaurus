@@ -1,3 +1,8 @@
+---
+title: Initialize Brontosaurus Database
+layout: default
+---
+
 # Initialize Brontosaurus Database
 
 This document introduces initialize the process for a Brontosaurus Database.

@@ -1,3 +1,8 @@
+---
+title: Integrate Brontosaurus with React
+layout: default
+---
+
 # Integrate Brontosaurus with React
 
 Use Brontosaurus with React is smooth and transparent, with no invasive pattern.

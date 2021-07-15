@@ -1,3 +1,8 @@
+---
+title: Token Structure
+layout: default
+---
+
 # Token Structure
 
 Brontosaurus use `JWT (JSON Web Token)` as base token structural protocol. For information about `JWT`, see [JSON Web Token Introduction](//jwt.io/introduction/); 

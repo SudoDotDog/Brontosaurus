@@ -1,3 +1,8 @@
+---
+title: Host Brontosaurus Server with Docker
+layout: default
+---
+
 # Host Brontosaurus Server with Docker
 
 This Work in Progress document will guide you to create and host a Brontosaurus within 10 minutes.
