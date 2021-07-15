@@ -25,74 +25,21 @@ Here are the latest versions of our images.
 
 Core example YAML configuration
 
-```yaml
-spec:
-  containers:
-    - image: brontosaurus/core:x.x.x
-      imagePullPolicy: IfNotPresent
-      livenessProbe:
-        httpGet:
-          path: /health
-          port: 8080
-        initialDelaySeconds: 10
-        periodSeconds: 10
-      ports:
-        - containerPort: 8080
-          name: brontosaurus-core-port
-          protocol: TCP
-      env:
-        - name: NODE_ENV
-          value: production
-        - name: BRONTOSAURUS_DATABASE
-          value: <MONGO-DB-URL>
-```
+{% include copyable-highlight.html
+    language="yaml"
+    file="core.yaml"
+%}
 
 Red example YAML configuration
 
-```yaml
-spec:
-  containers:
-    - image: brontosaurus/red:x.x.x
-      imagePullPolicy: IfNotPresent
-      livenessProbe:
-        httpGet:
-          path: /health
-          port: 9000
-        initialDelaySeconds: 10
-        periodSeconds: 10
-      ports:
-        - containerPort: 9000
-          name: brontosaurus-red-port
-          protocol: TCP
-      env:
-        - name: NODE_ENV
-          value: production
-        - name: PORTAL_PATH
-          value: <PORTAL-HTTPS-URL>
-        - name: BRONTOSAURUS_DATABASE
-          value: <MONGO-DB-URL>
-```
+{% include copyable-highlight.html
+    language="yaml"
+    file="red.yaml"
+%}
 
 Green example YAML configuration
 
-```yaml
-spec:
-  containers:
-    - image: brontosaurus/green:x.x.x
-      imagePullPolicy: IfNotPresent
-      livenessProbe:
-        httpGet:
-          path: /health
-          port: 8500
-        initialDelaySeconds: 10
-        periodSeconds: 10
-      ports:
-        - containerPort: 8500
-          name: brontosaurus-green-port
-          protocol: TCP
-      env:
-        - name: NODE_ENV
-          value: production
-        - name: BRONTOSAURUS_DATABASE
-          value: <MONGO-DB-URL>
-```
+{% include copyable-highlight.html
+    language="yaml"
+    file="green.yaml"
+%}

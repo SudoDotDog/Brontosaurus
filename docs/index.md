@@ -19,7 +19,7 @@ Brontosaurus SSO Solution
 
 ## Resources
 
--   [Quick Start](./quick-start.md)
+-   [Quick Start](./quick-start)
 -   [Documents](./documents.md)
 -   [Vocabulary](./vocabulary.md)
 -   [Contribute Brontosaurus](./contribute.md)
