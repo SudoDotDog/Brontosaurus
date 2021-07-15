@@ -1,6 +1,6 @@
 ---
 title: Brontosaurus
-layout: default
+layout: home
 ---
 
 # Brontosaurus
