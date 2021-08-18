@@ -20,3 +20,4 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - makefile
