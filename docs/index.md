@@ -5,7 +5,7 @@ layout: home
 
 # Brontosaurus
 
-[![Build Status](//travis-ci.com/SudoDotDog/Brontosaurus.svg?branch=master)](//travis-ci.com/SudoDotDog/Brontosaurus)
+[![Continuous Integration](https://github.com/SudoDotDog/brontosaurus/actions/workflows/ci.yml/badge.svg)](https://github.com/SudoDotDog/brontosaurus/actions/workflows/ci.yml)
 
 Brontosaurus SSO Solution
 
