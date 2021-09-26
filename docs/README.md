@@ -2,7 +2,7 @@
 
 [![Continuous Integration](https://github.com/SudoDotDog/brontosaurus/actions/workflows/ci.yml/badge.svg)](https://github.com/SudoDotDog/brontosaurus/actions/workflows/ci.yml)
 
-![Brontosaurus Logo](//raw.githubusercontent.com/SudoDotDog/Brontosaurus/master/icon/transparent/icon-128x128.png)
+![Brontosaurus Logo](../icon/transparent/icon-128x128.png)
 
 [![Brontosaurus Core Image Version](https://img.shields.io/docker/v/brontosaurus/core?label=brontosaurus%2Fcore&sort=semver)](//hub.docker.com/r/brontosaurus/core)
 [![Brontosaurus Red Image Version](https://img.shields.io/docker/v/brontosaurus/red?color=red&label=brontosaurus%2Fred&sort=semver)](//hub.docker.com/r/brontosaurus/red)
