@@ -28,18 +28,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           architecture: ${{ matrix.architecture }}
-      - name: Install Dependencies
-        run: |
-          make install
-          npm install nyc -g
-      - name: Lint
-        run: |
-          make lint
       - name: Build
         run: |
           make build
-      - name: Test
-        run: |
-          make cov
-      - name: Codecov
-        uses: codecov/codecov-action@v1
