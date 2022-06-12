@@ -16,4 +16,4 @@ This repository is responsible for docker image build and release for Brontosaur
 
 ## Documents
 
-Visit our official website: [Brontosaurus Land](//brontosaurus.land)
+Visit our official website: [Brontosaurus Land](//brontosaurus.land) for documents
